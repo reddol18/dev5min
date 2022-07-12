@@ -29,11 +29,11 @@ google_analytics: "G-4YGBJY6T0F"
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: Home
-    url: /
+    url: /dev5min
   - text: About
-    url: /about/
+    url: /dev5min/about/
   - text: Tags
-    url: /tags/
+    url: /dev5min/tags/
 
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
