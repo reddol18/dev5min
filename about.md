@@ -1,16 +1,14 @@
 ---
 layout: page
-title: About this blog
-description: An optional about page for Scriptor Jekyll theme
-feature_image: images/about.jpg
+title: 이 블로그는...
+description: About this blog
+feature_image: images/hobak.jpg
 ---
 
-**John Doe** is a Senior Art Director from [Vilnius](https://en.wikipedia.org/wiki/Vilnius), Lithuania. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+이 블로그는 주인장이 공부한 것을 정리하는것에 1차적인 목적을 가지고 만들어졌습니다.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2015.
+그렇지만 다른 사람들에게도 공유될 수 있도록 볼만한 포스팅을 만드는 것 또한 목표입니다.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+하루에 5분씩 투자해서 1개의 글만 읽어도 도움이 될 수 있는 가성비 좋은 글을 남기도록 노력하겠습니다.
 
-As a hobby, John Doe authors the most influential design blog in Lithuania with over 100,000 page views a month. He lives in Vilnius with his beautiful wife, two boys and one girl.
-
-*Thank You for reading!*
+사진속 고양이처럼 누워서 읽어도 부담없는 포스팅을 지향합니다.
