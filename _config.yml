@@ -6,19 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site language
-lang: en-US
+lang: ko-KR
 
 # Site title
-title: "Scriptor"
+title: "조금씩 공부하는 개발블로그"
 
 # A description of your site for meta tag, search engine results.
-description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+description: "하루에 5분씩만 투자해서 함께 공부해요~"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://scriptor-jekyll.netlify.com"
+url: "https://reddol18.github.io/dev5min/"
 
 # Favicon
 favicon: images/favicon.png
