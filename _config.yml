@@ -31,9 +31,9 @@ navigation:
   - text: Home
     url: /dev5min
   - text: About
-    url: /dev5min/about/
+    url: /dev5min/about
   - text: Tags
-    url: /dev5min/tags/
+    url: /dev5min/tags
 
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
