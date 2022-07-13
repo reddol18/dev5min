@@ -4,4 +4,4 @@ User-agent: NaverBot
 User-agent: ZumBot
 Allow: /
 
-Sitemap: http://reddol18.github.io/dev5min/sitemap.xml
+Sitemap: https://reddol18.github.io/dev5min/sitemap.xml
