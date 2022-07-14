@@ -12,7 +12,7 @@ pragma table_info(테이블이름)
 
 으로 쿼리를 날리면 컬럼정보가 아래와 같은 유형으로 나타납니다. 그렇기 때문에 맵 리스트로 저장 되었을 때 name을 기준으로 비교해서 존재여부를 판단하면 됩니다.
 
-   ![이미지1](images/20220707/3/1.png)
+   ![이미지1](https://reddol18.github.io/dev5min/images/20220707/3/1.png)
 
 이걸 flutter에서 sqflite를 사용할 때 alter table을 사용하기 위해서는 아래와 같은 사용예를 들 수 있습니다.
 

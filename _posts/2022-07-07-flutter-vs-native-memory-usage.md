@@ -14,20 +14,20 @@ tags: [안드로이드,네이티브,flutter,memory,native,플러터,android,메�
 
 먼저 Flutter 입니다. 이런 앱이에요. 만들면 바로 나오는거...
 
-   ![이미지1](images/20220707/2/1.png)
+   ![이미지1](https://reddol18.github.io/dev5min/images/20220707/2/1.png)
 
 160MB나 할당되어 있네요. 인스타그램이 300인데.. 지까지것이 뭐라고... ㄷㄷㄷ
 
-   ![이미지1](images/20220707/2/2.png)
+   ![이미지1](https://reddol18.github.io/dev5min/images/20220707/2/2.png)
 
 이번에는 Native 앱입니다. 이런 앱입니다. 생김새는 다르지만 하는일은 크게 다르지 않은 초기상태의 Hello World 앱이에요.
 
-   ![이미지1](images/20220707/2/3.png)
+   ![이미지1](https://reddol18.github.io/dev5min/images/20220707/2/3.png)
 
 보이시나요? hello_world_flutter와 hello_word_native(?) 의 메모리 차이가~ 
 앱 이름에 'l'자 하나 안들어갔다고 3배 차이가 나고 있네요. (아이고 이놈의 오타)
 
-   ![이미지1](images/20220707/2/4.png)
+   ![이미지1](https://reddol18.github.io/dev5min/images/20220707/2/4.png)
    
 여기저기서 아티클을 검색해서 보니까 어쩔수 없는 차이가 있는것 같네요.
 아무래도 flutter로 계속 개발하려면 메모리 최적화에 신경 안쓸수가 없을것 같아요.
