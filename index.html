@@ -31,6 +31,9 @@ layout: default
       {% endif %}
     </div><!-- .post-content -->
   </article><!-- .post -->
+  {% if site.disqus and site.disqus != "" %}
+  {% include disqus.html %}
+  {% endif %}
   {% endfor %}
 
   {% if paginator.total_pages > 1 %}
