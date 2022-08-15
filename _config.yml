@@ -12,7 +12,7 @@ lang: ko-KR
 title: "조금씩 공부하는 개발블로그"
 
 # A description of your site for meta tag, search engine results.
-description: "하루에 5분씩만 투자해서 함께 공부해요~"
+description: "하루에 5분씩만 투자해서 함께 공부해요~ 댓글은 개별 포스트 클릭하면 작성가능합니다~"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: "/dev5min"
