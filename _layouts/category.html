@@ -2,19 +2,21 @@
 layout: default
 ---
 <main class="main-content fadeInDown delay_075s">
-<ul class="posts-list">
+    <article class="post">
+        <ul class="posts-list">
 
-    {% assign category = page.category | default: page.title %}
-    {% for post in site.categories[category] %}
-    <li>
-        <h3>
-            <a href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title }}
-            </a>
-            <small>{{ post.date | date_to_string }}</small>
-        </h3>
-    </li>
-    {% endfor %}
+            {% assign category = page.category | default: page.title %}
+            {% for post in site.categories[category] %}
+            <li>
+                <h5>
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                    <small>{{ post.date | date_to_string }}</small>
+                </h5>
+            </li>
+            {% endfor %}
 
-</ul>
+        </ul>
+    </article>
 </main>
