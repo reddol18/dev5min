@@ -4,6 +4,7 @@ title: "IPTABLES에 관한 몇 가지 사실들"
 description: "IPTABLES에 관한 몇 가지 사실들을 확인해 봤습니다"
 date: 2022-07-14
 author: "김민석"
+categories: [Security]
 tags: [iptables,rules,max,count]
 ---
 ### 정의 가능한 최대 룰의 수

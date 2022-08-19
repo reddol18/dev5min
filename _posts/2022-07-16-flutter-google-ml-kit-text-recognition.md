@@ -4,6 +4,7 @@ title: "Flutter 에서 Google ML Kit으로 OCR 해보기"
 description: "Google ML Kit을 이용해서 OCR을 수행하는 간단한 Flutter 앱을 만들었습니다"
 date: 2022-07-16
 author: "김민석"
+categories: [Computer Vision]
 tags: [flutter,google ml kit,ocr,text recognition,text,detection]
 ---
 지난번에 EasyOCR을 이용해서 이미지에서 텍스트를 인식하는 시도를 해보았습니다.

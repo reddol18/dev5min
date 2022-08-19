@@ -4,6 +4,7 @@ title: "PNU 코드를 이용해서 토지이용계획 확인하기"
 description: "정부공공데이터 API에서 PNU 코드를 이용해서 토지이용계획(주거지역 등)을 알아보겠습니다"
 date: 2022-08-15
 author: "김민석"
+categories: [Data and Api]
 tags: [address,api,pnu,data.go.kr,landuse]
 ---
 지번주소를 PNU 코드로 바꾸는 것에 관한 내용은 아래 링크 참고해주세요.

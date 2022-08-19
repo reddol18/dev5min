@@ -4,6 +4,7 @@ title: "Flutter App Debug VS Release 모드 론칭 속도차이"
 description: "Flutter App Debug VS Release 모드 론칭 속도차이"
 date: 2022-07-16
 author: "김민석"
+categories: [Flutter and Dart]
 tags: [flutter,debug,release,launching,speed]
 ---
 ### 디버그 모드와 릴리즈 모드의 앱론칭 속도 차이 비교 동영상

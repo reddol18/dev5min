@@ -4,6 +4,7 @@ title: "EASYOCR을 이용해서 글자인식을 해보자"
 description: "EASYOCR 처음 사용해보기"
 date: 2022-07-15
 author: "김민석"
+categories: [Computer Vision]
 tags: [easyocr,ocr,text,detection]
 ---
 ### 이미지에서 글자를 자동으로 인식하려면

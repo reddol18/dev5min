@@ -4,6 +4,7 @@ title: "Dart 언어 관련 기초적인 정리"
 description: "변수선언 관련하여 주지사항"
 date: 2022-07-13
 author: "김민석"
+categories: [Flutter and Dart]
 tags: [dart,dynamic,var,final,const,static,future,stream]
 ---
 다른 언어도 마찬가지지만 아주 기본적인 개념이지만 쉽게 까먹거나 정리를 잘 안하고 넘어가는 것들이 있습니다.

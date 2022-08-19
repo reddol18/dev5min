@@ -4,6 +4,7 @@ title: "Flutter sqflite 사용시 컬럼이 없을 경우 추가하기"
 description: "Flutter sqflite 사용시 컬럼이 없을 경우 추가하기"
 date: 2022-07-07
 author: "김민석"
+categories: [Flutter and Dart]
 tags: [add,exist,flutter,sqlite,sqflite,column,check,table,alter,]
 ---
 sqlite에서 
