@@ -11,7 +11,7 @@ tags: [opencv,python,cctv,moving,detection]
 그런데 구형 CCTV 시스템이거나, 원본 동영상 파일만 가지고 있을 때 이런 기능을 구현하려면 별도의 프로그램이 있어야 합니다.
 게다가 특정 영역안에서만 움직임을 필터링하려면 몇 가지 조건을 더 추가해 주어야 하지요.
 오늘은 이러한 프로그램의 핵심기술이 될 수 있는 루틴을 공유해 보고자 합니다.
-```python
+```
 def make_frames_and_trace(self, filename):
     # 비디오 캡쳐할 파일을 지정하고 각종 변수 가져오기
     cpt = cv2.VideoCapture(filename)
