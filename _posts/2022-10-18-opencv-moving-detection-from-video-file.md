@@ -2,7 +2,7 @@
 layout: post
 title: "동영상의 특정 영역안에서 움직이는 물체가 있는 구간찾기"
 description: "Python과 OpenCV를 이용해서 특정 영역안의 움직임이 있는 구간을 찾아내는 루틴을 구현해 보았습니다"
-date: 2022-10-19
+date: 2022-10-18
 author: "김민석"
 categories: [Computer Vision]
 tags: [opencv,python,cctv,moving,detection]
