@@ -11,7 +11,7 @@ textarea {
 }
 
 html {
-  border: 15px solid _palette(accent);
+  border-top: 15px solid _palette(accent);
   box-sizing: border-box;
 
   @media only screen and (max-width: 600px) {
@@ -32,6 +32,8 @@ body {
 a {
   color: _palette(accent);
   text-decoration: none;
+  font-family: _font(secondary);
+  font-weight: bold;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
   &:hover {

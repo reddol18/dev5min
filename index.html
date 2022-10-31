@@ -38,11 +38,11 @@ layout: default
     <h2 class="screen-reader-text">Posts navigation</h2>
     <div class="nav-links">
       {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}" class="newer-posts">&larr; Newer Posts</a>
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="newer-posts">&larr; 이전</a>
       {% endif %}
       <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
       {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}" class="older-posts">Older Posts &rarr;</a>
+      <a href="{{ paginator.next_page_path | relative_url }}" class="older-posts">다음 &rarr;</a>
       {% endif %}
     </div>
   </nav><!-- .pagination -->

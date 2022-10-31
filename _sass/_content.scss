@@ -2,6 +2,13 @@
    5. Content
    ========================================================================== */
 
+.post-content {
+  p {
+    font-size: 0.9em;
+    text-align: justify-all;
+  }
+}
+
 .post {
   border-bottom: 1px solid _palette(border);
   padding: 3.33333em 0 1.66667em;
@@ -35,7 +42,7 @@
 }
 
 .post-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 0 1rem;
 
   @media only screen and (max-width: 600px) {

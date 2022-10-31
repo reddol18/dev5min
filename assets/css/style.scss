@@ -26,11 +26,12 @@
 // Font.
 $font: (
   primary: ("Lato","Helvetica Neue",Helvetica,sans-serif),
-  secondary: ("Noto Serif",Georgia,serif)
+  secondary: ("Nanum Gothic","Noto Serif",Georgia,serif),
+  eng: ("Noto Serif",Georgia,serif)
 );
 
 // Palette.
-{% assign accent = site.accent_color | default: '#2d72d9' %}
+{% assign accent = site.accent_color | default: '#078205' %}
 $palette: (
   accent:    {{ accent }},
   primary:   #6b747a,
