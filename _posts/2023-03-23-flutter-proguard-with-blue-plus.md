@@ -51,6 +51,7 @@ tags: [flutter,proguard_rule,bluetooth,flutter_blue_plus]
 ### 해결책
 
 - proguard-rules에서 해당 의존성을 제외해주세요. proguard-rules.pro 파일에 보면 아래와 같이 축소대상에서 제외되는 패키지들을 지정할 수 있는데요.
+
 ```
 -keep class io.flutter.app.** { *; }
 -keep class io.flutter.plugin.**  { *; }
@@ -63,5 +64,6 @@ tags: [flutter,proguard_rule,bluetooth,flutter_blue_plus]
 
 -dontwarn io.flutter.embedding.**
 ```
+
 - flutter_blue_plus 는 위와 같이 지정해주면 됩니다. github 주소를 보면 전체주소 값이 추측이 됩니다.
   - https://github.com/boskokg/flutter_blue_plus
