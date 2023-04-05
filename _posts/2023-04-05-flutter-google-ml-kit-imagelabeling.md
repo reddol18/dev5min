@@ -2,7 +2,7 @@
 layout: post
 title: "Flutter 에서 Google ML Kit으로 아기사진 골라내기"
 description: "Google ML Kit을 이용해서 아기사진만 골라내는 간단한 Flutter 앱을 만들었습니다"
-date: 2023-04-06
+date: 2023-04-05
 author: "김민석"
 categories: [Computer Vision]
 tags: [flutter,google ml kit,image labeling]
