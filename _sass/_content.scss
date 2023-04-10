@@ -179,3 +179,10 @@
     font-weight: bold;
   }
 }
+
+@media only screen and (max-width: 728px) {
+  .post {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
