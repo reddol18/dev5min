@@ -101,6 +101,8 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 
+{% include adfit.html %}
+
 ### 수행결과
 - ![이미지1](https://reddol18.github.io/dev5min/images/20230406/1.jpg)
 - 그 전에 No Human으로 나왔던 사진과 사람이 아닌 사진을 따로 뽑아서 돌려봤습니다.
