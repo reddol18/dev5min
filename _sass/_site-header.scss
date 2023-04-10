@@ -181,8 +181,8 @@
 }
 
 .kakao-adfit-content {
-  margin-top: 10px;
   margin: 0 auto;
+  margin-top: 10px;
   width: 250px;
 }
 
@@ -209,6 +209,14 @@
 }
 
 @media only screen and (max-width: 728px) {
+  .site-header {
+    padding-left: 10px;
+  }
+  .menu-toggle {
+    margin-top: -30px;
+  }
+
+
   .kakao-adfit-web-title {
     display: none;
   }
