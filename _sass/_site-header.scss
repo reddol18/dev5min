@@ -205,6 +205,7 @@
 
   .menu {
     padding: 6.375rem 35px 2.5rem;
+    display: inline;
   }
 }
 
@@ -213,8 +214,8 @@
     padding-left: 10px;
   }
   .menu-toggle {
-    margin-top: -30px;
-    margin-left: -5px;
+    margin-top: -35px;
+    margin-left: -10px !important;
   }
 
 

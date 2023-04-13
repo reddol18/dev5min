@@ -11,7 +11,7 @@ tags: [flutter,proguard_rule,bluetooth,flutter_blue_plus]
 
 - Flutter를 이용해서 bluetooth 연결을 하고자 합니다.
 - 그래서 저는 flutter_blue_plus라는 패키지를 이용하기로 했습니다. 
-  - https://pub.dev/packages/flutter_blue_plus
+  - [https://pub.dev/packages/flutter_blue_plus](https://pub.dev/packages/flutter_blue_plus)
 - 디버그 모드에서는 잘 돌아갔으나, 릴리즈 모드에서 아래와 같은 에러가 발생하면서 기기 스캔이 정상동작 하지 않더군요.
 ```
     E/flutter (20889): [ERROR:flutter/lib/ui/ui_dart_state.cc(209)] 
