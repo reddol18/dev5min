@@ -2,7 +2,7 @@
 layout: post
 title: "Flutter 개발시 IDE에서도 Release 모드로 실행하다 낭패본 사연"
 description: "Debug Mode가 왜 필요한지 더 나아가 빌더툴의 필요성까지 고민해봅니다"
-date: 2023-04-05
+date: 2023-04-21
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [flutter,debug_mode,release_mode]
