@@ -62,8 +62,6 @@ permalink: /:title
 
 # Conversion
 markdown: kramdown
-highlighter: rouge
-  input: GFM
 
 # Sass
 sass:
