@@ -8,6 +8,16 @@
     text-align: justify-all;
   }
   word-break: break-all;
+  line-height: 150%;
+  ul {
+    li {
+      margin-bottom: 15px;
+    }
+  }
+  img {
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+  }
 }
 
 .post {
