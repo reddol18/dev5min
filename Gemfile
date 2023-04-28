@@ -10,3 +10,4 @@ end
 
 
 gem "webrick", "~> 1.7"
+gem "rouge", "~> 4.1.0"
