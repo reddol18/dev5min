@@ -10,7 +10,7 @@ tags: [url_route,node,go,nginx,vue]
 - 평소에 궁금했던 사항인데요. 정적 이미지 파일을 URL로 나눠서 로딩하는데 걸리는 시간이 언어나 프레임워크 별로
 얼마나 차이가 날까였어요.
 - 그래서 한 번 시도해 봤습니다. 먼저 Node 코드 입니다.
-```js
+```
 var express = require('express');
 var app = express();
 var fs = require('fs');
@@ -30,7 +30,7 @@ module.exports = app;
 ``` 
 - JMeter로 동접자 100으로 시도해 봤어요. 그러자 첫번째 파일의 LoadTime은 26ms, 두번째 파일은 8ms 가 나왔습니다.
 - 다음은 Go 코드 입니다.
-```go
+```
 package main
 
 import (
@@ -64,7 +64,7 @@ func main() {
 어느정도 추측되었는데요.
 {% include adfit.html %}
 - 그렇다면 Nginx에서 Alias를 이용해서 정적파일을 다른 URL 로딩하면 어떻게 될까요?
-```nginx
+```
 
 user  nginx;
 worker_processes  auto;
