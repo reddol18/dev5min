@@ -10,7 +10,7 @@ tags: [url_route,node,go,nginx,vue]
 - 평소에 궁금했던 사항인데요. 정적 이미지 파일을 URL로 나눠서 로딩하는데 걸리는 시간이 언어나 프레임워크 별로
 얼마나 차이가 날까였어요.
 - 그래서 한 번 시도해 봤습니다. 먼저 Node 코드 입니다.
-```javascript
+```js
 var express = require('express');
 var app = express();
 var fs = require('fs');
