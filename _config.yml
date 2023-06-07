@@ -15,7 +15,7 @@ title: "조금씩 공부하는 개발블로그"
 description: "하루에 5분씩만 투자해서 함께 공부해요~ 댓글은 개별 포스트 클릭하면 작성가능합니다~"
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: "/dev5min"
+baseurl: "/"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
 url: "https://reddol18.pe.kr"
@@ -29,11 +29,11 @@ google_analytics: "G-4YGBJY6T0F"
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: Home
-    url: /dev5min/
+    url: /
   - text: About
-    url: /dev5min/about
+    url: /about
   - text: Tags
-    url: /dev5min/tags
+    url: /tags
 
 # The shortname for your Disqus site to enable comments.
 disqus: dev5min
