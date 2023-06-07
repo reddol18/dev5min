@@ -18,7 +18,7 @@ description: "하루에 5분씩만 투자해서 함께 공부해요~ 댓글은 �
 baseurl: "/dev5min"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://reddol18.github.io"
+url: "https://reddol18.pe.kr"
 
 # Favicon
 favicon: images/favicon.png
