@@ -1,3 +1,12 @@
+---
+layout: post
+title: "AWS RDS AURORA 파라미터 그룹 적용안될 때"
+description: "파라미터 그룹을 새로 만들었는데 적용이 안될 때"
+date: 2023-07-12
+author: "김민석"
+categories: [Others]
+tags: [aws,rds,parameter_group,reboot]
+---
 ## 문제사항
 - AWS RDS AURORA 서비스를 이용중에 있습니다.
 - 그런데 interactive_timeout 값을 디폴트로 사용하니까, 프로세스 들이 너무 오래 살아 있게 되었어요.
