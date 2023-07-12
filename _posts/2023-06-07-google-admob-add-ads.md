@@ -14,8 +14,6 @@ tags: [admob,app-ads]
   - app-ads.txt 메뉴찾기가 좀 어려운데요, 위 화면 참고하세요.
 - github io blog에 올렸더니 여전히 404 에러로 인식된다고 나옵니다.
 - 자세히 보니까 reddol18.github.io/dev5min/app-ads.txt이 아니라 reddol18.github.io/app-ads.txt를 찾고있네요.
-  
-{% include adfit2.html %}
 
 - 어쩔수 없이 만원짜리 도메인을 하나 샀습니다. 네임서버 연결을 했구요.
   - [Github IO 블로그 DNS 설정](https://kyungyeon.dev/posts/24)
