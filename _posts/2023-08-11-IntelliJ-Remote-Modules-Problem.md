@@ -18,7 +18,9 @@ IntelliJ Idea Remote Development 사용하시는 분들이 있을겁니다.
 그러다보니 프로젝트내 검색이라던가 최근 파일 보기라던가 인덱싱이 필요한 많은 기능들을 사용할 수 없었어요.
 
 이럴때 아래처럼 해보세요.
-1. 먼저 .idea 폴더 내에 [프로젝트명].iml 파일을 만들고 아래와 같이 기입합니다. 파이썬 프로젝트 일 때의 예제에요.
+
+### 먼저 .idea 폴더 내에 [프로젝트명].iml 파일을 만들고 아래와 같이 기입합니다. 파이썬 프로젝트 일 때의 예제에요.
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
@@ -30,9 +32,11 @@ IntelliJ Idea Remote Development 사용하시는 분들이 있을겁니다.
   </component>
 </module>
 ```
+
 {% include adfit.html %}
 
-2. 같은 폴더내에 modules.xml을 만들고 아래와 같이 기입합니다.
+### 같은 폴더내에 modules.xml을 만들고 아래와 같이 기입합니다.
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
