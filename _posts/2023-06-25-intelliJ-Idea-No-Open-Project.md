@@ -12,8 +12,6 @@ tags: [intellij,jetbrains,plugin,problem]
 - 처음엔 라이센스 문제인 줄 알고, 라이센스도 점검해 보고 별걸 다 해봤는데도 안됩니다.
 - 프로젝트를 클릭하면 잠시 화면이 뜨는가 싶더니, 바로 닫히더라구요.
 - 알고보니 원인은 기존에 사용했던 플러그인과의 충돌 때문이었습니다.
-  
-{% include adfit.html %}
 
 - 이럴 때는 ItelliJ의 실행시 나타나는 출력 메시지를 확인해야 합니다. 아래 처럼 콘솔에서 실행하면 확인가능해요.
   - ![image](https://reddol18.github.io/dev5min/images/20230625/image-1.png)
