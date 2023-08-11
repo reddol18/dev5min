@@ -31,6 +31,7 @@ IntelliJ Idea Remote Development 사용하시는 분들이 있을겁니다.
 </module>
 ```
 {% include adfit.html %}
+
 2. 같은 폴더내에 modules.xml을 만들고 아래와 같이 기입합니다.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
