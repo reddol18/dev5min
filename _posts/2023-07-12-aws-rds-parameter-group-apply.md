@@ -16,8 +16,6 @@ tags: [aws,rds,parameter_group,reboot]
 - 값이 바뀌지 않았어요 ㅠㅠ
 - ![image](https://github.com/reddol18/dev5min/assets/15623847/2bc57e2c-79b2-48b6-af08-2da74bd494e5)
 
-{% include adfit2.html %}
-
 ## 해결책
 - 데이터베이스 구성 탭을 보니까 아래처럼, 재부팅 보류중으로 되어 있고 변경된 파라미터 그룹이 적용되지 않고 있었어요.
 - ![image](https://github.com/reddol18/dev5min/assets/15623847/d942909b-4f53-47d6-b091-f5aa2c36b903)
