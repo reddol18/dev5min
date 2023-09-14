@@ -32,8 +32,7 @@ IntelliJ Idea Remote Development 사용하시는 분들이 있을겁니다.
   </component>
 </module>
 ```
-
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ### 같은 폴더내에 modules.xml을 만들고 아래와 같이 기입합니다.
 
