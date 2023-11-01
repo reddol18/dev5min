@@ -23,7 +23,7 @@ export GIT_SSH_COMMAND="/usr/bin/ssh -i ~/.ssh/id_rsa"
 ```
 - ``touch ~/.bashrc`` 실행해주신 후에 WebUI 다시 실행해서 설치해 보세요.
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 - 또한 공인되지 않은 extension의 경우 아래와 같은 옵션을 함께 입력하여 WebUI를 실행해야 합니다.
 - ``--enable-insecure-extension-access``
