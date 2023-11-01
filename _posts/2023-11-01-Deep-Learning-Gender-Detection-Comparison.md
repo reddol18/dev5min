@@ -23,7 +23,9 @@ tags: [deeplearning,ai,insightface,keras,caffe,gender_detection]
 - 여성 71/92
 - 남성 51/93
 - 제일 정확도가 떨어지네요
+
 {% include adfit.html %}
+
 ### Gender and Age Detection
 - https://github.com/smahesh29/Gender-and-Age-Detection
 - Caffe 플랫폼 기반입니다.
@@ -32,6 +34,7 @@ tags: [deeplearning,ai,insightface,keras,caffe,gender_detection]
 - 여성 82/104
 - 남성 67/90
 - 1명을 판독 성공했을 때 정확도는 위에것보다 높습니다.
+
 ### Insightface
 - https://github.com/deepinsight/insightface
 - 제일 유명한 라이브러리죠.
