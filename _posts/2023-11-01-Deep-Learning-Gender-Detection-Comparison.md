@@ -24,7 +24,7 @@ tags: [deeplearning,ai,insightface,keras,caffe,gender_detection]
 - 남성 51/93
 - 제일 정확도가 떨어지네요
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ### Gender and Age Detection
 - https://github.com/smahesh29/Gender-and-Age-Detection
