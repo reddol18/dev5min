@@ -12,9 +12,6 @@ tags: [python,heictojpg,heic]
 - 그래서 다른 파일형식으로 변환을 해야 하는데요, 이럴때 사용하는 코드 입니다.
 - 이것 저것 다른 방법도 소개되어 있던데, 이게 제일 확실한 것 같아요.
 
-{% include adfit2.html %}
-
-
 ```python
 def heic_to_jpg(img_path):
     pillow_heif.register_heif_opener()

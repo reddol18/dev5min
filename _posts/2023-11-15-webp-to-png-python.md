@@ -12,7 +12,7 @@ tags: [python,webptopng,webp]
 - 그래서 다른 파일형식으로 변환을 해야 하는데요, 이럴때 사용하는 코드 입니다.
 - 오늘은 지난번과 다르게 특정 폴더에 있는 모든 webp 파일을 변환하는 함수로 만들었습니다.
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ```python
 from PIL import Image
