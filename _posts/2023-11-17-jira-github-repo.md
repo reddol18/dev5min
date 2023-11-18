@@ -15,7 +15,7 @@ tags: [jira,github,commit]
     ![Alt text](https://reddol18.github.io/dev5min/images/jira2.png)
 - 다른 팀원들은 잘만 하던데, 왜 나는 안되는걸까? 고민하던 중...
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 - 방법을 알아냈습니다.
 - 바로 커밋 메시지에 내가 작업하고 있는 지라 이슈이름만 입력해주면 자동으로 추가되는 거였습니다.
