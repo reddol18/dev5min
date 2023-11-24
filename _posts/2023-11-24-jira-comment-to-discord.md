@@ -30,7 +30,7 @@ tags: [jira,automation,smart_value,metion,discord,webhook]
 ```
 {
    "username": "{{issue.comments.last.author.displayName}}",
-  "content": "{{\#if(issue.comments.last.body.startsWith([~accountid:XXXXXXXXXXXXXXXXXXXXXXXXXXXX]"))}}@ㅁㅁㅁㅁ {{issue.comments.last.body.replace("[~accountid:XXXXXXXXXXXXXXXXXXXXXXXXXXXX]", "")}}{{issue.url}}{{/}}{{\#if(issue.comments.last.body.startsWith("[~accountid:yyyyyyyyyyyyyyyyyyyyyyy]"))}}@ㅇㅇㅇㅇ {{issue.comments.last.body.replace("[~accountid:yyyyyyyyyyyyyyyyyyyyyyy]", "")}} {{issue.url}}{{/}}"
+  "content": "{{#if(issue.comments.last.body.startsWith([~accountid:XXXXXXXXXXXXXXXXXXXXXXXXXXXX]"))}}@ㅁㅁㅁㅁ {{issue.comments.last.body.replace("[~accountid:XXXXXXXXXXXXXXXXXXXXXXXXXXXX]", "")}}{{issue.url}}{{\/}}{{#if(issue.comments.last.body.startsWith("[~accountid:yyyyyyyyyyyyyyyyyyyyyyy]"))}}@ㅇㅇㅇㅇ {{issue.comments.last.body.replace("[~accountid:yyyyyyyyyyyyyyyyyyyyyyy]", "")}} {{issue.url}}{{\/}}"
 }
 ```
 - 주의 하실 점은 중간에 공백문자 들어가면 오류날 수 있다는 점이에요. 아무튼 잘 도착하면 아래처럼 메시지가 전달됩니다.
