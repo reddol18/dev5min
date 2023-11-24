@@ -27,12 +27,7 @@ tags: [jira,automation,smart_value,metion,discord,webhook]
   - ![Alt text](https://reddol18.github.io/dev5min/images/20231124/image.png)
 - 이걸 사용자 이름으로 바꾸려고 온갖 방법을 찾아봤지만 결국 실패했어요. ㅠㅠ
 - 그래서 if 노가다로 처리했습니다. 예제 코드는 아래와 같습니다.
-```
-{
-   "username": "{{issue.comments.last.author.displayName}}",
-  "content": "{{#if(issue.comments.last.body.startsWith([~accountid:XXXXXXXXXXXXXXXXXXXXXXXXXXXX]"))}}@ㅁㅁㅁㅁ {{issue.comments.last.body.replace("[~accountid:XXXXXXXXXXXXXXXXXXXXXXXXXXXX]", "")}}{{issue.url}}{{\/}}{{#if(issue.comments.last.body.startsWith("[~accountid:yyyyyyyyyyyyyyyyyyyyyyy]"))}}@ㅇㅇㅇㅇ {{issue.comments.last.body.replace("[~accountid:yyyyyyyyyyyyyyyyyyyyyyy]", "")}} {{issue.url}}{{\/}}"
-}
-```
+- ![Alt text](https://reddol18.github.io/dev5min/images/20231124/image5.png)
 - 주의 하실 점은 중간에 공백문자 들어가면 오류날 수 있다는 점이에요. 아무튼 잘 도착하면 아래처럼 메시지가 전달됩니다.
 ![Alt text](https://reddol18.github.io/dev5min/images/20231124/image2.png)
 
