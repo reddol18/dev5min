@@ -14,10 +14,7 @@ tags: [jira,github,commit]
 - 그런데 위에서 처럼 백날 추가를 클릭해도 안되는거에요. 아래와 같은 에러만 나옵니다.
     ![Alt text](https://reddol18.github.io/dev5min/images/jira2.png)
 - 다른 팀원들은 잘만 하던데, 왜 나는 안되는걸까? 고민하던 중...
-
-{% include adfit2.html %}
-
-- 방법을 알아냈습니다.
+- **방법을 알아냈습니다.**
 - 바로 커밋 메시지에 내가 작업하고 있는 지라 이슈이름만 입력해주면 자동으로 추가되는 거였습니다.
 - 예를들어 이슈이름이 ILLUA-156 이면 아래와 같은 커밋 메시지를 입력해 주면 됩니다.
     ![Alt text](https://reddol18.github.io/dev5min/images/image.png)

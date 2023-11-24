@@ -26,7 +26,7 @@ tags: [jira,automation,issues,label,assign]
     - ![Alt text](https://reddol18.github.io/dev5min/images/20231118/image-3.png)
 - *안타깝게도 안됩니다.* 담당자=할당받는자 개념은 맞는것 같은데, 뭔가 칸반보드 상에 버그가 있는것 같습니다.    
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 2차시도
 - 이번에는 특정 "레이블"을 달 때, 할당이 되도록 해보겠습니다. 아래와 같은 레이블이 달리면 저에게 자동할당 시키겠습니다.
