@@ -30,7 +30,7 @@ tags: [jira,automation,smart_value,metion,discord,webhook]
 ```
 {
    "username": "{{issue.comments.last.author.displayName}}",
-  "content": "{{#if(issue.comments.last.body.startsWith([~accountid:XXXXXXXXXXXXXXXXXXXXXXXXXXXX]"))}}@ㅁㅁㅁㅁ {{issue.comments.last.body.replace("[~accountid:XXXXXXXXXXXXXXXXXXXXXXXXXXXX]", "")}}{{issue.url}}{{/}}{{#if(issue.comments.last.body.startsWith("[~accountid:yyyyyyyyyyyyyyyyyyyyyyy]"))}}@ㅇㅇㅇㅇ {{issue.comments.last.body.replace("[~accountid:yyyyyyyyyyyyyyyyyyyyyyy]", "")}} {{issue.url}}{{/}}"
+  "content": "{{\#if(issue.comments.last.body.startsWith([~accountid:XXXXXXXXXXXXXXXXXXXXXXXXXXXX]"))}}@ㅁㅁㅁㅁ {{issue.comments.last.body.replace("[~accountid:XXXXXXXXXXXXXXXXXXXXXXXXXXXX]", "")}}{{issue.url}}{{/}}{{\#if(issue.comments.last.body.startsWith("[~accountid:yyyyyyyyyyyyyyyyyyyyyyy]"))}}@ㅇㅇㅇㅇ {{issue.comments.last.body.replace("[~accountid:yyyyyyyyyyyyyyyyyyyyyyy]", "")}} {{issue.url}}{{/}}"
 }
 ```
 - 주의 하실 점은 중간에 공백문자 들어가면 오류날 수 있다는 점이에요. 아무튼 잘 도착하면 아래처럼 메시지가 전달됩니다.
@@ -43,4 +43,4 @@ tags: [jira,automation,smart_value,metion,discord,webhook]
 - 디스코드 채널 편집 메뉴에서 연동을 선택하면, 웹후크를 만들고 수정할 수 있는 화면이 나옵니다.
 ![Alt text](https://reddol18.github.io/dev5min/images/20231124/image3.png)
 - 웹후크 URL 복사를 통해서 확보한 URL을 지라의 자동화 메뉴에서 웹 요청전송 부분에 입력하면 됩니다.
-![Alt text](image.png)
+![Alt text](https://reddol18.github.io/dev5min/images/20231124/image4.png)
