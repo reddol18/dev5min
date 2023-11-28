@@ -7,7 +7,7 @@ let videoEmbeds = [
   'iframe[src*="youtube.com"]',
   'iframe[src*="vimeo.com"]'
 ];
-reframe(videoEmbeds.join(','));
+//reframe(videoEmbeds.join(','));
 
 // Menu on small screens
 let menuToggle = document.querySelectorAll('.menu-toggle');
