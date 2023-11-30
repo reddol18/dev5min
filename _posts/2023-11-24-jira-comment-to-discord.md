@@ -31,7 +31,7 @@ tags: [jira,automation,smart_value,metion,discord,webhook]
 - 주의 하실 점은 중간에 공백문자 들어가면 오류날 수 있다는 점이에요. 아무튼 잘 도착하면 아래처럼 메시지가 전달됩니다.
 ![Alt text](https://reddol18.github.io/dev5min/images/20231124/image2.png)
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 디스코드의 webhook
 - 물론 이 모든것은 디스코드 상에서 webhook url을 만든 다음에 수행할 수 있다는 점 잊지마세요.
