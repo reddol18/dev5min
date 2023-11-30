@@ -33,7 +33,7 @@ tags: [clip-interrogator,stable-diffusion,game-graphic-generation]
     ```
     a close up of a map of a park, 2d  sprites asset sheet, pokemon style, trees reflecting on the lake, friendly guy and small creature, stable diffusion ai, next to a red barn, pixelart, pathway, midwest countryside, perfectly shaded, travelers, website banner
     ``` 
-- 이번에는 이런 Prompt를 만들어내는군요. 여기에 (top view:1.3), (2d game map:1.3), (2d sprite:1.3),seen from above the sky,(2d rpg game map:1.3)를 추가해서 조금 더 완성도를 높여 봤습니다.    
+- 이번에는 이런 Prompt를 만들어내는군요. 여기에 ``(top view:1.3), (2d game map:1.3), (2d sprite:1.3),seen from above the sky,(2d rpg game map:1.3)``를 추가해서 조금 더 완성도를 높여 봤습니다.    
 - 2D 게임 그래픽을 만들거기 때문에, negative prompt에 ``3d, quarter view``를 입력했습니다.
 - 그러자 아래와 같은 이미지들이 만들어집니다.
   - ![Alt text](https://reddol18.github.io/dev5min/images/20231130/image3.png)
