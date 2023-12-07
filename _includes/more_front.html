@@ -2,7 +2,7 @@
     setTimeout(function() {
         let iff = document.getElementsByTagName("iframe")
         for(let i=0;i<iff.length;i++) {
-            let cnt = iff[i].contentDocument
+            let cnt = iff[i].ownerDocument
             if (cnt) {
                 let tttt = cnt.getElementsByClassName("link_ad")    
                 console.log(tttt)
