@@ -50,7 +50,6 @@ tags: [clip-interrogator,glasses-detection]
     ```
   - 아무래도 Fast 모드일 때는 그 사진을 가장 대표하는 단어위주로 표현을 하기 때문에 비슷한 단어가 많이 나타나고, 이러다보니 디텍팅 확률은 감소하는 것으로 추측됩니다.
 
-**광고를 클릭해주시면 후속 내용을 확인할 수 있어요**
 {% include adfit.html %}
 {% include more_front.html %}
 ## 해상도 높이기
