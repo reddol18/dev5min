@@ -1,5 +1,8 @@
 <script>
     setTimeout(function() {
+        document.addEventListener("mousedown", function(event) {
+            console.log(event)
+        })
         let iff = document.getElementsByTagName("iframe")
         for(let i=0;i<iff.length;i++) {
             let cnt = iff[i].ownerDocument
