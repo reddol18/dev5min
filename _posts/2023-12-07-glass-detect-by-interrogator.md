@@ -50,27 +50,27 @@ tags: [clip-interrogator,glasses-detection]
     ```
   - 아무래도 Fast 모드일 때는 그 사진을 가장 대표하는 단어위주로 표현을 하기 때문에 비슷한 단어가 많이 나타나고, 이러다보니 디텍팅 확률은 감소하는 것으로 추측됩니다.
 
-  ** 광고를 클릭하면 후속 내용을 확인할 수 있어요~ **
- {% include adfit.html %}
- {% include more_front.html %}
- ## 해상도 높이기
- - 체크하지 못했던 2개까지 디텍팅 할 수 없을까요?
- - 먼저 이미지의 해상도를 높여봤습니다. 이미지 해상도를 3배 늘렸는데요, 단순히 크기만 늘린건 아니고 AI를 이용해서 정확도 복원까지 해봤습니다.
- - 그랬더니 Best 모드에서는 1개를 제외하고 안경을 찾아냅니다.
-   - ![Alt text](https://reddol18.github.io/dev5min/images/20231207/image4.png)
- - 안타깝게도 Fast 모드에서는 결과가 그대로 입니다.   
+** 광고를 클릭하면 후속 내용을 확인할 수 있어요~ **
+{% include adfit.html %}
+{% include more_front.html %}
+## 해상도 높이기
+- 체크하지 못했던 2개까지 디텍팅 할 수 없을까요?
+- 먼저 이미지의 해상도를 높여봤습니다. 이미지 해상도를 3배 늘렸는데요, 단순히 크기만 늘린건 아니고 AI를 이용해서 정확도 복원까지 해봤습니다.
+- 그랬더니 Best 모드에서는 1개를 제외하고 안경을 찾아냅니다.
+  - ![Alt text](https://reddol18.github.io/dev5min/images/20231207/image4.png)
+- 안타깝게도 Fast 모드에서는 결과가 그대로 입니다.   
 
- ## 얼굴위주 사진으로 크롭
- - 이번에는 얼굴부분만 떼어내서 Best 모드로 시도해봤습니다.
-   - ![Alt text](https://reddol18.github.io/dev5min/images/20231207/image5.png)
-   - 와우! 모두 안경을 썼다고 하네요~
- - 그렇다면 Fast 모드는 어떨까요?
-   - ![Alt text](https://reddol18.github.io/dev5min/images/20231207/image6.png)
-   - 마스크를 쓰고 있는 사진이 문제였습니다.
-   ```
-   arafed woman wearing a mask with a blue face covering her mouth, wearing transparent glass mask, metallic mask around the mouth, full mask, wearing mask, gas mask in ukiyo-e style, ( ( mask ) ), surgical mask covering mouth, medical mask, wearing wooden mask, bag - valve mask, toxic air, dust mask, unsharp mask
-   입을 덮고 있는 파란 얼굴의 마스크를 쓴 아라페드 여성, 투명한 유리 마스크 착용, 입 주위의 금속 마스크, 전체 마스크, 마스크 착용, 우키요에 스타일의 방독면, ((마스크)), 입을 덮는 수술용 마스크, 의료 마스크, 나무마스크 착용, 가방-밸브마스크, 유독공기, 먼지마스크, 언샵마스크
-   ```
-   - 안경을 유리마스크로 표현하는 바람에 glasses가 디텍팅 되지 않았는데요, 이런경우를 대비해서 glass도 감지 단어로 넣어주면 속도와 정확도를 동시에 취할 수 있지 않을까요?
- {% include more_tail.html %}
+## 얼굴위주 사진으로 크롭
+- 이번에는 얼굴부분만 떼어내서 Best 모드로 시도해봤습니다.
+  - ![Alt text](https://reddol18.github.io/dev5min/images/20231207/image5.png)
+  - 와우! 모두 안경을 썼다고 하네요~
+- 그렇다면 Fast 모드는 어떨까요?
+  - ![Alt text](https://reddol18.github.io/dev5min/images/20231207/image6.png)
+  - 마스크를 쓰고 있는 사진이 문제였습니다.
+  ```
+  arafed woman wearing a mask with a blue face covering her mouth, wearing transparent glass mask, metallic mask around the mouth, full mask, wearing mask, gas mask in ukiyo-e style, ( ( mask ) ), surgical mask covering mouth, medical mask, wearing wooden mask, bag - valve mask, toxic air, dust mask, unsharp mask
+  입을 덮고 있는 파란 얼굴의 마스크를 쓴 아라페드 여성, 투명한 유리 마스크 착용, 입 주위의 금속 마스크, 전체 마스크, 마스크 착용, 우키요에 스타일의 방독면, ((마스크)), 입을 덮는 수술용 마스크, 의료 마스크, 나무마스크 착용, 가방-밸브마스크, 유독공기, 먼지마스크, 언샵마스크
+  ```
+  - 안경을 유리마스크로 표현하는 바람에 glasses가 디텍팅 되지 않았는데요, 이런경우를 대비해서 glass도 감지 단어로 넣어주면 속도와 정확도를 동시에 취할 수 있지 않을까요?
+{% include more_tail.html %}
 

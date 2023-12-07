@@ -1,6 +1,6 @@
 <script>
-    function showMore() {
-        document.getElementById("more_view1").style("display: block")
-    }
+    document.getElementByClassName("link_ad").addEventListener('click', function() {
+        document.getElementById("more_view1").style = "visibility: visible"
+    })
 </script>
-<div id="more_view1" style="display:none">
+<div id="more_view1" style="visibility: hidden">
