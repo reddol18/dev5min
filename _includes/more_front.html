@@ -1,15 +1,17 @@
 <script>
-    let iff = document.getElementsByTagName("iframe")
-    for(let i=0;i<iff.length;i++) {
-        let cnt = iff[i].contentDocument
-        let tttt = cnt.getElementsByClassName("link_ad")    
-        console.log(tttt)
-        for(let i=0;i<tttt.length;i++) {
-            tttt[i].addEventListener('click', function() {
-                document.getElementById("more_view1").style = "visibility: visible"
-            })
+    setTimeout(function() {
+        let iff = document.getElementsByTagName("iframe")
+        for(let i=0;i<iff.length;i++) {
+            let cnt = iff[i].contentDocument
+            let tttt = cnt.getElementsByClassName("link_ad")    
+            console.log(tttt)
+            for(let i=0;i<tttt.length;i++) {
+                tttt[i].addEventListener('click', function() {
+                    document.getElementById("more_view1").style = "visibility: visible"
+                })
+            }
         }
-    }
+    }, 1000)
     
 </script>
 <div id="more_view1" style="visibility: hidden">
