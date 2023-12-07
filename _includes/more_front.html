@@ -1,6 +1,10 @@
 <script>
-    document.getElementsByClassName("link_ad").addEventListener('click', function() {
-        document.getElementById("more_view1").style = "visibility: visible";
-    })
+    let tttt = document.getElementsByClassName("link_ad")
+    for(let i=0;i<tttt.length;i++) {
+        tttt[i].addEventListener('click', function() {
+            document.getElementById("more_view1").style = "visibility: visible"
+        })
+    }
+    
 </script>
 <div id="more_view1" style="visibility: hidden">
