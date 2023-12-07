@@ -26,7 +26,7 @@ tags: [clip-interrogator,stable-diffusion,game-graphic-generation]
   - ![Alt text](https://reddol18.github.io/dev5min/images/20231130/image2.png)
   - 어떤가요? 비슷한가요??
   
- {% include adfit.html %}
+ {% include adfit2.html %}
 
 ### 게임그래픽도 가능할까??
 - 이번에는 레트로 2D RPG 게임화면을 Interrogator에게 설명해보라고 했습니다.
