@@ -22,7 +22,10 @@
   9. Animations
  10. Prism
 */
-
+code {
+  white-space : pre-wrap !important;
+  word-break: break-word;
+}
 // Font.
 $font: (
   primary: ("Lato","Helvetica Neue",Helvetica,sans-serif),
