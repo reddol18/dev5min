@@ -9,7 +9,7 @@ tags: [aws,apigateway,networkfailure]
 ---
 - 저희 회사는 서비스 부하분산과 API 버젼관리를 위해서 AWS의 API-Gateway를 사용하고 있는데요.
 - 대시보드가 좀 엉성하지만, 그래도 테스트도 해볼 수 있고 필요한 기능은 다 있어서 잘 쓰고 있었습니다.
-- 그런데 어느날 새로운 메써드를 만들고 저장을 하려고 하는데 `Network Failure`` 메시지가 계속 뜨면서 저장이 안되는거에요.
+- 그런데 어느날 새로운 메써드를 만들고 저장을 하려고 하는데 `Network Failure` 메시지가 계속 뜨면서 저장이 안되는거에요.
 
  {% include adfit.html %}
 
