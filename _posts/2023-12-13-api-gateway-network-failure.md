@@ -11,7 +11,7 @@ tags: [aws,apigateway,networkfailure]
 - 대시보드가 좀 엉성하지만, 그래도 테스트도 해볼 수 있고 필요한 기능은 다 있어서 잘 쓰고 있었습니다.
 - 그런데 어느날 새로운 메써드를 만들고 저장을 하려고 하는데 `Network Failure` 메시지가 계속 뜨면서 저장이 안되는거에요.
 
- {% include adfit.html %}
+ {% include adfit2.html %}
 
 ### 문제는 크롬 CORS 익스텐션
 - 정확한 이유는 모르겠지만 추정컨데 크롬에 설치한 CORS 익스텐션이 문제를 일으킨 것 같습니다.
