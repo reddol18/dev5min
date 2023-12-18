@@ -3,7 +3,7 @@ layout: default
 ---
 <main class="main-content fadeInDown delay_075s">
     <article class="post">
-        <ul class="posts-list category_text">
+        <ul class="posts-list">
 
             {% assign category = page.category | default: page.title %}
             {% for post in site.categories[category] %}
