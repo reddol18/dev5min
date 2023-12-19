@@ -4,7 +4,7 @@ title: "네이버 블로그를 백업해보자 - 1편"
 description: "파이썬을 이용해서 네이버 블로그에 있는 내용과 이미지를 가져와 보겠습니다"
 date: 2023-12-13
 author: "김민석"
-categories: [Data&Api]
+categories: [Data and Api]
 tags: [naver,naverblog,blog,backup]
 ---
 - 저는 깃헙블로그를 기술블로그로 운영하고 있지만, 일상적인 이야기는 네이버 블로그를 이용하고 있어요.
@@ -13,7 +13,6 @@ tags: [naver,naverblog,blog,backup]
 - 그래서 오늘부터 네이버 블로그 백업해서 깃헙블로그에 복사하는 방법을 연재해 보고자 합니다.
 - 첫번째 시간으로 간단하게 글과 이미지를 가져와 보는 코드를 공유합니다.
 
- {% include adfit.html %}
 
 ```python
 import requests
