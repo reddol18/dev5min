@@ -14,8 +14,6 @@ tags: [naver,naverblog,blog,backup,githubapi,githubblog]
 - GITHUB API를 이용하기 위해서는 사전에 TOKEN을 받아두어야 합니다.
 - 긴 말 할 거 없이 코드를 보시죠~
 
-{% include adfit.html %}
-
 ```python
 import requests
 from bs4 import BeautifulSoup
