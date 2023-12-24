@@ -75,27 +75,27 @@ tags: [naver,naverblog,blog,backup,githubapi,githubblog,google,searchconsole,url
         - [서비스계정 등록 및 설정 방법](https://developers.google.com/search/apis/indexing-api/v3/prereqs?hl=ko)
     - 마지막으로 서치콘솔 URL Indexing을 사용하겠다고 지정해야 아래의 호출을 정상적으로 수행 할 수 있습니다.
         - [URL Indexing Creation API](https://developers.google.com/search/apis/indexing-api/v3/using-api?hl=ko)
-        ```python
-        def update_google_search_console_url_index(url):
-            SCOPES = [ "https://www.googleapis.com/auth/indexing" ]
-            ENDPOINT = "https://indexing.googleapis.com/v3/urlNotifications:publish"
+            ```python
+            def update_google_search_console_url_index(url):
+                SCOPES = [ "https://www.googleapis.com/auth/indexing" ]
+                ENDPOINT = "https://indexing.googleapis.com/v3/urlNotifications:publish"
 
-            # service_account_file.json is the private key that you created for your service account.
-            JSON_KEY_FILE = "file_name.json"
+                # service_account_file.json is the private key that you created for your service account.
+                JSON_KEY_FILE = "file_name.json"
 
-            credentials = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_FILE, scopes=SCOPES)
+                credentials = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_FILE, scopes=SCOPES)
 
-            http = credentials.authorize(httplib2.Http())
+                http = credentials.authorize(httplib2.Http())
 
-            content = """{
-            \"url\": \"%s\",
-            \"type\": \"URL_UPDATED\"
-            }""" % url
+                content = """{
+                \"url\": \"%s\",
+                \"type\": \"URL_UPDATED\"
+                }""" % url
 
-            response, content = http.request(ENDPOINT, method="POST", body=content)
-        ```
+                response, content = http.request(ENDPOINT, method="POST", body=content)
+            ```
 
 - 전체 코드는 아래 링크에 올려두었습니다. 지난번과 비교했을 때 달라진 내용은 아래와 같습니다.
     - 블로그 내용을 가져올 때, 링크 형태이면 MarkDown에서도 링크 형태로 보여지도록 했습니다.
     - 파일명에 표시되는 날짜도 직접 지정할 수 있게 코드를 수정했습니다.
-    - [전체코드](https://reddol18.github.io/dev5min/snippets/naver2github.py)
+    - [전체코드](https://github.com/reddol18/dev5min/blob/master/snippets/naver2github.py)
