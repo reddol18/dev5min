@@ -21,7 +21,7 @@ def update_google_search_console_url_index(url):
     JSON_KEY_FILE = "##your_account_file##.json"
 
     credentials = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_FILE, scopes=SCOPES)
-
+    headers = {'Content-Type': 'application/json'}
     http = credentials.authorize(httplib2.Http())
 
     # Define contents here as a JSON string.
@@ -33,7 +33,7 @@ def update_google_search_console_url_index(url):
       \"type\": \"URL_UPDATED\"
     }""" % url
 
-    response, content = http.request(ENDPOINT, method="POST", body=content)
+    response, content = http.request(ENDPOINT, method="POST", body=content, headers=headers)
     print(response)
     print(content)
 
