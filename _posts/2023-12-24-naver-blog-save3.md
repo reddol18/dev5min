@@ -84,7 +84,7 @@ tags: [naver,naverblog,blog,backup,githubapi,githubblog,google,searchconsole,url
                 JSON_KEY_FILE = "file_name.json"
 
                 credentials = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_FILE, scopes=SCOPES)
-
+                headers = {'Content-Type': 'application/json'}
                 http = credentials.authorize(httplib2.Http())
 
                 content = """{
@@ -92,7 +92,7 @@ tags: [naver,naverblog,blog,backup,githubapi,githubblog,google,searchconsole,url
                 \"type\": \"URL_UPDATED\"
                 }""" % url
 
-                response, content = http.request(ENDPOINT, method="POST", body=content)
+                response, content = http.request(ENDPOINT, method="POST", body=content, headers=headers)
             ```
 
 - 전체 코드는 아래 링크에 올려두었습니다. 지난번과 비교했을 때 달라진 내용은 아래와 같습니다.
