@@ -12,7 +12,7 @@ tags: [intellij,jetbrains,project_structure,modules,problem,multi_module,multi_p
 
 이때는 1개의 모듈을 사용하는 경우를 소개한 것 인데요. 필요에 따라서는 하나의 프로젝트 환경에 여러개의 모듈을 사용하는 경우가 있을 수 있죠?
 아래 그림처럼 말이에요~
-![Alt text](https://github.com/reddol18/dev5min/images/20240108/image.png)
+![Alt text](https://reddol18.github.io/dev5min/images/20240108/image.png)
 
 방법은 간단합니다. 먼저 1개의 모듈일 때 처럼, 추가하려는 모듈의 폴더에 들어가서 아래 작업을 수행해 주세요.
 
