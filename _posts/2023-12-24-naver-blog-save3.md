@@ -67,7 +67,7 @@ tags: [naver,naverblog,blog,backup,githubapi,githubblog,google,searchconsole,url
                 ```
         - 그렇게 되면 깃헙페이지 특성상 자동으로 깃헙액션을 수행하고, 빌드 및 배포가 진행됩니다.
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 - 한편 배포된 깃헙 페이지의 URL이 구글검색에 표시될 수 있도록, 서치콘솔에 URL을 등록하는 호출도 해보겠습니다.
     - 그러기 위해서는 구글 개발자 서비스계정을 등록해야합니다.
