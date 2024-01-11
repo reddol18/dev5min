@@ -16,6 +16,8 @@ tags: [intellij,jetbrains,project_structure,modules,problem,multi_module,multi_p
 
 방법은 간단합니다. 먼저 1개의 모듈일 때 처럼, 추가하려는 모듈의 폴더에 들어가서 아래 작업을 수행해 주세요.
 
+{% include adfit.html %}
+
 ### 먼저 .idea 폴더 내에 [프로젝트명].iml 파일을 만들고 아래와 같이 기입합니다. 파이썬 프로젝트 일 때의 예제에요.
 
 ```xml
@@ -30,11 +32,15 @@ tags: [intellij,jetbrains,project_structure,modules,problem,multi_module,multi_p
 </module>
 ```
 
-{% include adfit.html %}
-
 그런다음 최초에 지정되어 있던 모듈의 폴더에서 아래처럼 내용을 수정합니다.
 
 ### 최초에 지정된 모듈의 .idea 폴더의 modules.xml을 수정합니다.
+
+<script src="https://ads-partners.coupang.com/g.js"></script>
+<script>
+	new PartnersCoupang.G({"id":745927,"template":"carousel","trackingCode":"AF1314940","width":"250","height":"250","tsource":""});
+</script>
+"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
