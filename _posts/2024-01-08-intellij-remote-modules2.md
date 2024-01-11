@@ -36,11 +36,7 @@ tags: [intellij,jetbrains,project_structure,modules,problem,multi_module,multi_p
 
 ### 최초에 지정된 모듈의 .idea 폴더의 modules.xml을 수정합니다.
 
-<script src="https://ads-partners.coupang.com/g.js"></script>
-<script>
-	new PartnersCoupang.G({"id":745927,"template":"carousel","trackingCode":"AF1314940","width":"250","height":"250","tsource":""});
-</script>
-"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
+{% include more_front.html %}
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -55,3 +51,5 @@ tags: [intellij,jetbrains,project_structure,modules,problem,multi_module,multi_p
 ```
 
 프로젝트2경로는 절대경로로 해도되고, 프로젝트1의 경로에 맞춰서 상대경로로 해도됩니다.        
+
+{% include more_tail.html %}

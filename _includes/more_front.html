@@ -1,22 +1,15 @@
 <script>
-    setTimeout(function() {
-        document.addEventListener("mousedown", function(event) {
-            console.log(event)
-        })
-        let iff = document.getElementsByTagName("iframe")
-        for(let i=0;i<iff.length;i++) {
-            let cnt = iff[i].ownerDocument
-            if (cnt) {
-                let tttt = cnt.getElementsByClassName("link_ad")    
-                console.log(tttt)
-                for(let i=0;i<tttt.length;i++) {
-                    tttt[i].addEventListener('click', function() {
-                        document.getElementById("more_view1").style = "visibility: visible"
-                    })
-                }
-            }
-        }
-    }, 1000)
-    
+    function showCode() {
+        document.getElementById("more_view1_hidden").style.visibility = "hidden";
+        document.getElementById("more_view1").style.visibility = "visible";
+    }
 </script>
+<div class="kakao-adfit-content">
+    <a href="https://link.coupang.com/a/bmBi1z" onclick="showCode()" target="_blank" referrerpolicy="unsafe-url"><img src="https://ads-partners.coupang.com/banners/745929?subId=&traceId=V0-301-371ae01f4226dec2-I745929&w=728&h=90" alt=""></a>
+    "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
+</div>
+<div id="more_view1_hidden" style="visibility: visible">
+    <b style="font-size: 11pt">광고를 클릭해주시면 코드가 나타납니다.</b>
+    <br/>
+</div>
 <div id="more_view1" style="visibility: hidden">
