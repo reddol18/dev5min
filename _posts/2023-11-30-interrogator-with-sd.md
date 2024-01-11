@@ -4,7 +4,7 @@ title: "Interrogator를 이용해서 게임그래픽을 만들 수 있다??"
 description: "clip-interrogator와 stable diffusion을 이용해서 간단한 게임그래픽 이미지를 만들어 보겠습니다"
 date: 2023-11-24
 author: "김민석"
-categories: [ComputerVision]
+categories: [Computer Vision]
 tags: [clip-interrogator,stable-diffusion,game-graphic-generation]
 ---
 - 이미지를 지정하면, 그것을 텍스트로 설명해주는 생성형 AI 기술인 clip-interrogator
