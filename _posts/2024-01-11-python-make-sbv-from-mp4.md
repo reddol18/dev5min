@@ -22,13 +22,109 @@ tags: [python,sbv,youtube,mp4,subtitle,자막,자막추출기,easyocr,ocr]
 
 {% include more_front.html %}
 
+```python
+import easyocr
+from difflib import SequenceMatcher
+import cv2
+import os
+import numpy
+import scipy.cluster.hierarchy as hcluster
+import matplotlib.pyplot as plt
+from datetime import timedelta
+
+def get_text_from_frame(img_file):
+    reader = easyocr.Reader(['ko','en']) # this needs to run only once to load the model into memory
+    result = reader.readtext(img_file)
+    if len(result) > 0:
+        text = ''
+        for item in result:
+            if len(item) > 1:
+                text = "%s %s" % (text, item[1])
+        return text
+    return ''
+
+def text_diff(t1, t2):
+    return SequenceMatcher(None, t1, t2).ratio()
+
+def frame_to_time(fps, frame):
+    as_msecond = (frame / fps) * 1000
+    td = timedelta(milliseconds=as_msecond)
+    return str(td)[:-3]
+
+filepath = '[추출할동영상].mp4'
+video = cv2.VideoCapture(filepath)
+if not video.isOpened():
+    print("Could not Open :", filepath)
+    exit(0)
+length = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
+width = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))
+height = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
+fps = video.get(cv2.CAP_PROP_FPS)
+fps2 = int(fps/2)
+before_text = ''
+count = 0
+before_diff = 0
+start_frame = 0
+end_frame = 0
+data = []
+text_count = {}
+while(video.isOpened() and count < length):
+    ret, image = video.read()
+    if(int(video.get(1)) % fps2 == 0): #앞서 불러온 fps 값을 사용하여 0.5초마다 추출
+        cv2.imwrite('frame.png', image)
+        text = get_text_from_frame('frame.png')
+        diff = text_diff(text, before_text)
+        if diff < 0.75:
+            diff = 0.0
+        else:
+            diff = 1.0
+        if text == '':
+            diff = 0.0
+        else:
+            if text in text_count:
+                text_count[text] = text_count[text] + 1
+            else:
+                text_count[text] = 1
+        print("%s, %s" % (diff, text))
+        if before_diff == 0.0 and diff == 1.0:
+            start_frame = count
+        elif before_diff == 1.0 and diff == 0.0:
+            end_frame = count
+            sorted_text_count = sorted(text_count.items(), key = lambda item: item[1], reverse = True)
+            print(sorted_text_count)
+            if sorted_text_count[0][0] != '':
+                data.append([start_frame, end_frame, sorted_text_count[0][0]])
+            text_count = {}
+        before_diff = diff
+        before_text = text
+
+    print("%d / %d" % (count, length))
+    if count < length:
+        count = count + 1
+
+if start_frame > end_frame:
+    end_frame = count
+    sorted_text_count = sorted(text_count.items(), key = lambda item: item[1], reverse = True)
+    print(sorted_text_count)
+    if sorted_text_count[0][0] != '':
+        data.append([start_frame, end_frame, sorted_text_count[0][0]])
+
+video.release()
+
+f = open('[자막파일명].sbv', 'w')
+for cap in data:
+    start_time = frame_to_time(fps, cap[0])
+    end_time = frame_to_time(fps, cap[1])
+    f.write("%s,%s\n" % (start_time, end_time))
+    f.write("%s\n\n" % cap[2])
+f.close()
 ```
+
 [전체코드](https://github.com/reddol18/dev5min/blob/master/snippets/sbv_from_mp4.py)
 
 - 주의사항
   - CUDA를 지원하는 GPU가 없을 경우 CPU만 이용해서 OCR을 수행하기 때문에 매우 느립니다.
   - GPU가 없다면 구글 코랩에서 하드웨어 가속기를 이용해보세요.
-```
 
 {% include more_tail.html %}
 
@@ -36,5 +132,8 @@ tags: [python,sbv,youtube,mp4,subtitle,자막,자막추출기,easyocr,ocr]
 - OCR의 품질이 번역 가능할 수 있는 정도까지 결과를 만들어내지는 못합니다.
 - 일단 타임레인지를 잡아내는 정도에서 만족해 보려고 하구요.
 - 아래 영상은 자동으로 추출한 타임레인지의 SBV 파일에서 영어 번역만 수행해서 올린 것 입니다.
-
+<div style="margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;">
 <iframe width="424" height="238" src="https://www.youtube.com/embed/T4EkWG6MtQE" title="LED로 고양이 장난감 만들기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
