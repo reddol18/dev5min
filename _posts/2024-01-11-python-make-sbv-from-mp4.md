@@ -135,10 +135,12 @@ f.close()
 - OCR의 품질이 번역 가능할 수 있는 정도까지 결과를 만들어내지는 못합니다.
 - 일단 타임레인지를 잡아내는 정도에서 만족해 보려고 하구요.
 - 아래 영상은 자동으로 추출한 타임레인지의 SBV 파일에서 영어 번역만 수행해서 올린 것 입니다.
+<center>
 <div style="margin: 0 auto;
   width:80%;
   min-width: 420px;
   margin-top: 10px;
   margin-bottom: 10px;">
-<iframe width="80%" height="238" src="https://www.youtube.com/embed/T4EkWG6MtQE" title="LED로 고양이 장난감 만들기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="238" src="https://www.youtube.com/embed/T4EkWG6MtQE" title="LED로 고양이 장난감 만들기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+</center>
