@@ -139,8 +139,9 @@ f.close()
 <div style="margin: 0 auto;
   width:80%;
   min-width: 380px;
+  min-height: 320px;
   margin-top: 10px;
   margin-bottom: 10px;">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/T4EkWG6MtQE" title="LED로 고양이 장난감 만들기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="auto" style="min-height:320px" src="https://www.youtube.com/embed/T4EkWG6MtQE" title="LED로 고양이 장난감 만들기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </center>
