@@ -1,5 +1,6 @@
 <script>
     Prism.hooks.add('after-highlight', function(env) {
+        env.element.parentElement.innerText = '코드가 보여질 공간입니다'
         env.element.style.display = "none"
     })
 
