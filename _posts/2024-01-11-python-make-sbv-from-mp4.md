@@ -137,11 +137,10 @@ f.close()
 - 아래 영상은 자동으로 추출한 타임레인지의 SBV 파일에서 영어 번역만 수행해서 올린 것 입니다.
 <center>
 <div style="margin: 0 auto;
-  width:80%;
-  min-width: 380px;
-  min-height: 320px;
+  width:90%;
   margin-top: 10px;
+  min-height:320px;
   margin-bottom: 10px;">
-<iframe width="100%" height="auto" style="min-height:320px" src="https://www.youtube.com/embed/T4EkWG6MtQE" title="LED로 고양이 장난감 만들기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="auto" height="auto" style="min-height:320px" src="https://www.youtube.com/embed/T4EkWG6MtQE" title="LED로 고양이 장난감 만들기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </center>
