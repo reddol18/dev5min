@@ -1,6 +1,8 @@
 <script>
     Prism.hooks.add('after-highlight', function(env) {
-        env.element.insertAdjacentHTML("afterend", "<div class='reddol18-code-comment'>코드가 보여질 공간입니다</div>")
+        if (!env.element.nextSibling) {
+            env.element.insertAdjacentHTML("afterend", "<div class='reddol18-code-comment' style='text-align:center'>코드가 보여질 공간입니다</div>")
+        }
         env.element.style.display = "none"
     })
 
@@ -8,7 +10,7 @@
         document.getElementById("more_view1_hidden").style.display = "none";
         let cmt = document.getElementsByClassName('reddol18-code-comment')
         for(let i=0;i<cmt.length;i++) {            
-            cmt.style.display = 'none'
+            cmt[i].style.display = 'none'
         }
         let codes = document.getElementsByTagName("code")
         for(let i=0;i<codes.length;i++) {            
