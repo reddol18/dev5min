@@ -23,7 +23,12 @@ tags: [address,api,pnu,data.go.kr,landuse]
 아래는 저희 동네에 있는 어떤 시설의 결과 값을 API로 요청해서 받은것 입니다. 
 JSON 내용을 봐보면 배열에 담겨 있는 것을 확인할 수 있죠? 
 이점 참고해서 데이터를 가공하거나 사용하시면 되겠습니다.
-{% include more_front.html %}
+
+<div class="kakao-adfit-content">
+    <a href="https://link.coupang.com/a/bmKWqB" onclick="showCode()" target="_blank" referrerpolicy="unsafe-url"><img src="https://image13.coupangcdn.com/image/affiliate/event/promotion/2024/01/02/d5891507add7003701108894118c8393.png" alt=""></a>
+    <div style="font-size: 9pt; color: #838383">"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."</div>
+</div>
+
 ```JSON
 {
   "landUses": {
@@ -187,4 +192,3 @@ JSON 내용을 봐보면 배열에 담겨 있는 것을 확인할 수 있죠?
   }
 }
 ```
-{% include more_tail.html %}
