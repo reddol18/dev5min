@@ -31,6 +31,7 @@ android/app/src/main에 assets 폴더를 만드시고 car.xml을 저장해두세
 [car.xml](https://gist.github.com/199995/37e1e0af2bf8965e8058a9dfa3285bc6)
 
 ### MainActivity.kt 주요 코드
+{% include more_front.html %}
 ```kotlin
   // import는 알아서 해주세요~
   class MainActivity: FlutterActivity() {
@@ -84,7 +85,7 @@ android/app/src/main에 assets 폴더를 만드시고 car.xml을 저장해두세
       }
   }
 ```
-
+{% include more_tail.html %}
 플러터 쪽 코드는 method_channel과 image_picker 그리고 CustomPainer를 이용해서 구현했습니다.
 이건 그렇게 어렵지 않으니 스스로 검색해서 만들어 보세요~
 

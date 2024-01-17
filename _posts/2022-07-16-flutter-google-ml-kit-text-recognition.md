@@ -24,6 +24,8 @@ Flutter에서도 Google ML Kit을 이용해서 이것이 가능한데요. 아래
 [Flutter Image Picker](https://pub.dev/packages/image_picker)
 
 ### 주요 소스코드
+
+{% include more_front.html %}
 ```dart
   // 이렇게 하면 기본세팅인 영어 입니다.     
   final TextRecognizer _textRecognizer = TextRecognizer();
@@ -58,7 +60,7 @@ Flutter에서도 Google ML Kit을 이용해서 이것이 가능한데요. 아래
   }
 ```
 **recognizedText.blocks 를 이용해서 인식된 텍스트 영역을 알아낼 수 있습니다.**
-
+{% include more_tail.html %}
 
 EasyOCR에서 사용했던 시료를 똑같이 써서 테스트 해봤습니다. 
 어떤 시료 였는지는 최상단 링크의 글을 확인해주세요.

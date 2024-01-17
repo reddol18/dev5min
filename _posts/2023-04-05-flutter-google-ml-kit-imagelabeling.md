@@ -22,6 +22,7 @@ Image Labeling으로 바뀌는 정도 입니다.
 - [ML Kit Image Labeling](https://developers.google.com/ml-kit/vision/image-labeling?hl=ko)
 
 ### 주요 소스코드
+{% include more_front.html %}
 ```dart
 // .. 전략
 // 간단하게 클래스 하나 정의하구요
@@ -100,8 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
-
-{% include adfit.html %}
+{% include more_tail.html %}
 
 ### 수행결과
 - ![이미지1](https://reddol18.github.io/dev5min/images/20230406/1.jpg)

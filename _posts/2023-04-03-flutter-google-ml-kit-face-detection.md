@@ -21,6 +21,7 @@ Google ML Kit의 얼굴인식 기능을 이용하여 사람이 사진 속에 존
 - [cross_file_image](https://pub.dev/packages/cross_file_image) 
 
 ### 주요 소스코드
+{% include more_front.html %}
 ```dart
 // .. 전략
 // 간단하게 클래스 하나 정의하구요
@@ -92,6 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
+{% include more_tail.html %}
 
 ### 수행결과
 - ![이미지1](https://reddol18.github.io/dev5min/images/20230403/1.png)
