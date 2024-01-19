@@ -31,25 +31,25 @@ tags: [stable_diffusion,sd,ai,game_graphic]
 ### 쿼터뷰 시점 리소스
 
 - 수묵화 모델
-  - [성채이미지](https://reddol18.github.io/dev5min/images/20240119/kpaint.png)
-  - [건축물이미지](https://reddol18.github.io/dev5min/images/20240119/kpaint2.png)
+  - ![성채이미지](https://reddol18.github.io/dev5min/images/20240119/kpaint.png)
+  - ![건축물이미지](https://reddol18.github.io/dev5min/images/20240119/kpaint2.png)
 
 - 만화 모델
-  - [성채이미지](https://reddol18.github.io/dev5min/images/20240119/cartoon1.png)
-  - [건축물이미지](https://reddol18.github.io/dev5min/images/20240119/cartoon2.png)
+  - ![성채이미지](https://reddol18.github.io/dev5min/images/20240119/cartoon1.png)
+  - ![건축물이미지](https://reddol18.github.io/dev5min/images/20240119/cartoon2.png)
 
 - 실사 모델
-  - [성채이미지](https://reddol18.github.io/dev5min/images/20240119/real1.png)
-  - [건축물이미지](https://reddol18.github.io/dev5min/images/20240119/real2.png)
+  - ![성채이미지](https://reddol18.github.io/dev5min/images/20240119/real1.png)
+  - ![건축물이미지](https://reddol18.github.io/dev5min/images/20240119/real2.png)
 
 - 성채 이미지의 경우엔 조금씩 모델의 특징을 따라가는 것으로 보입니다.
   - 사용한 프롬프트는 다음과 같습니다.
-  - ``set of isometric game tiles, containing a wizard's tower, enemies'hideouts and several resources, colored lineart from resource gathering game``
+  - `set of isometric game tiles, containing a wizard's tower, enemies'hideouts and several resources, colored lineart from resource gathering game`
   - 수묵화 모델은 색표현이 상당히 플랫한 반면, 만화 모델은 다소 화려하네요.
   - 실사의 경우엔 조금더 디테일이 살아 있습니다.
 - 하지만 건축물이미지의 경우엔 3가지 모델에서 큰 차이를 확인하기가 어렵습니다.
   - 사용한 프롬프트 입니다.
-  - ``isometric view, detailed, medieval tavern and a castle, asset on grey background``
+  - `isometric view, detailed, medieval tavern and a castle, asset on grey background`
   - 그나저나 건축물은 결과물이 엄청나네요. 프로가 그린거 뺨치는 품질입니다.
 
 {% include adfit.html %}
@@ -57,33 +57,33 @@ tags: [stable_diffusion,sd,ai,game_graphic]
 ### 탑뷰 시점 리소스
 
 - 수묵화 모델
-  - [타일팔레트](https://reddol18.github.io/dev5min/images/20240119/kpaint_tile.png)
-  - [나무스프라이트1](https://reddol18.github.io/dev5min/images/20240119/kpaint_tree.png)
-  - [나무스프라이트2](https://reddol18.github.io/dev5min/images/20240119/kpaint_tree2.png)
-  - [나무스프라이트3](https://reddol18.github.io/dev5min/images/20240119/kpaint_tree3.png)
+  - ![타일팔레트](https://reddol18.github.io/dev5min/images/20240119/kpaint_tile.png)
+  - ![나무스프라이트1](https://reddol18.github.io/dev5min/images/20240119/kpaint_tree.png)
+  - ![나무스프라이트2](https://reddol18.github.io/dev5min/images/20240119/kpaint_tree2.png)
+  - ![나무스프라이트3](https://reddol18.github.io/dev5min/images/20240119/kpaint_tree3.png)
 
 - 만화 모델
-  - [타일팔레트1](https://reddol18.github.io/dev5min/images/20240119/cartoon_tile.png)
-  - [타일팔레트2](https://reddol18.github.io/dev5min/images/20240119/cartoon_tile2.png)
-  - [나무스프라이트1](https://reddol18.github.io/dev5min/images/20240119/cartoon_tree.png)
-  - [나무스프라이트2](https://reddol18.github.io/dev5min/images/20240119/cartoon_tree2.png)
+  - ![타일팔레트1](https://reddol18.github.io/dev5min/images/20240119/cartoon_tile.png)
+  - ![타일팔레트2](https://reddol18.github.io/dev5min/images/20240119/cartoon_tile2.png)
+  - ![나무스프라이트1](https://reddol18.github.io/dev5min/images/20240119/cartoon_tree.png)
+  - ![나무스프라이트2](https://reddol18.github.io/dev5min/images/20240119/cartoon_tree2.png)
 
 - 실사 모델
-  - [타일팔레트1](https://reddol18.github.io/dev5min/images/20240119/real_tile.png)
-  - [타일팔레트2](https://reddol18.github.io/dev5min/images/20240119/real_tile2.png)
-  - [나무스프라이트1](https://reddol18.github.io/dev5min/images/20240119/real_tree.png)
-  - [나무스프라이트2](https://reddol18.github.io/dev5min/images/20240119/real_tree2.png)
-  - [나무스프라이트3](https://reddol18.github.io/dev5min/images/20240119/real_tree3.png)
+  - ![타일팔레트1](https://reddol18.github.io/dev5min/images/20240119/real_tile.png)
+  - ![타일팔레트2](https://reddol18.github.io/dev5min/images/20240119/real_tile2.png)
+  - ![나무스프라이트1](https://reddol18.github.io/dev5min/images/20240119/real_tree.png)
+  - ![나무스프라이트2](https://reddol18.github.io/dev5min/images/20240119/real_tree2.png)
+  - ![나무스프라이트3](https://reddol18.github.io/dev5min/images/20240119/real_tree3.png)
 
 - 타일의 경우엔 3가지 모델에서 조금씩 다르지만 쓸만한 결과물들을 얻었습니다.
   - 사용한 프롬프트들은 다음과 같습니다.
-  - ``game tiles 16x16, grass, night and day``
-  - ``grass texture, pixel art game asset``
+  - `game tiles 16x16, grass, night and day`
+  - `grass texture, pixel art game asset`
   - 잘 응용하면 흙길, 돌길, 물과 같은 타일도 만들수 있을겁니다.
 - 나무의 경우가 참 흥미롭습니다.
   - 사용한 프롬프트들 입니다.
-  - ``a video game sprite sheet of fantasy forest trees``
-  - ``game assets of plants and tree``
+  - `a video game sprite sheet of fantasy forest trees`
+  - `game assets of plants and tree`
   - 나무같은 경우가 참 표현하기 어렵겠단 생각이 들었었는데, 이렇게 멋진 리소스가 만들어지네요.
 
 ### 앞으로의 목표
