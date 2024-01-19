@@ -28,6 +28,8 @@ tags: [stable_diffusion,sd,ai,game_graphic]
   - 그리고 실사 스타일의 모델
 - 쿼터뷰 시점의 리소스와 탑뷰 시점의 리소스를 만들어 봤습니다.  
 
+{% include more_front.html %}
+
 ### 쿼터뷰 시점 리소스
 
 - 수묵화 모델
@@ -85,6 +87,8 @@ tags: [stable_diffusion,sd,ai,game_graphic]
   - `a video game sprite sheet of fantasy forest trees`
   - `game assets of plants and tree`
   - 나무같은 경우가 참 표현하기 어렵겠단 생각이 들었었는데, 이렇게 멋진 리소스가 만들어지네요.
+
+{% include more_tail.html %}
 
 ### 앞으로의 목표
 
