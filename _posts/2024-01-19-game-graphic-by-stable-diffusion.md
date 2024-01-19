@@ -7,7 +7,7 @@ author: "김민석"
 categories: [Computer Vision]
 tags: [stable_diffusion,sd,ai,game_graphic]
 ---
-## 게임 그래픽 제작을 AI가 할 수 있다고?
+#### 게임 그래픽 제작을 AI가 할 수 있다고?
 
 - 예전에 이 블로그에 clip-interrogator를 이용해서 게임그래픽도 만들 수 있겠다고 소개한 적이 있었죠.
 - [Interrogator를 이용해서 게임그래픽을 만들 수 있다??](https://reddol18.pe.kr/interrogator-with-sd)<br/>
@@ -16,7 +16,7 @@ tags: [stable_diffusion,sd,ai,game_graphic]
 - 물론 잘 나온 이미지는 굳이 타일로 자르지 않고 그대로 써도 되겠지만
 - 생성형 AI 특성상 만들어지는 이미지를 통제하기가 쉬운것은 아닙니다.
 
-## 그런데 그래픽 유닛을 만들수 있어요!
+#### 그런데 그래픽 유닛을 만들수 있어요!
 
 - 그런데 이미 많은 사람들이 AI를 이용해서 게임그래픽을 만드는 시도를 하고 있었더라구요.
 - 아래 사이트에 많은 리소스들이 공개되어 있습니다.
@@ -30,7 +30,7 @@ tags: [stable_diffusion,sd,ai,game_graphic]
 
 {% include more_front.html %}
 
-## 쿼터뷰 시점 리소스
+#### 쿼터뷰 시점 리소스
 
 - 수묵화 모델
   - ![성채이미지](https://reddol18.github.io/dev5min/images/20240119/kpaint.png)
@@ -56,7 +56,7 @@ tags: [stable_diffusion,sd,ai,game_graphic]
 
 {% include adfit.html %}
 
-## 탑뷰 시점 리소스
+#### 탑뷰 시점 리소스
 
 - 수묵화 모델
   - ![타일팔레트](https://reddol18.github.io/dev5min/images/20240119/kpaint_tile.png)
@@ -90,7 +90,7 @@ tags: [stable_diffusion,sd,ai,game_graphic]
 
 {% include more_tail.html %}
 
-## 앞으로의 목표
+#### 앞으로의 목표
 
 - 이왕 이렇게 된거 게임한번 만들어 봐야 겠죠??
 - 먼저 필요한 그래픽 리소스들을 다 확보해 보도록 하겠습니다.
