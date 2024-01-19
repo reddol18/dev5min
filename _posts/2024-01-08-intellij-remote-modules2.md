@@ -16,7 +16,7 @@ tags: [intellij,jetbrains,project_structure,modules,problem,multi_module,multi_p
 
 방법은 간단합니다. 먼저 1개의 모듈일 때 처럼, 추가하려는 모듈의 폴더에 들어가서 아래 작업을 수행해 주세요.
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ### 먼저 .idea 폴더 내에 [프로젝트명].iml 파일을 만들고 아래와 같이 기입합니다. 파이썬 프로젝트 일 때의 예제에요.
 
