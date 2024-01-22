@@ -52,6 +52,8 @@ def text_diff(t1, t2):
 def frame_to_time(fps, frame):
     as_msecond = (frame / fps) * 1000
     td = timedelta(milliseconds=as_msecond)
+    if str(td).find('.') == -1:
+        return "%s.000" % str(td)
     return str(td)[:-3]
 
 filepath = '[추출할동영상].mp4'
