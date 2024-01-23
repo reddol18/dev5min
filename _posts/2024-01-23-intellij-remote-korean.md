@@ -2,7 +2,7 @@
 layout: post
 title: "IntelliJ Idea Remote Development 사용시 한글 타이핑 거꾸로 입력되는 문제 해결"
 description: "원격 개발 IDE에서 한글 타이핑이 거꾸로 되는 문제를 해결해봅시다"
-date: 2024-01-08
+date: 2024-01-23
 author: "김민석"
 categories: [Others]
 tags: [intellij,jetbrains,korean,typing]
