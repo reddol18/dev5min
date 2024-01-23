@@ -54,7 +54,7 @@ tags: [stable_diffusion,sd,ai,game_graphic]
   - `isometric view, detailed, medieval tavern and a castle, asset on grey background`
   - 그나저나 건축물은 결과물이 엄청나네요. 프로가 그린거 뺨치는 품질입니다.
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 #### 탑뷰 시점 리소스
 
