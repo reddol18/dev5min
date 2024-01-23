@@ -10,7 +10,7 @@ tags: [intellij,jetbrains,korean,typing]
 - IntelliJ Idea Remote Development 에서 한글을 입력하면 거꾸로 입력되는 현상 때문에 고생을 했었습니다.
 - 예를들어 저는 "우리말"이라고 입력했는데, 에디터에는 "말리우"라고 나타나 있는것이죠.
 - 상황이 아래 처럼 발생합니다.
-![Alt text](https://reddol18.github.io/dev5min/images/20240123/problem_ide.png)
+  - ![Alt text](https://reddol18.github.io/dev5min/images/20240123/problem_ide.png)
 
 - 플러그인도 깔아보고 OS의 한글 세팅이 문제인지 이것저것 조치를 해보았지만 해결되지 않았었는데요.
 - 저와 같은 문제를 보고한 유저가 있었더라구요.
