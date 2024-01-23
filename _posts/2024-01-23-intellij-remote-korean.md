@@ -23,11 +23,11 @@ tags: [intellij,jetbrains,korean,typing]
 - 해결방법은 너무 간단한데요... IDE를 업데이트 하는 겁니다.
 - 여기서 중요한건 본체가 되는 Intellij IDE가 아니라 원격에 깔려있는 Intellij IDE를 업데이트 해야 한다는 점 인데요.
 - 방법은 아래와 같습니다.
-  - 먼저 점3개 버튼을 클릭하고 `Select Diffrent IDE...`을 클릭하세요. 참고로 위에 체크되어 있는건 현재 사용중인 버젼입니다.
+  - 먼저 점3개 버튼을 클릭하고 Select Diffrent IDE...을 클릭하세요. 참고로 위에 체크되어 있는건 현재 사용중인 버젼입니다.
     - ![Alt text](https://reddol18.github.io/dev5min/images/20240123/image1.png)
   - 그럼 아래와 같은 화면이 나오는데, 여기서 최신버전을 설치해주세요.
     - ![Alt text](https://reddol18.github.io/dev5min/images/20240123/image2.png)
-  - 만약 과거 버전을 지우고 싶다면? 아래와 같이 설정버튼을 클릭하고, `Manage IDE Backends...`을 클릭하세요.
+  - 만약 과거 버전을 지우고 싶다면? 아래와 같이 설정버튼을 클릭하고, Manage IDE Backends...을 클릭하세요.
     - ![Alt text](https://reddol18.github.io/dev5min/images/20240123/image3.png)
   - 그런 다음 삭제하고 싶은 버전의 X 버튼을 클릭하면 됩니다.
     - ![Alt text](https://reddol18.github.io/dev5min/images/20240123/image4.png)
