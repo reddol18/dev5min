@@ -17,7 +17,7 @@ tags: [python,mimetypes,imghdr,python-magic]
 - 이럴때 파이썬에서 사용할 수 있는 방법들이 몇 가지 있는데요. 먼저 내장된 패키지인 mimetypes를 생각해 볼 수 있을겁니다.
   - 아래 이미지를 heic, jfif, webp, jpg, png 형태로 각각 저장하여 mimetypes를 이용해서 파일속성을 판단해 보겠습니다.
     - ![사용이미지](https://reddol18.github.io/dev5min/images/20240130/5.png)
-    ```python
+    - ```python
         import mimetypes
   
         print("\n\nUse Mimetypes\n")
@@ -28,7 +28,7 @@ tags: [python,mimetypes,imghdr,python-magic]
         print(mimetypes.guess_type("./test/imgs/5.png"))
     ```
   - 이러면 결과는 아래처럼 나타납니다.
-    ```
+    - ```txt
     Use Mimetypes
 
     (None, None)
@@ -37,9 +37,9 @@ tags: [python,mimetypes,imghdr,python-magic]
     ('image/jpeg', None)
     ('image/png', None)
     ```
-    - 결과를 보면 PNG, JPG를 제외하고는 속성 파악을 못하는 것으로 확인되는데요.
-    - 그렇다면 heic, jfif, webp를 png로 확장자만 바꾸고 같은 소스를 실행하면 어떻게 될까요?
-    ```
+  - 결과를 보면 PNG, JPG를 제외하고는 속성 파악을 못하는 것으로 확인되는데요.
+  - 그렇다면 heic, jfif, webp를 png로 확장자만 바꾸고 같은 소스를 실행하면 어떻게 될까요?
+    - ```txt
     Use Mimetypes
 
     ('image/png', None)
@@ -48,13 +48,13 @@ tags: [python,mimetypes,imghdr,python-magic]
     ('image/jpeg', None)
     ('image/png', None)
     ```
-    - 세 경우 모두 확장자인 PNG로 인식하게 됩니다. 즉, 진짜 이미지의 파일속성을 알고 싶다면 mimetypes는 쓰지 않는게 좋아요.
+  - 세 경우 모두 확장자인 PNG로 인식하게 됩니다. 즉, 진짜 이미지의 파일속성을 알고 싶다면 mimetypes는 쓰지 않는게 좋아요.
 
 {% include adfit.html %}    
 
 - 다음으로 imghdr을 이용해서 확인해 봅시다.
-    - 같은 이미지를 사용했구요, png로 바꾼 세개의 파일도 그대로 사용합니다. 아래처럼 소스코드를 작성해보았습니다.
-    ```python
+  - 같은 이미지를 사용했구요, png로 바꾼 세개의 파일도 그대로 사용합니다. 아래처럼 소스코드를 작성해보았습니다.
+    - ```python
         import imghdr
     
         print("\n\nUse Imghdr\n")
@@ -64,8 +64,8 @@ tags: [python,mimetypes,imghdr,python-magic]
         print(imghdr.what("./test/imgs/4.jpg"))
         print(imghdr.what("./test/imgs/5.png"))
     ```
-    - 그리고 결과는 다음과 같습니다.
-    ```
+  - 그리고 결과는 다음과 같습니다.
+    - ```txt
     Use Imghdr
 
     None
@@ -74,10 +74,10 @@ tags: [python,mimetypes,imghdr,python-magic]
     jpeg
     png
     ```
-    - imghdr은 heic는 파악하지 못하는 것으로 보이구요, jfif는 JPG의 변형판 같은거라 같은 JPG로 나옵니다.
+  - imghdr은 heic는 파악하지 못하는 것으로 보이구요, jfif는 JPG의 변형판 같은거라 같은 JPG로 나옵니다.
 - heic를 파악하지 못하는 아쉬움으로 인해 다른 대안을 찾아봐야 겠군요. python-magic을 사용해 봅시다.
-    - 이번에도 역시 같은 이미지를 사용했습니다.
-    ```python
+  - 이번에도 역시 같은 이미지를 사용했습니다.
+    - ```python
         import magic
         
         print("Use Magic\n")
@@ -87,8 +87,8 @@ tags: [python,mimetypes,imghdr,python-magic]
         print(magic.from_file("./test/imgs/4.jpg", mime=True))
         print(magic.from_file("./test/imgs/5.png", mime=True))
     ```
-    - 결과를 보면 다음과 같습니다.
-    ```
+  - 결과를 보면 다음과 같습니다.
+    - ```txt
     Use Magic
 
     image/heic
@@ -97,5 +97,5 @@ tags: [python,mimetypes,imghdr,python-magic]
     image/jpeg
     image/png
     ```
-    - 다행이군요, python-magic은 heic까지 판별해냅니다.
+  - 다행이군요, python-magic은 heic까지 판별해냅니다.
 
