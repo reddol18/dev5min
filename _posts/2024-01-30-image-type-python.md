@@ -17,6 +17,7 @@ tags: [python,mimetypes,imghdr,python-magic]
 - 이럴때 파이썬에서 사용할 수 있는 방법들이 몇 가지 있는데요. 먼저 내장된 패키지인 mimetypes를 생각해 볼 수 있을겁니다.
   - 아래 이미지를 heic, jfif, webp, jpg, png 형태로 각각 저장하여 mimetypes를 이용해서 파일속성을 판단해 보겠습니다.
     - ![사용이미지](https://reddol18.github.io/dev5min/images/20240130/5.png)
+
 ```python
     import mimetypes
 
