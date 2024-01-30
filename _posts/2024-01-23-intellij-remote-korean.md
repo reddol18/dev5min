@@ -16,7 +16,6 @@ tags: [intellij,jetbrains,korean,typing]
 - 저와 같은 문제를 보고한 유저가 있었더라구요.
   - [Order of Korean hieroglyphs is broken with very fast typing](https://youtrack.jetbrains.com/issue/GTW-5972/Order-of-Korean-hieroglyphs-is-broken-with-very-fast-typing)
 
-{% include adfit2.html %}
 
 ### 해결방법
 
