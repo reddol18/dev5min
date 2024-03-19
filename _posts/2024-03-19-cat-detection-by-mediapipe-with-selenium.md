@@ -26,6 +26,7 @@ tags: [mediapipe,object detection,selenium,webdriver]
   - ![화면](https://reddol18.github.io/dev5min/images/20240319/1.png)
   - 위와 같이 고양이가 있으면 캡쳐해서 저장하면 되는거에요.
 - 코드는 아래와 같습니다. 아주 간단하죠??
+
 ```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
