@@ -51,8 +51,6 @@ tags: [python,mimetypes,imghdr,python-magic]
 ```
   - 세 경우 모두 확장자인 PNG로 인식하게 됩니다. 즉, 진짜 이미지의 파일속성을 알고 싶다면 mimetypes는 쓰지 않는게 좋아요.
 
-{% include adfit2.html %}    
-
 - 다음으로 imghdr을 이용해서 확인해 봅시다.
   - 같은 이미지를 사용했구요, png로 바꾼 세개의 파일도 그대로 사용합니다. 아래처럼 소스코드를 작성해보았습니다.
 ```python

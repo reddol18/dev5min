@@ -18,7 +18,7 @@ tags: [aws,apigateway,binary,png,image]
 
 ![STEP2](https://reddol18.github.io/dev5min/images/20240202/2.png)
 
-{% include adfit.html %}    
+{% include adfit2.html %}    
 
 - 그런 다음에 해당 리소스 상의 메소드에서 "메서드 응답" 탭으로 이동합니다. 편집을 클릭해서 아래와 같이 입력합니다.
   - 이렇게 Content-Type을 설정해 줘야 합니다.
