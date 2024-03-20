@@ -7,8 +7,8 @@ author: "김민석"
 categories: [Computer Vision]
 tags: [mediapipe,object detection,selenium,webdriver]
 ---
-- MediaPipe 유용하고 쓰고 있나요? 저는 이것 저것 잘 쓰고 있습니다.
-- 물체인식이나 이미지분류, 얼굴인식, 얼굴 표시점 인식 등 정말 잘 쓰고 있어요.
+- MediaPipe 유용하게 쓰고 있나요? 저는 이것 저것 잘 쓰고 있습니다.
+- 물체인식이나 이미지분류, 얼굴인식, 얼굴 표시게 인식 등 정말 잘 쓰고 있어요.
 - 그 중에서도 오늘은 물체인식(Object Detection)에 관한 내용입니다. 
 - 예전에 Flutter를 이용해서 비슷한 이슈를 다룬적이 있으니 아래 링크 참고해주시면 감사하겠구요.
   - [Flutter 에서 Google ML Kit으로 아기사진 골라내기](https://reddol18.pe.kr/flutter-google-ml-kit-imagelabeling)
