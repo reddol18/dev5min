@@ -20,7 +20,6 @@ tags: [mediapipe,object detection,selenium,webdriver]
   - [📹라즈베리파이로 만든 냥씨티비로 마당냥이 뚱이 염탐하기🐈](https://blog.naver.com/dolja21/223364917052)
   - <iframe width="560" height="315" src="https://www.youtube.com/embed/JS809HC8u_M?si=lllKKAuI7pFWevNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-{% include adfit2.html %}    
 
 - 원격에서 확인할 수 있도록 만들어진 CCTV 모니터링 페이지에 접속하면 이런 화면이 나타납니다.
   - ![화면](https://reddol18.github.io/dev5min/images/20240319/1.png)
