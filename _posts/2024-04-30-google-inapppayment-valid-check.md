@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NodeJS 서버에서 안드로이드 입앱결제 유효성 검증을 하는 방법"
+title: "NodeJS 서버에서 안드로이드 인앱결제 유효성 검증을 하는 방법"
 description: "여기저기서 검색해본 결과 이 방법이 가장 최신 방법입니다"
 date: 2024-04-30
 author: "김민석"
