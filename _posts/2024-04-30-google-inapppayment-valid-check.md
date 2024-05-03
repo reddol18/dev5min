@@ -42,7 +42,7 @@ try {
         productId: "플레이스토어에서 등록한 상품ID",
         token: "검증하고자 하는 결제 정보의 purchaseToken 값",
     })
-    if (resp.data.orderId === "결제ID" && resp.data.productId === "플레이스토어에서 등록한 상품ID") {
+    if (resp.data.orderId === "결제ID") {
         // 올바른 결제 정보
     }
 } catch (e) {

@@ -35,7 +35,7 @@ try {
             resolve(response)
         })
     })
-    if (resp.transactionId === "애플에서 보내온 결제ID" && resp.productId === "애플에 등록해둔 상품ID") {
+    if (resp.transactionId === "애플에서 보내온 결제ID") {
         return true
     }
 } catch (e) {
