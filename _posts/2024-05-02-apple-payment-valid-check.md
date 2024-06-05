@@ -2,7 +2,7 @@
 layout: post
 title: "NodeJS 서버에서 애플 인앱결제 유효성 검증을 하는 방법"
 description: "여기저기서 검색해본 결과 이 방법이 가장 최신 방법입니다"
-date: 2024-04-30
+date: 2024-05-02
 author: "김민석"
 categories: [Data and Api]
 tags: [nodejs,apple,인앱결제,ios]
