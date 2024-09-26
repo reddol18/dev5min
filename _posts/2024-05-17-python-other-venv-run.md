@@ -22,8 +22,6 @@ cd ${b.py가 존재하는 경로}
 python b.py
 ```
 
-{% include adfit2.html %}    
-
 - 그리고 나서 a.py에서 아래처럼 b.sh를 실행해 주세요.
 
 ```python
