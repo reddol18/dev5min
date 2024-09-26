@@ -10,7 +10,7 @@ tags: [heic,png,jpg,convert]
 - 예전에 heic 파일 변환 관련한 코드를 이 블로그에 올린적이 있는데요.
   - [https://reddol18.pe.kr/heic-to-jpg-python](https://reddol18.pe.kr/heic-to-jpg-python)
 - 정작 실제로 사용할 일이 생기니까, 실행파일로 만들어야 편하겠더라구요. 그래서 만들어 봤습니다. 소스코드도 함께 공개할게요. 사용방법은 아래와 같습니다.
-  - h2j.exe --input HEIC_파일이_있는_폴더 --output 저장할_폴더 --mode jpg|png
+  - ``h2j.exe --input HEIC_파일이_있는_폴더 --output 저장할_폴더 --mode jpg|png``
   - output을 생략하면 input 폴더와 같은 폴더에 저장됩니다.
   - 변경대상 파일형식은 jpg와 png로 구분하며, 생략하면 jpg로 저장됩니다.
 - 파일 다운로드
