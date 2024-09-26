@@ -13,7 +13,7 @@ tags: [api-gateway,proxy,error-code]
   - 왜냐면 AWS가 제공하는 대시보드 전반의 불편한 UI 때문에, 이러한 JSON 입력도 상당히 까다롭기 때문입니다.
   - 저는 그래서 간단하게 PROXY만 제공하고 싶다면 아래와 같은 방법을 추천합니다.
 
-{% include adfit.html %}    
+{% include adfit2.html %}    
 
 - 먼저 해당하는 메소드에서 통합요청탭의 편집 버튼을 클릭해주세요.
     - ![alt text](https://reddol18.github.io/dev5min/images/20240605/image1.png)
