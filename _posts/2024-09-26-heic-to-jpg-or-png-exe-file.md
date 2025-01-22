@@ -16,8 +16,6 @@ tags: [heic,png,jpg,convert]
 - 파일 다운로드
   - [h2j.exe](https://github.com/reddol18/dev5min/blob/master/snippets/h2j.exe)
 
-{% include adfit2.html %}    
-
 - 코드는 아래와 같습니다.
 
 ```python
