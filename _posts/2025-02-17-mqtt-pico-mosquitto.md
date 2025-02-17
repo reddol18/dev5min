@@ -27,6 +27,7 @@ tags: [mqtt,am2320,mosquitto,micropython,rasberrypi,pico,typescript,dth22]
 
 # TypeScript MQTT 구독 서버
 - 온도값을 구독하기 위한 간단한 서버를 TypeScript를 이용해서 작성합니다.
+
 ```typescript
 import * as mqtt from 'mqtt';
 
@@ -55,11 +56,14 @@ client.on('close', () => {
 
 # 마이크로 파이선 발행 서버
 - 이제 피코에 들어갈 발해용 서버를 작성하겠습니다. 구현에 앞서서 mqtt 라이브러리인 설치합니다.
-```
+
+```python
 import mip
 mip.install('umqtt.simple')
 ```
+
 - 코드는 아래와 같습니다.
+
 ```python
 import utime
 import rp2 
@@ -181,7 +185,12 @@ def main_mqtt():
 
 main_mqtt()
 ```
+
 - 위 코드는 30초에 한번씩 온습도를 측정해서 데이터를 발행합니다.
 - 서버PC에 mosquitto가 실행중이고, 구독서버가 돌아가고 있다면 발행된 정보가 보여지게 됩니다.
 - AM2320 회로구성시, SCL은 피코의 17번 SDL은 피코의 16번 핀에 연결했습니다.
     - ![회로구성](https://reddol18.github.io/dev5min/images/20250217/3.jpeg)
+
+# 시연연상
+- 완성된 시스템을 이용해서 온도측정에 성공한 영상 입니다.
+- [영상](https://youtube.com/shorts/vd1t1v9K8ZY?si=h17ZXdibYqGTEvTo)
