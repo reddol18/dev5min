@@ -193,12 +193,4 @@ main_mqtt()
 
 # 시연연상
 - 완성된 시스템을 이용해서 온도측정에 성공한 영상 입니다.
-<center>
-<div style="margin: 0 auto;
-  width:90%;
-  margin-top: 10px;
-  min-height:320px;
-  margin-bottom: 10px;">
-<iframe width="auto" height="auto" style="min-height:320px" src="https://youtube.com/shorts/vd1t1v9K8ZY?si=h17ZXdibYqGTEvTo" title="발열팩을 넣었을 때 온도측정" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</center>
+- [영상](https://youtube.com/shorts/vd1t1v9K8ZY?si=PVW2bGTOaQHfcr6f)
