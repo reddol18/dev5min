@@ -7,7 +7,7 @@ author: "김민석"
 categories: [Others]
 tags: [mqtt,am2320,mosquitto,micropython,rasberrypi,pico,typescript,dth22]
 ---
-## 라즈베리파이 피코 + DHT22(AM2320) 온습도 센서모듈
+### 라즈베리파이 피코 + DHT22(AM2320) 온습도 센서모듈
 - 야외의 온도를 측정하기 위해서는 저전력 IoT 기술이 필요합니다.
 - 다행스럽게돋 라즈베리파이 피코는 저전력이면서 상대적으로 훌륭한 연산능력을 보여주죠, 게닫가 Wifi 통신도 가능합니다.
     - ![PICO](https://reddol18.github.io/dev5min/images/20250217/1.jpeg)
@@ -15,17 +15,17 @@ tags: [mqtt,am2320,mosquitto,micropython,rasberrypi,pico,typescript,dth22]
     - ![DHT22](https://reddol18.github.io/dev5min/images/20250217/2.jpeg)
 - 교육용 아두이노 키트에 함께 들어있는 DHT11 센서는 영하의 온도는 측정이 불가능합니다. 그래서 저는 DHT22 센서가 들어간 모듈을 이용했습니다.
 
-## 마이크로 파이선 그리고 AM2320 라이브러리 설치
+### 마이크로 파이선 그리고 AM2320 라이브러리 설치
 - 라즈베리파이 피코는 마이크로 파이선을 이용해서 코드를 작성할 수 있는데요, 온도센서 모듈을 이용하기 위해서는 AM2320 라이브러리를 추가적으로 설치해야 합니다.
 - 그런데 동작하는 라이브러리를 찾기가 어려웠어요. 이게 맞다 저게 맞다 하는 외국 사이트의 포스팅들을 뒤져보다가 제가 찾아낸 것은 바로 아래 링크의 소스코드 입니다.
     - [AM2320 라이브러리](https://github.com/mcauser/micropython-am2320)
     - 설치법은 위 링크를 참고해주세요.
 
-## Mosquitto 그리고 MQTT
+### Mosquitto 그리고 MQTT
 - HTTP 서버를 만들고 피코에서 request를 보내서 온도를 확인하는 방법도 있습니다만
 - MQTT 통신을 이용하면 전력효율이 더 높다고 하기 때문에, 서버 PC에 mosquitto를 설치했습니다.
 
-## TypeScript MQTT 구독 서버
+### TypeScript MQTT 구독 서버
 - 온도값을 구독하기 위한 간단한 서버를 TypeScript를 이용해서 작성합니다.
 
 ```javascript
@@ -54,7 +54,7 @@ client.on('close', () => {
 
 {% include adfit.html %}    
 
-## 마이크로 파이선 발행 서버
+### 마이크로 파이선 발행 서버
 - 이제 피코에 들어갈 발해용 서버를 작성하겠습니다. 구현에 앞서서 mqtt 라이브러리인 설치합니다.
 
 ```python
@@ -191,6 +191,6 @@ main_mqtt()
 - AM2320 회로구성시, SCL은 피코의 17번 SDL은 피코의 16번 핀에 연결했습니다.
     - ![회로구성](https://reddol18.github.io/dev5min/images/20250217/3.jpeg)
 
-## 시연연상
+### 시연연상
 - 완성된 시스템을 이용해서 온도측정에 성공한 영상 입니다.
 - [영상](https://youtube.com/shorts/vd1t1v9K8ZY?si=PVW2bGTOaQHfcr6f)

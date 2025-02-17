@@ -22,8 +22,6 @@ tags: [flutter,folder,folder_picker,directory,direcotry_picker,dialog,no_delay]
   - list 함수는 stream을 이용하기 때문에, ListView.builder 와 연결해서 파일 정보를 가져올 때 마다 state를 수정하면서
     갱신하면 됩니다. 이러면 지연 현상이 발생하지 않습니다.
 
-{% include adfit2.html %}    
-
 - 주요 코드부는 아래와 같습니다.
 
 ```dart

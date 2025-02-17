@@ -25,7 +25,7 @@ tags: [flutter,stt,gemini,calendar]
   지금의 방식으로 전환하였습니다.
 - 지금은 위에서 구상했던 백엔드 서버가 해야 할 작업을 구글 Gemini(LLM) 서비스에 맡기고 있습니다.
 
-{% include adfit.html %}    
+{% include adfit2.html %}    
 
 ## 실행하기 전에 필요한 것
 
