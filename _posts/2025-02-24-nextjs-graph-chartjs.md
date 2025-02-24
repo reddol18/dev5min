@@ -15,7 +15,7 @@ tags: [nextjs,react,reactjs,typescript,chartjs,react-chartjs]
 ### 서버로그를 JSON으로 변환
 - 구독 서버가 출력하는 로그는 이런 형태인데요
 
-```
+```txt
 2025-02-20 22:39:40 {"device_id": "d2", "humidity": 30.8, "temperature": -1.5}
 2025-02-20 22:40:22 {"device_id": "d2", "humidity": 32.7, "temperature": -0.9}
 2025-02-20 22:41:22 {"device_id": "d2", "humidity": 32.7, "temperature": -0.8}
@@ -24,7 +24,7 @@ tags: [nextjs,react,reactjs,typescript,chartjs,react-chartjs]
 - 저기서 날짜 시간 부분을 time 프로퍼티로 추가했습니다.
 - 그리고 기상청 데이터를 기반으로 해당 시간에 기록된 실외 온도를 out 프로퍼티로 추가했습니다.
 
-```
+```json
 [{"time": "2025-02-20 22:39:40", "device_id": "d2", "humidity": 30.8, "temperature": -1.5,"out": -3.2},
 {"time": "2025-02-20 22:40:22", "device_id": "d2", "humidity": 32.7, "temperature": -0.9,"out": -3.3},
 {"time": "2025-02-20 22:41:22", "device_id": "d2", "humidity": 32.7, "temperature": -0.8,"out": -3.2}]
@@ -166,5 +166,5 @@ export default Chart1Client;
 
 ### 시연연상
 - 이 차트를 활용한 영상도 함께 봐주시면 감사하겠습니다.
-    - ![썸네일](../images/20250224/thumbnail1.png =640x)
+    - ![썸네일](../images/20250224/thumbnail1.png)
     - [영상](https://youtu.be/2760mVtlEIU)
