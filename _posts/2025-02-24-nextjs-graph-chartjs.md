@@ -56,7 +56,7 @@ export const getJsonData = (): THItem[] => {
 };
 ```
 
-{% include adfit.html %}    
+{% include adfit2.html %}    
 
 ### 차트를 그려주는 컴포넌트
 - chart.js를 이용해서 그래프를 그려주는 컴포넌트를 작성했습니다.
