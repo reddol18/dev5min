@@ -26,7 +26,7 @@ tags: [arduino,raspberrypi,pico,wlan,wifi,dust]
 - 그런 다음 피코에서는 받아지는 값을 그대로 mqtt를 이용해서 서버로 보내기만 하도록 프로그래밍 했습니다.
     - [관련 - Mosquitto와 라즈베리파이 피코를 이용해서 실외 온도 측정하기](https://reddol18.pe.kr/mqtt-pico-mosquitto)
 
-{% include adfit.html %}    
+{% include adfit2.html %}    
 
 ### 보조배터리가 꺼지는 문제 해결
 - 그런데 보조배터리에 아두이노와 피코를 각각 연결하니까 1분 정도 있다가 전원이 꺼져버리는 문제가 발생하더군요.
