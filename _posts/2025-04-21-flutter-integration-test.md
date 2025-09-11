@@ -21,7 +21,7 @@ tags: [flutter,test,integration_test]
     - STT를 이용하기 때문에 테스트에서 문장이 음성으로 재생되어야 한다는 점
     - 위젯들이 애니메이션으로 타나난다는 점
     
-{% include adfit.html %}    
+{% include adfit2.html %}    
 
 ### 테스트 소스코드
 - 주석을 통해 코드 설명을 대신 하겠습니다.

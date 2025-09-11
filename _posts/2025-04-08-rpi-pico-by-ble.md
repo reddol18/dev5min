@@ -22,8 +22,6 @@ tags: [arduino,raspberrypi,pico,ble,bluetooth,dust]
     - central : 중앙처리 장치 입니다. 이번 포스팅의 상황에서는 스마트폰이 이에 해당합니다.
     - peripheral : 단말장치를 의미합니다. 라즈베리파이 피코가 이에 해당합니다.
     - advertising : 단말장치가 중앙처리 장치에게 존재를 알리는 행위입니다.
-    
-{% include adfit2.html %}    
 
 ### BLE 소스코드
 - 사실상 위에서 찾아낸 예제 코드를 그대로 가져왔습니다.
