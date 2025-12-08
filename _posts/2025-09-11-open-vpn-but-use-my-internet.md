@@ -20,8 +20,6 @@ tags: [openvpn,vpn,ip,internet]
   - 그리고 myip.com 과 같이 IP 확인하는 사이트에 접속해 보세요.
   - 그랬을 때 IP가 앞서 확인해 둔 IP와 같다면, 원하는 방식으로 접속하는 거구요. 아니면 요금폭탄이 터질 수 있으니 설정을 바꾸셔야 합니다. 
     
-{% include adfit2.html %}    
-
 ### IP 체크 사이트에 접속하지 않고 확인하는 법
 - 터미널에서 아래와 같이 입력해 보세요(맥, 리눅스)
 - ``curl ifconfig.me``
