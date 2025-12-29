@@ -3,6 +3,7 @@ layout: post
 title: "지라(JIRA)에서 Github Repository 연동하기 왜 안되는거야??"
 description: "지라(JIRA)의 Github APP에서 내가 원하는 Repository를 추가하는 방법을 알아봤습니다"
 date: 2023-11-17
+feature_image: https://reddol18.github.io/dev5min/images/jira1.png
 author: "김민석"
 categories: [Others]
 tags: [jira,github,commit]

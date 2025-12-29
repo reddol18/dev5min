@@ -3,6 +3,7 @@ layout: post
 title: "파이선에서 다른 가상환경을 이용하는 스크립트를 실행하기"
 description: "os.system으로는 안되지만 이걸로는 됩니다!"
 date: 2024-05-17
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [others]
 tags: [python,anaconda,conda,conda_in_python]

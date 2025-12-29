@@ -3,6 +3,7 @@ layout: post
 title: "Interrogator를 이용해서 안경을 쓴 사람의 사진 알아내기"
 description: "clip-interrogator를 이용해서 glasses detection을 해보겠습니다."
 date: 2023-12-07
+feature_image: https://reddol18.github.io/dev5min/images/20231207/image.png
 author: "김민석"
 categories: [Computer Vision]
 tags: [clip-interrogator,glasses-detection]

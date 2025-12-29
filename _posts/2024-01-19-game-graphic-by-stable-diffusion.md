@@ -3,6 +3,7 @@ layout: post
 title: "Stable Diffusion으로 게임 그래픽 만들기"
 description: "그래픽 디자인 재능이 없어도 AI를 이용해서 게임 그래픽을 만드는 방법을 소개해 봅니다."
 date: 2024-01-19
+feature_image: https://reddol18.github.io/dev5min/images/20231130/image3.png
 author: "김민석"
 categories: [Computer Vision]
 tags: [stable_diffusion,sd,ai,game_graphic]

@@ -3,6 +3,7 @@ layout: post
 title: "라즈베리파이 피코에서 BLE로 스마트폰과 통신하기기"
 description: "라즈베리파이 피코를 BLE(저전력 블루투스·Bluetooth Low Energy) 동글 처럼 사용해 보겠습니다"
 date: 2025-04-08
+feature_image: ../images/20250408/1.png
 author: "김민석"
 categories: [Others]
 tags: [arduino,raspberrypi,pico,ble,bluetooth,dust]

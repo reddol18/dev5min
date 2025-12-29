@@ -3,6 +3,7 @@ layout: post
 title: "Flutter에서 google_sign_in 라이브러리 이용해서 캘린더 API 연동하기(1)"
 description: "나의 캘린더 리스트를 가져오도록 하겠습니다."
 date: 2024-04-24
+feature_image: https://reddol18.github.io/dev5min/images/20240424/1.png
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [flutter,google_sign_in,google_calendar_api]

@@ -3,6 +3,7 @@ layout: post
 title: "Next.js에서 chart.js를 이용해서 그래프 그리기"
 description: "1분마다 측정된 온도/습도 값을 그래프로 그리는 페이지 만들기"
 date: 2025-02-24
+feature_image: ../images/20250224/image.png
 author: "김민석"
 categories: [Others]
 tags: [nextjs,react,reactjs,typescript,chartjs,react-chartjs]

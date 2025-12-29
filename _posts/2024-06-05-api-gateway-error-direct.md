@@ -3,6 +3,7 @@ layout: post
 title: "AWS API-GATEWAY에서 우리쪽 서버가 발생시킨 에러코드를 그대로 전달하는 방법"
 description: "생각보다 방법이 간단합니다."
 date: 2024-06-05
+feature_image: https://reddol18.github.io/dev5min/images/20240605/image1.png
 author: "김민석"
 categories: [Data and Api]
 tags: [api-gateway,proxy,error-code]

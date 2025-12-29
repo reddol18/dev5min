@@ -3,6 +3,7 @@ layout: post
 title: "네이버 블로그를 백업해보자 - 1편"
 description: "파이썬을 이용해서 네이버 블로그에 있는 내용과 이미지를 가져와 보겠습니다"
 date: 2023-12-13
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Data and Api]
 tags: [naver,naverblog,blog,backup]

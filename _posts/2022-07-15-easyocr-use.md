@@ -3,6 +3,7 @@ layout: post
 title: "EASYOCR을 이용해서 글자인식을 해보자"
 description: "EASYOCR 처음 사용해보기"
 date: 2022-07-15
+feature_image: https://reddol18.github.io/dev5min/images/20220715/1/1.jpg
 author: "김민석"
 categories: [Computer Vision]
 tags: [easyocr,ocr,text,detection]

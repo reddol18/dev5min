@@ -3,6 +3,7 @@ layout: post
 title: "지라(JIRA)의 자동화 기능을 이용해서 이슈 할당하기"
 description: "지라(JIRA)의 자동화 기능을 이용해서 특정 레이블이 달릴 때 내 이슈로 자동 할당되게 해봅시다"
 date: 2023-11-18
+feature_image: https://reddol18.github.io/dev5min/images/20231118/image-1.png
 author: "김민석"
 categories: [Others]
 tags: [jira,automation,issues,label,assign]

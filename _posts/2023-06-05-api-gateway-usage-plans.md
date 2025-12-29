@@ -3,6 +3,7 @@ layout: post
 title: "AWS API GATEWAY 사용량 계획 용어 정리"
 description: "AWS API GATEWAY 사용량 계획의 요율/버스트/할당량에 대해 알아봅시다"
 date: 2023-05-18
+feature_image: https://github.com/reddol18/dev5min/assets/15623847/b12574bf-187b-4eb9-a0a4-7990b37086f9
 author: "김민석"
 categories: [Data and Api]
 tags: [aws,api,api gateway,aws api gateway,요율,버스트,할당량]

@@ -3,6 +3,7 @@ layout: post
 title: "주소를 PNU 코드로 변환해봅시다"
 description: "지번 주소를 PNU 코드로 변환해 보겠습니다"
 date: 2022-08-15
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Data and Api]
 tags: [address,api,pnu]

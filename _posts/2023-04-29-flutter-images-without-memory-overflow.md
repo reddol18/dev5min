@@ -3,6 +3,7 @@ layout: post
 title: "Flutter 에서 많은 이미지 로딩시 메모리 오버플로우 막는 방법"
 description: "한번에 대량의 이미지를 표시해야 할 때 발생하는 메모리 문제를 해결해 봅시다"
 date: 2023-04-29
+feature_image: https://reddol18.github.io/dev5min/images/20230429/1.jpg
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [flutter,image,memory,leak,overflow,cachewidth,cacheheight]

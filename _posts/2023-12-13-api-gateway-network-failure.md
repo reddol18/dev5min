@@ -3,6 +3,7 @@ layout: post
 title: "API Gateway 대시보드 사용중 갑자기 뜬 Network Failure???"
 description: "API Gateway를 이용하기 위해 정보수정을 하고 저장을 눌렀는데 Network Failure가 떠서 당황하셨나요? 그 해결책을 고민해 봅니다."
 date: 2023-12-13
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Data&Api]
 tags: [aws,apigateway,networkfailure]

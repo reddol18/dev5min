@@ -3,6 +3,7 @@ layout: post
 title: "IntelliJ Idea Remote Development 사용시 프로젝트 모듈 설정이 안될 때"
 description: "Project 설정시에 Modules로 디렉토리 지정을 했는데, 실패하는 경우에 대처법을 설명합니다"
 date: 2023-08-11
+feature_image: https://github.com/reddol18/dev5min/assets/15623847/92db53e7-6d22-4431-8a90-2b27c0d184b9
 author: "김민석"
 categories: [Others]
 tags: [intellij,jetbrains,project_structure,modules,problem]

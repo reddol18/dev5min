@@ -3,6 +3,7 @@ layout: post
 title: "Flutter 통합 테스트 - Provider, STT를 사용하는 앱을 테스트 해봅시다"
 description: "기초적인 Flutter 통합테스트 예제 입니다"
 date: 2025-04-21
+feature_image: ../images/20250421/1.png
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [flutter,test,integration_test]

@@ -3,6 +3,7 @@ layout: post
 title: "HEIC 파일을 JPG와 PNG로 변환해주는 프로그램"
 description: "터미널에서 간단하게 사용할 수 있습니다."
 date: 2024-09-26
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Others]
 tags: [heic,png,jpg,convert]

@@ -3,6 +3,7 @@ layout: post
 title: "Method Channel을 이용해서 플러터에서 OpenCV Car Detection 구현하기(1)"
 description: "Kotlin Native Code와 Flutter를 연결해서 OPENCV Car Detection을 구현해 봤습니다"
 date: 2022-07-25
+feature_image: https://reddol18.github.io/dev5min/images/20220725/1/1.jpg
 author: "김민석"
 categories: [Computer Vision]
 tags: [flutter,opencv,car detection,CascadeClassifier]

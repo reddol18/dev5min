@@ -3,6 +3,7 @@ layout: post
 title: "딥러닝 기반 사진 성별 판독 라이브러리의 정확도 비교"
 description: "파이썬기반 사진 성별 판독 라이브러리의 정확도를 비교해 봤습니다"
 date: 2023-11-01
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Computer Vision]
 tags: [deeplearning,ai,insightface,keras,caffe,gender_detection]

@@ -3,6 +3,7 @@ layout: post
 title: "Flutter Logs는 얼마나 견고한가?"
 description: "Flutter Logs가 끊김없이 계속 실행되는지 실험해봤습니다"
 date: 2022-07-13
+feature_image: https://reddol18.github.io/dev5min/images/20220713/2/1.png
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [flutter,logs]

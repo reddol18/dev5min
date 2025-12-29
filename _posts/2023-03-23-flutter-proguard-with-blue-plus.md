@@ -3,6 +3,7 @@ layout: post
 title: "Flutter 에서 flutter_blue_plus 이용시 릴리즈모드 에러 해결하기"
 description: "proguard-rules 설정을 통해 특정 의존성의 코드/리소스 축소 제외시키기"
 date: 2023-03-23
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [flutter,proguard_rule,bluetooth,flutter_blue_plus]

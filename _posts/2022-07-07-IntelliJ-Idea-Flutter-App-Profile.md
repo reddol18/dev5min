@@ -3,6 +3,7 @@ layout: post
 title: "IntelliJ Idea에서 Flutter App 성능 프로파일링 하기"
 description: "오늘은 IntelliJ Idea에서 내가 만든 Flutter App의 CPU 연산시간과 메모리 사용량 등을 체크하는 방법을 알아보도록 하겠습니다. 다 이해하는데 5분이면 되니까 천천히 읽어보세요~"
 date: 2022-07-07
+feature_image: https://reddol18.github.io/dev5min/images/20220707/1/1.png
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [flutter,플러터,성능체크,profile,프로파일,프로파일링,성능]

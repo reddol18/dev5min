@@ -3,6 +3,7 @@ layout: post
 title: "이미지 파일에 대한 URL 라우팅 속도비교 Node vs Go vs Nginx"
 description: "이미지 파일에 대한 URL 라우팅 속도를 비교해 봤습니다"
 date: 2023-05-18
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Data and Api]
 tags: [url_route,node,go,nginx,vue]

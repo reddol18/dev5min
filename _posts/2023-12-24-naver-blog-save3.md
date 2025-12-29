@@ -3,6 +3,7 @@ layout: post
 title: "네이버 블로그를 백업해보자 - 3편"
 description: "파이썬을 이용해서 깃헙 파일을 업데이트 하고, 구글 서치 콘솔에 URL 인덱싱을 생성시켜 보겠습니다"
 date: 2023-12-24
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Data and Api]
 tags: [naver,naverblog,blog,backup,githubapi,githubblog,google,searchconsole,urlindexing]

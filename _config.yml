@@ -9,10 +9,10 @@
 lang: ko-KR
 
 # Site title
-title: "조금씩 공부하는 개발블로그"
+title: "Insights & Innovations"
 
 # A description of your site for meta tag, search engine results.
-description: "하루에 5분씩만 투자해서 함께 공부해요~ 댓글은 개별 포스트 클릭하면 작성가능합니다~"
+description: ""
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: "/"
@@ -53,7 +53,7 @@ plugins:
   - jekyll-paginate
 
 # http://jekyllrb.com/docs/pagination/
-paginate: 3
+paginate: 16
 paginate_path: '/page:num/'
 
 

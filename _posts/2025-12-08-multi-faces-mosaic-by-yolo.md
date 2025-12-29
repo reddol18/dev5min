@@ -3,6 +3,7 @@ layout: post
 title: "Yolo를 이용해서 여러명의 얼굴을 모자이크 처리하기"
 description: "얼굴인식부터 특정인만 모자이크 처리하는 방법"
 date: 2025-12-08
+feature_image: ../images/20251208/mosaic.png
 author: "김민석"
 categories: [Computer Vision]
 tags: [yolo,face-detection]

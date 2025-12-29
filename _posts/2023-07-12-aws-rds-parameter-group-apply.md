@@ -3,6 +3,7 @@ layout: post
 title: "AWS RDS AURORA 파라미터 그룹 적용안될 때"
 description: "파라미터 그룹을 새로 만들었는데 적용이 안될 때"
 date: 2023-07-12
+feature_image: https://github.com/reddol18/dev5min/assets/15623847/bfd0e7be-8229-4374-b478-af519e04d3e6
 author: "김민석"
 categories: [Others]
 tags: [aws,rds,parameter_group,reboot]

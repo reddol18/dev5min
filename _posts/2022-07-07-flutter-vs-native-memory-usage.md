@@ -3,6 +3,7 @@ layout: post
 title: "Flutter VS Native 메모리 사용량 비교"
 description: "오늘은 프로젝트를 막 생성했을 때. 즉 초기상태의 Hello World 앱만 가지고 Flutter와 Native 앱의 메모리 사용량 비교를 해보았습니다"
 date: 2022-07-07
+feature_image: https://reddol18.github.io/dev5min/images/20220707/2/1.png
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [안드로이드,네이티브,flutter,memory,native,플러터,android,메모리,ram]

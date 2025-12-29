@@ -3,6 +3,7 @@ layout: post
 title: "GCP와 GKE 기술용어 정리"
 description: "실전 사용 경험을 바탕으로 주요 기능 및 서비스에 대해서 소개하고자 합니다"
 date: 2022-11-04
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Data and Api]
 tags: [gcp,gke,kubernetes,cloud]

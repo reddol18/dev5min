@@ -3,6 +3,7 @@ layout: post
 title: "AWS API-GATEWAY에서 이미지 파일을 읽어보자"
 description: "프록시 서버로부터 전달되는 이진형식의 이미지 파일을 읽을 수 있는 방법을 소개합니다"
 date: 2024-02-02
+feature_image: https://reddol18.github.io/dev5min/images/20240202/1.png
 author: "김민석"
 categories: [Data and Api]
 tags: [aws,apigateway,binary,png,image]

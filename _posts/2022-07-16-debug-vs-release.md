@@ -3,6 +3,7 @@ layout: post
 title: "Flutter App Debug VS Release 모드 론칭 속도차이"
 description: "Flutter App Debug VS Release 모드 론칭 속도차이"
 date: 2022-07-16
+feature_image: https://reddol18.github.io/dev5min/images/20220716/1/1.gif
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [flutter,debug,release,launching,speed]

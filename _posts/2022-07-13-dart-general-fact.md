@@ -3,6 +3,7 @@ layout: post
 title: "Dart 언어 관련 기초적인 정리"
 description: "변수선언 관련하여 주지사항"
 date: 2022-07-13
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [dart,dynamic,var,final,const,static,future,stream]

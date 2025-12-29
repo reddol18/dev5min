@@ -3,6 +3,7 @@ layout: post
 title: "Flutter 에서 Google ML Kit으로 얼굴인식 수행하기"
 description: "Google ML Kit을 이용해서 얼굴인식을 수행하는 간단한 Flutter 앱을 만들었습니다"
 date: 2023-04-03
+feature_image: https://reddol18.github.io/dev5min/images/20230403/1.png
 author: "김민석"
 categories: [Computer Vision]
 tags: [flutter,google ml kit,face,detection]

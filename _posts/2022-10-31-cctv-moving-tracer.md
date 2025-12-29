@@ -3,6 +3,7 @@ layout: post
 title: "CCTV 분석기 소개"
 description: "동영상 화면의 특정 부분에서 움직임이 감지되는 타임트랙을 추출하는 CCTV 분석기 소개"
 date: 2022-10-31
+feature_image: https://user-images.githubusercontent.com/15623847/197341752-71c6c57d-38e8-454a-b6ef-3ef0d00a5ce2.png
 author: "김민석"
 categories: [Computer Vision]
 tags: [opencv,python,cctv,moving,detection]

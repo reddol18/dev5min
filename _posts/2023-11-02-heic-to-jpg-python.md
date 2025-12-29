@@ -3,6 +3,7 @@ layout: post
 title: "HEIC(고효율)이미지 JPG로 변환하기"
 description: "파이썬에서 HEIC 파일을 JPG로 변환하는 방법 입니다"
 date: 2023-11-02
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Others]
 tags: [python,heictojpg,heic]

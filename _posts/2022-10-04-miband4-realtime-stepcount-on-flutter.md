@@ -3,6 +3,7 @@ layout: post
 title: "Flutter에서 MiBand4의 현재걸음수를 가져오기"
 description: "블루투스 통신을 이용해서 MiBand4의 현재걸음수 정보를 가져오는 방법을 알아봤습니다"
 date: 2022-10-04
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [flutter,miband,miband4,stepcount,bluetooth]

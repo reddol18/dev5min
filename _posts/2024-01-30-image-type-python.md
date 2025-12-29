@@ -3,6 +3,7 @@ layout: post
 title: "파이썬에서 이미지 파일의 진짜 속성을 알아보자"
 description: "확장자에 속지 마세요, 이미지의 진짜 속성은 파일내용에 있습니다."
 date: 2024-01-30
+feature_image: https://reddol18.github.io/dev5min/images/20240130/5.png
 author: "김민석"
 categories: [Others]
 tags: [python,mimetypes,imghdr,python-magic]

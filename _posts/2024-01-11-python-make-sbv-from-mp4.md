@@ -3,6 +3,7 @@ layout: post
 title: "동영상 속의 자막으로부터 SBV 파일 추출하기"
 description: "파이썬을 이용해서 mp4 파일의 영상에서 타임라인에 따른 SBV 자막을 추출해봅시다"
 date: 2024-01-11
+feature_image: https://reddol18.github.io/dev5min/images/20240111/image.png
 author: "김민석"
 categories: [Computer Vision]
 tags: [python,sbv,youtube,mp4,subtitle,자막,자막추출기,easyocr,ocr]

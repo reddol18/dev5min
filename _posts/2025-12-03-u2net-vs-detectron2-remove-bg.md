@@ -3,6 +3,7 @@ layout: post
 title: "U2Net VS Detectron2, 어떤 모델이 배경을 더 잘 지워줄까?"
 description: "실제 사용하면서 겪은 기능 비교입니다"
 date: 2025-12-03
+feature_image: ../images/20251203/image.png
 author: "김민석"
 categories: [Computer Vision]
 tags: [u2net,detectron2,removebg]

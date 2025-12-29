@@ -3,6 +3,7 @@ layout: post
 title: "Mosquitto와 라즈베리파이 피코를 이용해서 실외 온도 측정하기"
 description: "마이크로파이선으로 작성된 IOT코드와 MQTT 통신을 통해 정보를 발행하고, TypeScript 코드로 구독합니다"
 date: 2025-02-17
+feature_image: https://reddol18.github.io/dev5min/images/20250217/1.jpeg
 author: "김민석"
 categories: [Others]
 tags: [mqtt,am2320,mosquitto,micropython,rasberrypi,pico,typescript,dth22]

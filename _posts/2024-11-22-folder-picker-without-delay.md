@@ -3,6 +3,7 @@ layout: post
 title: "Flutter에서 느려지는 현상 없는 폴더선택 다이얼로그 만들기"
 description: "파일이 매우 많을 경우에 화면이 멈추는 현상을 극복해 봤습니다"
 date: 2024-11-22
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Flutter and Dart]
 tags: [flutter,folder,folder_picker,directory,direcotry_picker,dialog,no_delay]

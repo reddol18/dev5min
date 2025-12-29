@@ -3,6 +3,7 @@ layout: post
 title: "지라(JIRA)의 자동화 기능을 이용해서 새로 달린 댓글의 멘션을 디스코드로 보내기"
 description: "지라(JIRA)의 자동화와 Smart Value를 이용해서 디스코드 웹훅과 연동하는 방법입니다"
 date: 2023-11-24
+feature_image: https://reddol18.github.io/dev5min/images/20231124/image.png
 author: "김민석"
 categories: [Others]
 tags: [jira,automation,smart_value,metion,discord,webhook]

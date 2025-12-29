@@ -3,6 +3,7 @@ layout: post
 title: "구글 애드몹(GOOGLE ADMOB) 광고의 app-ads.txt 연결하기"
 description: "github 블로그에 app-ads.txt 올리고 애드몹에서 확인할 수 있게 하는 방법을 설명합니다."
 date: 2023-05-18
+feature_image: https://github.com/reddol18/dev5min/assets/15623847/06f1d9eb-1400-4255-8297-2b59f62348b3
 author: "김민석"
 categories: [Data and Api]
 tags: [admob,app-ads]

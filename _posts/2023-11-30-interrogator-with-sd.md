@@ -3,6 +3,7 @@ layout: post
 title: "Interrogator를 이용해서 게임그래픽을 만들 수 있다??"
 description: "clip-interrogator와 stable diffusion을 이용해서 간단한 게임그래픽 이미지를 만들어 보겠습니다"
 date: 2023-11-24
+feature_image: https://reddol18.github.io/dev5min/images/20231130/image.png
 author: "김민석"
 categories: [Computer Vision]
 tags: [clip-interrogator,stable-diffusion,game-graphic-generation]

@@ -3,6 +3,7 @@ layout: post
 title: "IntelliJ Idea Remote Development 사용시 멀티 프로젝트를 위한 모듈 설정"
 description: "Project 설정시에 여러개의 Modules을 지정하는 방법을 소개합니다"
 date: 2024-01-08
+feature_image: https://reddol18.github.io/dev5min/images/20240108/image.png
 author: "김민석"
 categories: [Others]
 tags: [intellij,jetbrains,project_structure,modules,problem,multi_module,multi_project]

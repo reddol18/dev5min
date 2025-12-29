@@ -44,7 +44,7 @@
 }
 
 .site-navigation-wrap {
-  margin: 0 auto;
+  margin: 0;
 }
 
 .menu {
@@ -190,8 +190,9 @@
 .kakao-adfit-web-title {
   display: inline-block;
   margin: 0 auto;
-  width: 728px;
+  width: 100%;
   margin-top: 10px;
+  text-align: center;
 }
 
 .kakao-adfit-mobile-title {

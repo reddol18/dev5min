@@ -3,6 +3,7 @@ layout: post
 title: "MediaPipe와 Selenium을 이용해서 웹 CCTV 영상속 고양이 포착하기"
 description: "라즈베리파이로 만든 CCTV 웹 모니터링 화면을, 원격 PC에서 MediaPipe와 Selenium을 이용해서 인식하는 방법입니다."
 date: 2024-03-19
+feature_image: https://reddol18.github.io/dev5min/images/20240319/1.png
 author: "김민석"
 categories: [Computer Vision]
 tags: [mediapipe,object detection,selenium,webdriver]

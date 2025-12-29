@@ -3,6 +3,7 @@ layout: post
 title: "OpenVPN 이용시 VPN 서버가 아니라 내 PC에 연결된 인터넷 회선을 사용하는지 체크하기"
 description: "가상 내부망이 트래픽 사용량에 따라 과금되면 요금폭탄을 맞을 수 있어요~"
 date: 2025-09-11
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Others]
 tags: [openvpn,vpn,ip,internet]

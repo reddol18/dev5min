@@ -3,6 +3,7 @@ layout: post
 title: "라즈베리파이 피코를 아두이노 와이파이 모듈 처럼 사용하기"
 description: "아두이노와 연결된 미세 먼지 센서에서 나오는 값을 라즈베리파이 피코를 이용해서 PC서버로 보냅니다"
 date: 2025-03-15
+feature_image: ../images/20250315/1.png
 author: "김민석"
 categories: [Others]
 tags: [arduino,raspberrypi,pico,wlan,wifi,dust]

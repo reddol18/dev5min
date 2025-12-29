@@ -3,6 +3,7 @@ layout: post
 title: "WebP 이미지 PNG로 변환하기"
 description: "파이썬에서 WebP 파일을 PNG로 변환하는 방법 입니다"
 date: 2023-11-15
+feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Others]
 tags: [python,webptopng,webp]
