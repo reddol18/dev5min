@@ -35,6 +35,7 @@ tags: [opencv,detectron2,visionai,ai]
 - 결국 실제로 움직이는 객체는 사람 혹은 동물일 가능성이 높기 때문에, 이런것들을 화면에서 찾아내서 이전 프레임에서 찾아낸 것과 상대격차가 발생할 경우 또렷하게 보이게 하면 될 것 같았어요.
   - ![비교사진](../images/20251230/thumbnail.png)
 - 아래는 detectron2를 이용해서 프레임 상에서 사람, 고양이, 개가 아닌 부분은 블러처리하는 함수이구요.
+
 ```python
 def blur_except_objects_with_detectron2(frame, blur_kernel=(31, 31), object_classes=(0, 15, 16), return_mask_only=False):
     """
@@ -88,7 +89,9 @@ def blur_except_objects_with_detectron2(frame, blur_kernel=(31, 31), object_clas
     result = frame_float * mask_blur + blurred * (1 - mask_blur)
     return result.astype(np.uint8)
 ```
+
 - 아래는 위 함수를 이용해서 목표했던 기능을 구현한 코드 입니다.
+
 ```python
 import cv2
 import numpy as np
