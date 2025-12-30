@@ -15,7 +15,7 @@ tags: [yolo,face-detection]
   - ![결과물](../images/20251208/mosaic.png)
 - 그런데 또 제 사진은 굳이 모자이크 처리하지 않고 싶은거에요...
 
-{% include adfit.html %}    
+{% include adfit2.html %}    
 
 ### 모자이크 처리 할 얼굴을 골라서 해보자
 - 얼굴인식 모델은 yolo를 이용했구요

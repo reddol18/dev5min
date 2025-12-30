@@ -23,8 +23,6 @@ tags: [u2net,detectron2,removebg]
   - ![단체사진1](../images/20251203/3.png)
   - U-2-Net의 약점이 발견되었습니다. 혼자 있는 사람은 잘 처리하지만, 단체사진일 경우에 디텍팅하는 정확도가 떨어집니다.
     
-{% include adfit2.html %}    
-
 ### Detectron2로 바꿔봤습니다
 - 아무래도 Detectron2가 여러명을 찾아내는 능력은 더 뛰어날 것 같아서 라이브러리를 바꿔서 구현해 봤습니다.
   - [Detectron2](https://github.com/facebookresearch/detectron2)
