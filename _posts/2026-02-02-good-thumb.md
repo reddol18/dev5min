@@ -2,7 +2,7 @@
 layout: post
 title: "스마트폰 갤러리 파일을 PC로 쉽게 복사할 수 있는 굿떰을 소개합니다"
 description: "안드로이드 스마트폰 갤러리에 저장된 이미지 및 동영상 파일들의 썸네일을 확인하고, 이를 PC에서 편하게 복사할 수 있는 서비스 입니다."
-date: 2026-02-03
+date: 2026-02-02
 feature_image: ../images/20260203/image3.png
 author: "김민석"
 categories: [Others]
