@@ -101,5 +101,3 @@ PR 생성 직후 gh pr view {번호} --json base 로 base 브랜치를 반드시
 **AI가 만든 문제는 AI가 함께 분석한다.** 이번 사후 분석도 AI와 함께 진행했다. git 그래프를 그리고, PR base를 추적하고, merge diff를 전수 검사하는 과정을 AI가 수행했다. 실수의 원인도 AI가 스스로 진단했다.
 
 ---
-
-*2026년 5월 | Gongdo Engineering*
