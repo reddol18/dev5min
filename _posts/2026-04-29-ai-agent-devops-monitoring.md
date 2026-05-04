@@ -43,7 +43,7 @@ Claude Code (AI 에이전트)
 
 ---
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 시나리오 1 — 특정 콘텐츠를 보고 있는 사용자 파악
 

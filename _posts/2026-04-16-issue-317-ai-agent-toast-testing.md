@@ -53,8 +53,7 @@ tags: [ai-agent,playwright,testing,toast]
 이렇게 하면 실제 서버를 배포하지 않아도, 의도적으로 실패 상황을 만들어 테스트할 수 있습니다.
 
 ---
-
-{% include adfit2.html %}    
+    
 
 ## 발견한 버그들
 
