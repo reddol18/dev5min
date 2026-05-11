@@ -17,7 +17,7 @@ tags: [ai-agent,claude-code,git,devops,incident]
 
 ---
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 무엇이 잘못됐나
 
