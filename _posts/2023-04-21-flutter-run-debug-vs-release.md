@@ -21,7 +21,7 @@ tags: [flutter,debug_mode,release_mode]
 - 원래 원했던 실행화면은 아래와 같습니다. 
   - ![이미지2](https://reddol18.github.io/dev5min/images/20230421/2.jpg)
 - 이러한 화면 깨짐은 "transform layer is constructed with an invalid matrix." 에러와 함께 발생했는데요.
-{% include adfit.html %}
+{% include adfit2.html %}
 - 이슈의 실체를 구체적으로 기술하면, LoadingOverlay가 Stack을 이용해서 CircularProgressIndicator를 만들어 삽입 할 때 
   중앙정렬을 하지 못하는 상황인 것 인데요.
 - 원인은 LoadingOverlay 내부의 Stack 구성시에 자식위젯의 높이가 무한대로 지정되어 버려서 인 것으로 파악되었습니다.
