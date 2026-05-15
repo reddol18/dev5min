@@ -17,7 +17,7 @@ tags: [flutter,image,memory,leak,overflow,cachewidth,cacheheight]
       cacheWidth: newWidth, 
       cacheHeight: newHeight));
 ```  
-{% include adfit2.html %}
+
 - 실제 이미지의 크기와 다르게 위에서 지정한 값으로 로딩하여 레이아웃에 반영하기 
 때문에 사용하는 메모리를 현격하게 줄일 수 있습니다.
   - ![이미지1](https://reddol18.github.io/dev5min/images/20230429/1.jpg)
