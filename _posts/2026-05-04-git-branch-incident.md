@@ -17,8 +17,6 @@ tags: [ai-agent,claude-code,git,devops,incident]
 
 ---
 
-{% include adfit2.html %}
-
 ## 무엇이 잘못됐나
 
 ### 문제 1 — 잘못된 base 브랜치
