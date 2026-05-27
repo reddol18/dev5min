@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" role="img" aria-label="다양성과 셔플 분포 — 같은 입력 100번에 80가지 이상의 조합">
+  <rect width="960" height="380" fill="#f8fafc"/>
+
+  <text x="60" y="38" font-family="-apple-system, Pretendard, sans-serif" font-size="14" font-weight="800" fill="#1e293b">D. 다양성 + 셔플 분포 — "같은 사용자에게 같은 카드만 보여주고 있진 않은가?"</text>
+  <text x="60" y="56" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#64748b">같은 프로필을 100번 호출했을 때 서로 다른 조합이 얼마나 나오는지 측정한다.</text>
+
+  <!-- left: 다양성 100/100 vs 결정적 회귀 -->
+  <g transform="translate(60,90)">
+    <text font-family="-apple-system, Pretendard, sans-serif" font-size="12" font-weight="700" fill="#16a34a">PASS — 100회 중 100가지 다른 조합</text>
+    <g transform="translate(0,16)">
+      <!-- grid of 10x10 dots, each unique colored cluster -->
+      <g>
+        <!-- Generate 100 dots colored variously -->
+        <g fill="#a5b4fc"><circle cx="10" cy="10" r="6"/></g>
+        <g fill="#5eead4"><circle cx="30" cy="10" r="6"/></g>
+        <g fill="#fcd34d"><circle cx="50" cy="10" r="6"/></g>
+        <g fill="#fda4af"><circle cx="70" cy="10" r="6"/></g>
+        <g fill="#c4b5fd"><circle cx="90" cy="10" r="6"/></g>
+        <g fill="#86efac"><circle cx="110" cy="10" r="6"/></g>
+        <g fill="#fdba74"><circle cx="130" cy="10" r="6"/></g>
+        <g fill="#7dd3fc"><circle cx="150" cy="10" r="6"/></g>
+        <g fill="#f9a8d4"><circle cx="170" cy="10" r="6"/></g>
+        <g fill="#a3e635"><circle cx="190" cy="10" r="6"/></g>
+      </g>
+    </g>
+    <!-- 10 rows -->
+    <g id="diversity-grid" transform="translate(0,16)">
+      <!-- Row 0 already drawn above -->
+    </g>
+    <!-- Programmatically populate 9 more rows by reuse: use script-free fallback - manually -->
+    <g transform="translate(0,32)">
+      <g fill="#bfdbfe"><circle cx="10" cy="10" r="6"/></g>
+      <g fill="#fde68a"><circle cx="30" cy="10" r="6"/></g>
+      <g fill="#fca5a5"><circle cx="50" cy="10" r="6"/></g>
+      <g fill="#a7f3d0"><circle cx="70" cy="10" r="6"/></g>
+      <g fill="#ddd6fe"><circle cx="90" cy="10" r="6"/></g>
+      <g fill="#fed7aa"><circle cx="110" cy="10" r="6"/></g>
+      <g fill="#bef264"><circle cx="130" cy="10" r="6"/></g>
+      <g fill="#fbcfe8"><circle cx="150" cy="10" r="6"/></g>
+      <g fill="#99f6e4"><circle cx="170" cy="10" r="6"/></g>
+      <g fill="#c4b5fd"><circle cx="190" cy="10" r="6"/></g>
+    </g>
+    <g transform="translate(0,52)">
+      <g fill="#a5b4fc"><circle cx="10" cy="10" r="6"/></g>
+      <g fill="#5eead4"><circle cx="30" cy="10" r="6"/></g>
+      <g fill="#fcd34d"><circle cx="50" cy="10" r="6"/></g>
+      <g fill="#fda4af"><circle cx="70" cy="10" r="6"/></g>
+      <g fill="#c4b5fd"><circle cx="90" cy="10" r="6"/></g>
+      <g fill="#86efac"><circle cx="110" cy="10" r="6"/></g>
+      <g fill="#fdba74"><circle cx="130" cy="10" r="6"/></g>
+      <g fill="#7dd3fc"><circle cx="150" cy="10" r="6"/></g>
+      <g fill="#f9a8d4"><circle cx="170" cy="10" r="6"/></g>
+      <g fill="#a3e635"><circle cx="190" cy="10" r="6"/></g>
+    </g>
+    <g transform="translate(0,72)">
+      <g fill="#bfdbfe"><circle cx="10" cy="10" r="6"/></g>
+      <g fill="#fde68a"><circle cx="30" cy="10" r="6"/></g>
+      <g fill="#fca5a5"><circle cx="50" cy="10" r="6"/></g>
+      <g fill="#a7f3d0"><circle cx="70" cy="10" r="6"/></g>
+      <g fill="#ddd6fe"><circle cx="90" cy="10" r="6"/></g>
+      <g fill="#fed7aa"><circle cx="110" cy="10" r="6"/></g>
+      <g fill="#bef264"><circle cx="130" cy="10" r="6"/></g>
+      <g fill="#fbcfe8"><circle cx="150" cy="10" r="6"/></g>
+      <g fill="#99f6e4"><circle cx="170" cy="10" r="6"/></g>
+      <g fill="#c4b5fd"><circle cx="190" cy="10" r="6"/></g>
+    </g>
+    <g transform="translate(0,92)">
+      <g fill="#a5b4fc"><circle cx="10" cy="10" r="6"/></g>
+      <g fill="#5eead4"><circle cx="30" cy="10" r="6"/></g>
+      <g fill="#fcd34d"><circle cx="50" cy="10" r="6"/></g>
+      <g fill="#fda4af"><circle cx="70" cy="10" r="6"/></g>
+      <g fill="#c4b5fd"><circle cx="90" cy="10" r="6"/></g>
+      <g fill="#86efac"><circle cx="110" cy="10" r="6"/></g>
+      <g fill="#fdba74"><circle cx="130" cy="10" r="6"/></g>
+      <g fill="#7dd3fc"><circle cx="150" cy="10" r="6"/></g>
+      <g fill="#f9a8d4"><circle cx="170" cy="10" r="6"/></g>
+      <g fill="#a3e635"><circle cx="190" cy="10" r="6"/></g>
+    </g>
+    <text y="180" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#475569">100% 고유 조합 → 셔플이 진짜로 동작</text>
+  </g>
+
+  <!-- right: 결정적 회귀 -->
+  <g transform="translate(420,90)">
+    <text font-family="-apple-system, Pretendard, sans-serif" font-size="12" font-weight="700" fill="#dc2626">FAIL — 셔플 호출 누락 → 같은 조합 50개</text>
+    <g transform="translate(0,16)">
+      <!-- 50 same dots -->
+      <g fill="#94a3b2">
+        <circle cx="10" cy="10" r="6"/><circle cx="30" cy="10" r="6"/><circle cx="50" cy="10" r="6"/><circle cx="70" cy="10" r="6"/><circle cx="90" cy="10" r="6"/>
+        <circle cx="110" cy="10" r="6"/><circle cx="130" cy="10" r="6"/><circle cx="150" cy="10" r="6"/><circle cx="170" cy="10" r="6"/><circle cx="190" cy="10" r="6"/>
+      </g>
+      <g fill="#94a3b2" transform="translate(0,20)">
+        <circle cx="10" cy="10" r="6"/><circle cx="30" cy="10" r="6"/><circle cx="50" cy="10" r="6"/><circle cx="70" cy="10" r="6"/><circle cx="90" cy="10" r="6"/>
+        <circle cx="110" cy="10" r="6"/><circle cx="130" cy="10" r="6"/><circle cx="150" cy="10" r="6"/><circle cx="170" cy="10" r="6"/><circle cx="190" cy="10" r="6"/>
+      </g>
+      <g fill="#94a3b2" transform="translate(0,40)">
+        <circle cx="10" cy="10" r="6"/><circle cx="30" cy="10" r="6"/><circle cx="50" cy="10" r="6"/><circle cx="70" cy="10" r="6"/><circle cx="90" cy="10" r="6"/>
+        <circle cx="110" cy="10" r="6"/><circle cx="130" cy="10" r="6"/><circle cx="150" cy="10" r="6"/><circle cx="170" cy="10" r="6"/><circle cx="190" cy="10" r="6"/>
+      </g>
+      <g fill="#94a3b2" transform="translate(0,60)">
+        <circle cx="10" cy="10" r="6"/><circle cx="30" cy="10" r="6"/><circle cx="50" cy="10" r="6"/><circle cx="70" cy="10" r="6"/><circle cx="90" cy="10" r="6"/>
+        <circle cx="110" cy="10" r="6"/><circle cx="130" cy="10" r="6"/><circle cx="150" cy="10" r="6"/><circle cx="170" cy="10" r="6"/><circle cx="190" cy="10" r="6"/>
+      </g>
+      <g fill="#94a3b2" transform="translate(0,80)">
+        <circle cx="10" cy="10" r="6"/><circle cx="30" cy="10" r="6"/><circle cx="50" cy="10" r="6"/><circle cx="70" cy="10" r="6"/><circle cx="90" cy="10" r="6"/>
+        <circle cx="110" cy="10" r="6"/><circle cx="130" cy="10" r="6"/><circle cx="150" cy="10" r="6"/><circle cx="170" cy="10" r="6"/><circle cx="190" cy="10" r="6"/>
+      </g>
+    </g>
+    <text y="180" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#dc2626">같은 회색 = 같은 조합. 사용자 입장 "어 또 그거네"</text>
+  </g>
+
+  <!-- right far: shuffle distribution bar -->
+  <g transform="translate(720,90)">
+    <text font-family="-apple-system, Pretendard, sans-serif" font-size="12" font-weight="700" fill="#1e293b">셔플 분포 — 무편향 확인</text>
+    <text y="14" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#64748b">5요소 1만회 → 첫 자리 ±10% 이내</text>
+    <g transform="translate(0,30)">
+      <g font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#1e293b">
+        <text y="14">A</text><rect x="20" y="2" width="102" height="14" rx="3" fill="#a5b4fc"/><text x="128" y="14" fill="#64748b">2043</text>
+        <text y="34">B</text><rect x="20" y="22" width="96" height="14" rx="3" fill="#5eead4"/><text x="128" y="34" fill="#64748b">1918</text>
+        <text y="54">C</text><rect x="20" y="42" width="101" height="14" rx="3" fill="#fcd34d"/><text x="128" y="54" fill="#64748b">2018</text>
+        <text y="74">D</text><rect x="20" y="62" width="102" height="14" rx="3" fill="#fda4af"/><text x="128" y="74" fill="#64748b">2032</text>
+        <text y="94">E</text><rect x="20" y="82" width="99" height="14" rx="3" fill="#c4b5fd"/><text x="128" y="94" fill="#64748b">1989</text>
+      </g>
+      <line x1="120" y1="-4" x2="120" y2="100" stroke="#16a34a" stroke-dasharray="3 3"/>
+      <text x="120" y="-8" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="9" fill="#16a34a">기대값 2000</text>
+    </g>
+  </g>
+
+  <!-- bottom -->
+  <g transform="translate(60,330)">
+    <rect width="840" height="38" rx="10" fill="#0f172a"/>
+    <text x="20" y="22" font-family="-apple-system, Pretendard, sans-serif" font-size="12" fill="#fff">다양성 검증은 <tspan font-weight="700" fill="#fcd34d">"셔플 함수를 깜빡 안 부른 회귀"</tspan>를 잡고, 분포 검증은 셔플 알고리즘 자체의 편향을 잡는다</text>
+  </g>
+</svg>
