@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-label="히어로 — 매번 다른 추천 카드와 그 뒤를 지키는 통계 검증">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef2ff" />
+      <stop offset="1" stop-color="#fef3f2" />
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a5b4fc" />
+      <stop offset="1" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eead4" />
+      <stop offset="1" stop-color="#14b8a6" />
+    </linearGradient>
+    <linearGradient id="card3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fcd34d" />
+      <stop offset="1" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" />
+      <stop offset="1" stop-color="#e0e7ff" />
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6" />
+    </filter>
+  </defs>
+
+  <rect width="960" height="420" fill="url(#bg)" />
+
+  <!-- soft blobs -->
+  <ellipse cx="160" cy="80" rx="160" ry="60" fill="#c7d2fe" opacity=".5" filter="url(#soft)" />
+  <ellipse cx="820" cy="360" rx="200" ry="80" fill="#fde68a" opacity=".45" filter="url(#soft)" />
+
+  <!-- phone frame -->
+  <g transform="translate(70,70)">
+    <rect width="280" height="290" rx="36" fill="#fff" stroke="#e5e7eb" stroke-width="1.5" />
+    <rect x="20" y="22" width="240" height="22" rx="11" fill="#f1f5f9" />
+    <text x="32" y="38" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#94a3b2">오늘의 추천</text>
+
+    <!-- 3 cards rolling -->
+    <g transform="translate(20,60)">
+      <rect width="240" height="58" rx="14" fill="url(#card1)" />
+      <text x="18" y="26" font-family="-apple-system, Pretendard, sans-serif" font-size="12" font-weight="700" fill="#fff">📚 통합과학</text>
+      <text x="18" y="44" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#e0e7ff">동시 발견 인포그래픽 시작하기</text>
+    </g>
+    <g transform="translate(20,128)">
+      <rect width="240" height="58" rx="14" fill="url(#card2)" />
+      <text x="18" y="26" font-family="-apple-system, Pretendard, sans-serif" font-size="12" font-weight="700" fill="#04201d">🎨 영자신문부</text>
+      <text x="18" y="44" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#0f3a35">진로 인터뷰 정리법</text>
+    </g>
+    <g transform="translate(20,196)">
+      <rect width="240" height="58" rx="14" fill="url(#card3)" />
+      <text x="18" y="26" font-family="-apple-system, Pretendard, sans-serif" font-size="12" font-weight="700" fill="#422006">⭐ 목표</text>
+      <text x="18" y="44" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#5b2e02">"기말 영어 95점" 달성 플랜</text>
+    </g>
+  </g>
+
+  <!-- shuffle motion arc -->
+  <g transform="translate(380,70)" fill="none" stroke="#6366f1" stroke-width="2" stroke-dasharray="4 4" stroke-linecap="round">
+    <path d="M0,80 C40,20 100,20 140,80" />
+    <path d="M0,140 C40,80 100,80 140,140" />
+    <path d="M0,200 C40,140 100,140 140,200" />
+  </g>
+  <text x="380" y="60" font-family="-apple-system, Pretendard, sans-serif" font-size="12" fill="#475569">매번 다른 조합으로 셔플</text>
+
+  <!-- shield = statistical guard -->
+  <g transform="translate(580,90)">
+    <path d="M120,0 L240,28 L240,140 C240,200 180,240 120,260 C60,240 0,200 0,140 L0,28 Z"
+          fill="url(#shield)" stroke="#6366f1" stroke-width="2" />
+    <text x="120" y="100" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="18" font-weight="800" fill="#3730a3">통계 검증</text>
+    <text x="120" y="124" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="12" fill="#475569">5가지 단위 테스트</text>
+
+    <!-- mini badges -->
+    <g transform="translate(40,150)" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#1e293b">
+      <g transform="translate(0,0)">
+        <rect width="70" height="22" rx="11" fill="#e0e7ff" />
+        <text x="35" y="15" text-anchor="middle">슬롯 상한</text>
+      </g>
+      <g transform="translate(80,0)">
+        <rect width="70" height="22" rx="11" fill="#ccfbf1" />
+        <text x="35" y="15" text-anchor="middle">분포</text>
+      </g>
+      <g transform="translate(0,30)">
+        <rect width="70" height="22" rx="11" fill="#fef3c7" />
+        <text x="35" y="15" text-anchor="middle">커버리지</text>
+      </g>
+      <g transform="translate(80,30)">
+        <rect width="70" height="22" rx="11" fill="#fee2e2" />
+        <text x="35" y="15" text-anchor="middle">다양성</text>
+      </g>
+      <g transform="translate(40,60)">
+        <rect width="70" height="22" rx="11" fill="#dbeafe" />
+        <text x="35" y="15" text-anchor="middle">빈 입력</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- title block -->
+  <g transform="translate(70,360)">
+    <text font-family="-apple-system, Pretendard, sans-serif" font-size="13" font-weight="700" fill="#1e293b">매번 다른 추천 = 신선함</text>
+    <text y="18" font-family="-apple-system, Pretendard, sans-serif" font-size="12" fill="#64748b">그 뒤를 결정적 테스트가 아닌 "통계"가 지킨다</text>
+  </g>
+</svg>
