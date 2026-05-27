@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" role="img" aria-label="템플릿 풀 커버리지 — 가챠 안의 모든 캡슐이 적어도 한 번은 나와야 한다">
+  <rect width="960" height="380" fill="#fff"/>
+
+  <text x="60" y="38" font-family="-apple-system, Pretendard, sans-serif" font-size="14" font-weight="800" fill="#1e293b">C. 템플릿 풀 커버리지 — "가챠 안에 있는 모든 캡슐이 1번이라도 나오는가?"</text>
+  <text x="60" y="56" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#64748b">잘못된 인덱스 계산으로 영영 안 나오는 캡슐이 있다면 통상 테스트는 절대 못 잡는다. 1,000회 시뮬레이션해서 누락 캡슐을 찾는다.</text>
+
+  <!-- gacha pool: 5 capsules, all seen -->
+  <g transform="translate(80,110)">
+    <text font-family="-apple-system, Pretendard, sans-serif" font-size="12" font-weight="700" fill="#16a34a">정상 — 5/5 등장</text>
+    <g transform="translate(0,16)">
+      <ellipse cx="120" cy="100" rx="120" ry="100" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+      <g>
+        <circle cx="70"  cy="70"  r="22" fill="#a5b4fc"/>
+        <text x="70" y="74" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#fff" font-weight="700">T1 ✓</text>
+        <circle cx="120" cy="60"  r="22" fill="#5eead4"/>
+        <text x="120" y="64" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#04201d" font-weight="700">T2 ✓</text>
+        <circle cx="170" cy="80"  r="22" fill="#fcd34d"/>
+        <text x="170" y="84" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#422006" font-weight="700">T3 ✓</text>
+        <circle cx="90"  cy="130" r="22" fill="#fda4af"/>
+        <text x="90" y="134" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#7f1d1d" font-weight="700">T4 ✓</text>
+        <circle cx="155" cy="130" r="22" fill="#c4b5fd"/>
+        <text x="155" y="134" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#3b0764" font-weight="700">T5 ✓</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- gacha pool: 5 capsules, 2 never seen -->
+  <g transform="translate(520,110)">
+    <text font-family="-apple-system, Pretendard, sans-serif" font-size="12" font-weight="700" fill="#dc2626">결함 — 2개가 영영 안 나옴</text>
+    <g transform="translate(0,16)">
+      <ellipse cx="120" cy="100" rx="120" ry="100" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+      <g>
+        <circle cx="70"  cy="70"  r="22" fill="#a5b4fc"/>
+        <text x="70" y="74" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#fff" font-weight="700">T1 ✓</text>
+        <circle cx="120" cy="60"  r="22" fill="#5eead4"/>
+        <text x="120" y="64" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#04201d" font-weight="700">T2 ✓</text>
+        <circle cx="170" cy="80"  r="22" fill="#fcd34d"/>
+        <text x="170" y="84" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#422006" font-weight="700">T3 ✓</text>
+        <g opacity=".35">
+          <circle cx="90"  cy="130" r="22" fill="#94a3b2" stroke="#dc2626" stroke-width="2" stroke-dasharray="3 2"/>
+          <text x="90" y="134" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#1e293b" font-weight="700">T4 ✗</text>
+          <circle cx="155" cy="130" r="22" fill="#94a3b2" stroke="#dc2626" stroke-width="2" stroke-dasharray="3 2"/>
+          <text x="155" y="134" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#1e293b" font-weight="700">T5 ✗</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- bottom takeaway -->
+  <g transform="translate(60,330)">
+    <rect width="840" height="38" rx="10" fill="#0f172a"/>
+    <text x="20" y="22" font-family="-apple-system, Pretendard, sans-serif" font-size="12" fill="#fff">슬롯값을 마스킹하면 <tspan font-weight="700" fill="#fcd34d">"${X} 사진 모음"</tspan>처럼 템플릿 자체를 식별 → 풀의 모든 항목이 살아있는지 검증</text>
+  </g>
+</svg>
