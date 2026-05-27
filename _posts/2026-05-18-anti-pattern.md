@@ -20,7 +20,7 @@ feature_image: ../images/20260518/ai-overwrite-flow.png
 
 ---
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 사건 흐름
 
