@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" role="img" aria-label="시드 주입 — 진짜 랜덤 vs 재현 가능한 랜덤">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" />
+      <stop offset="1" stop-color="#f1f5f9" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="360" fill="url(#bg3)" />
+
+  <!-- PROD -->
+  <g transform="translate(60,50)">
+    <text font-family="-apple-system, Pretendard, sans-serif" font-size="14" font-weight="800" fill="#1e293b">운영(PROD) — 진짜 랜덤</text>
+    <text y="20" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#64748b">Math.random() 주입. 사용자는 매번 다른 카드를 본다</text>
+
+    <g transform="translate(0,42)">
+      <!-- dice -->
+      <rect width="80" height="80" rx="14" fill="#fff" stroke="#6366f1" stroke-width="2" transform="rotate(-8 40 40)" />
+      <g transform="rotate(-8 40 40)" fill="#3730a3">
+        <circle cx="22" cy="22" r="4" />
+        <circle cx="58" cy="22" r="4" />
+        <circle cx="40" cy="40" r="4" />
+        <circle cx="22" cy="58" r="4" />
+        <circle cx="58" cy="58" r="4" />
+      </g>
+
+      <!-- arrow -->
+      <path d="M100,40 L200,40" stroke="#94a3b2" stroke-width="2" fill="none" marker-end="url(#a1)" />
+
+      <!-- output cards -->
+      <g transform="translate(210,8)">
+        <rect width="180" height="22" rx="6" fill="#a5b4fc"/>
+        <text x="10" y="15" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#fff">호출 1 → 카드A, 카드C</text>
+
+        <rect y="32" width="180" height="22" rx="6" fill="#5eead4"/>
+        <text x="10" y="47" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#04201d">호출 2 → 카드B, 카드E</text>
+
+        <rect y="64" width="180" height="22" rx="6" fill="#fcd34d"/>
+        <text x="10" y="79" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#422006">호출 3 → 카드D, 카드A</text>
+      </g>
+    </g>
+    <text y="170" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#dc2626">🌀 재현 불가 → CI에서 간헐적 실패</text>
+  </g>
+
+  <!-- TEST -->
+  <g transform="translate(540,50)">
+    <text font-family="-apple-system, Pretendard, sans-serif" font-size="14" font-weight="800" fill="#1e293b">테스트 — 시드 주입</text>
+    <text y="20" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#64748b">mulberry32(seed) 주입. 같은 시드 → 같은 출력. 시드 바꾸면 다음 시나리오</text>
+
+    <g transform="translate(0,42)">
+      <!-- seed icon -->
+      <g transform="translate(0,12)">
+        <ellipse cx="40" cy="50" rx="36" ry="40" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+        <path d="M40,18 C30,32 30,60 40,80 C50,60 50,32 40,18 Z" fill="#16a34a" opacity=".55"/>
+        <text x="40" y="98" text-anchor="middle" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#166534" font-weight="700">seed</text>
+      </g>
+
+      <path d="M100,40 L200,40" stroke="#94a3b2" stroke-width="2" fill="none" marker-end="url(#a1)" />
+
+      <g transform="translate(210,8)">
+        <rect width="180" height="22" rx="6" fill="#a5b4fc"/>
+        <text x="10" y="15" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#fff">seed 1 → 항상 카드A, 카드C</text>
+
+        <rect y="32" width="180" height="22" rx="6" fill="#a5b4fc"/>
+        <text x="10" y="47" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#fff">seed 1 → 항상 카드A, 카드C</text>
+
+        <rect y="64" width="180" height="22" rx="6" fill="#5eead4"/>
+        <text x="10" y="79" font-family="-apple-system, Pretendard, sans-serif" font-size="10" fill="#04201d">seed 2 → 다른 조합 (재현 가능)</text>
+      </g>
+    </g>
+    <text y="170" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#16a34a">✓ 재현 가능 → 1,000번 돌려도 똑같이 검증</text>
+  </g>
+
+  <!-- arrow marker -->
+  <defs>
+    <marker id="a1" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b2" />
+    </marker>
+  </defs>
+
+  <!-- bottom takeaway -->
+  <g transform="translate(60,290)">
+    <rect width="840" height="48" rx="10" fill="#0f172a" />
+    <text x="20" y="20" font-family="-apple-system, Pretendard, sans-serif" font-size="11" fill="#94a3b2">한 줄 시그니처 변경이 본 방법론의 척추</text>
+    <text x="20" y="38" font-family="-apple-system, Pretendard, sans-serif" font-size="13" fill="#fff" font-weight="700">function recommend(profile, rng = Math.random) { ... }</text>
+  </g>
+</svg>
