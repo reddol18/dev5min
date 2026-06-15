@@ -18,7 +18,7 @@ feature_image: ../images/20260608/devops-time-misalignment.png
 
 ---
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 어떤 사고였나
 
