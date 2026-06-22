@@ -1,6 +1,6 @@
 ---
 title: "보이지 않는 다운스트림 — 코드로는 추적할 수 없는 운영 약속"
-date: 2026-06-03
+date: 2026-06-22
 tags: [AI, DevOps, 운영, 다운스트림, 지식관리]
 feature_image: ../images/20260603/03-e2e-as-spec.png
 ---
