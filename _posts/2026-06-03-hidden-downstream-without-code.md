@@ -18,7 +18,7 @@ feature_image: ../images/20260603/03-e2e-as-spec.png
 
 조사해 보니 영향 범위는 한 명이 아니었습니다. 영향받는 사용자가 수백 명, 누락된 표시 건수가 수십 건. 운영팀에는 문의가 쌓이고 있었습니다.
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 원인
 
