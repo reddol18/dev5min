@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F6FB"/>
+    </linearGradient>
+    <linearGradient id="panelRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF1F2"/>
+      <stop offset="1" stop-color="#FFE4E6"/>
+    </linearGradient>
+    <linearGradient id="panelBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFF6FF"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <filter id="soft3" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1E293B" flood-opacity="0.16"/>
+    </filter>
+    <marker id="m3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="880" height="420" rx="20" fill="url(#bg3)"/>
+
+  <text x="440" y="44" text-anchor="middle" font-size="17" font-weight="800" fill="#0F172A">
+    시간 문제를 <tspan fill="#2563EB">정적 규칙</tspan> 으로 번역하면 — 사각지대가 사라집니다
+  </text>
+
+  <!-- left panel -->
+  <g filter="url(#soft3)">
+    <rect x="44" y="84" width="320" height="290" rx="18" fill="url(#panelRed)" stroke="#FDA4AF" stroke-width="1.5"/>
+  </g>
+  <text x="204" y="118" text-anchor="middle" font-size="14" font-weight="800" fill="#BE123C">시간 위의 질문 (코드에 없음)</text>
+
+  <g font-size="12.5" fill="#9F1239">
+    <text x="74" y="158">· 몇 개나 쏘나?</text>
+    <text x="74" y="190">· 어떤 순서로 도착하나?</text>
+    <text x="74" y="222">· 어느 응답이 최종 승자인가?</text>
+    <text x="74" y="254">· 두 흐름이 동시에 끼면?</text>
+  </g>
+  <line x1="74" y1="278" x2="334" y2="278" stroke="#FDA4AF" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="204" y="304" text-anchor="middle" font-size="11.5" fill="#BE123C">답이 실행 순서에 떠넘겨짐</text>
+  <text x="204" y="326" text-anchor="middle" font-size="11.5" fill="#BE123C">→ 정적 분석의 사각지대</text>
+  <text x="204" y="350" text-anchor="middle" font-size="12" font-weight="800" fill="#BE123C">사람도 · AI 도 놓침</text>
+
+  <!-- arrow -->
+  <text x="440" y="208" text-anchor="middle" font-size="12" font-weight="800" fill="#2563EB">번역</text>
+  <line x1="372" y1="228" x2="512" y2="228" stroke="url(#arrowGrad)" stroke-width="3.5" stroke-linecap="round" marker-end="url(#m3)"/>
+
+  <!-- right panel -->
+  <g filter="url(#soft3)">
+    <rect x="516" y="84" width="320" height="290" rx="18" fill="url(#panelBlue)" stroke="#93C5FD" stroke-width="1.5"/>
+  </g>
+  <text x="676" y="118" text-anchor="middle" font-size="14" font-weight="800" fill="#2563EB">정적 규칙 (코드에 박힘)</text>
+
+  <text x="546" y="156" font-size="12.5" font-weight="800" fill="#1E40AF">디바운스</text>
+  <text x="546" y="175" font-size="11.5" fill="#1E3A8A">"마지막 입력만 살아남는다"</text>
+
+  <text x="546" y="212" font-size="12.5" font-weight="800" fill="#1E40AF">멱등키 · 세대 카운터</text>
+  <text x="546" y="231" font-size="11.5" fill="#1E3A8A">"키·번호 안 맞으면 무시"</text>
+
+  <text x="546" y="268" font-size="12.5" font-weight="800" fill="#1E40AF">상태기계 · 단일 소유(SoT)</text>
+  <text x="546" y="287" font-size="11.5" fill="#1E3A8A">"이 전이는 정의 자체가 없다"</text>
+
+  <line x1="546" y1="306" x2="806" y2="306" stroke="#93C5FD" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="676" y="330" text-anchor="middle" font-size="11.5" fill="#2563EB">"무엇이 일어나면 안 되나" 를 선언</text>
+  <text x="676" y="352" text-anchor="middle" font-size="12" font-weight="800" fill="#2563EB">→ AI 가 잘 잡는 정적 조건이 됨</text>
+</svg>
