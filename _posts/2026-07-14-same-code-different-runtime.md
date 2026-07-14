@@ -46,7 +46,7 @@ feature_image: ../images/20260714/03-same-order-different-part.png
 
 > 첫 교훈: **증상이 보이는 곳과 원인이 있는 곳은 다를 수 있습니다.** "화면이 이상하다" 고 화면만 파면, 멀쩡한 화면을 붙잡고 하루를 보냅니다.
 
-![증상은 화면, 원인은 전화선](./01-symptom-vs-cause.png)
+![증상은 화면, 원인은 전화선](../images/20260714/01-symptom-vs-cause.png)
 
 ---
 
@@ -83,7 +83,7 @@ feature_image: ../images/20260714/03-same-order-different-part.png
 
 같은 레시피, 같은 재료, 같은 요리사인데 **한쪽 부엌에서만** 불이 꺼지는 셈이었습니다. 이쯤 되면 범인은 "우리가 쓴 것" 이 아니라 **"부엌 그 자체"**, 즉 서비스가 놓여 있는 실행 환경에 있다는 게 분명해집니다.
 
-![본점은 완주, 지점만 절단](./02-two-kitchens.png)
+![본점은 완주, 지점만 절단](../images/20260714/02-two-kitchens.png)
 
 ---
 
@@ -117,7 +117,7 @@ feature_image: ../images/20260714/03-same-order-different-part.png
 
 같은 "최신" 이라는 이름표를 달았지만, 안에 든 실제 버전은 부엌마다 달랐던 것입니다.
 
-![같은 주문, 다른 부품](./03-same-order-different-part.png)
+![같은 주문, 다른 부품](../images/20260714/03-same-order-different-part.png)
 
 ---
 
