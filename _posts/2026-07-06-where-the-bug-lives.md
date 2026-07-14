@@ -16,7 +16,7 @@ AI 에게 버그를 맡기면 대개 잘 고칩니다. 그런데 어느 날, 저
 
 ---
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 1. 멈춰 버린 화면
 
