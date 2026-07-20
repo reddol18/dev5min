@@ -20,7 +20,7 @@ feature_image: ../images/20260714/03-same-order-different-part.png
 
 ---
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 1. 답이 다 나오다가, 갑자기 오류로 바뀌었습니다
 
