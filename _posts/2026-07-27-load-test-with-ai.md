@@ -34,7 +34,7 @@ feature_image: ../images/20260727/01-old-way.png
 
 ---
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 1. 예전에는 어떻게 정했나
 
