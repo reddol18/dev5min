@@ -25,8 +25,6 @@ feature_image: ../images/20260720/restart-session-not-laptop.png
 
 ---
 
-{% include adfit2.html %}
-
 ## 사건 A — 캘린더 도구가 *목록 자체에서* 사라진 이유
 
 먼저 사건 A 의 현상적으로 정리해 보겠습니다.
