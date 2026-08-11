@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F6FB"/>
+    </linearGradient>
+    <linearGradient id="cardA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FAFBFD"/>
+    </linearGradient>
+    <filter id="soft2" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#1E293B" flood-opacity="0.14"/>
+    </filter>
+    <marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748B"/>
+    </marker>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#10B981"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="480" rx="20" fill="url(#bg2)"/>
+
+  <text x="450" y="42" text-anchor="middle" font-size="17" font-weight="800" fill="#0F172A">
+    일을 나누는 세 가지 방법
+  </text>
+  <text x="450" y="66" text-anchor="middle" font-size="12.5" fill="#64748B">
+    차이는 "상대가 도중에 말을 걸 수 있는가" 입니다
+  </text>
+
+  <!-- CARD 1 -->
+  <rect x="46" y="92" width="252" height="268" rx="14" fill="url(#cardA)" stroke="#E2E8F0" filter="url(#soft2)"/>
+  <rect x="46" y="92" width="252" height="52" rx="14" fill="#F1F5F9"/>
+  <rect x="46" y="130" width="252" height="14" fill="#F1F5F9"/>
+  <text x="172" y="115" text-anchor="middle" font-size="12.5" font-weight="800" fill="#334155">맡기고 기다리기</text>
+  <text x="172" y="134" text-anchor="middle" font-size="10" fill="#64748B">서브에이전트</text>
+
+  <circle cx="106" cy="176" r="19" fill="#E2E8F0"/>
+  <text x="106" y="181" text-anchor="middle" font-size="12" font-weight="700" fill="#475569">나</text>
+  <circle cx="238" cy="176" r="19" fill="#F1F5F9" stroke="#CBD5E1"/>
+  <text x="238" y="181" text-anchor="middle" font-size="11" fill="#64748B">도우미</text>
+  <path d="M129 176 L214 176" stroke="#64748B" stroke-width="2" marker-end="url(#a1)"/>
+  <path d="M214 198 L129 198" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#a1)"/>
+  <text x="172" y="220" text-anchor="middle" font-size="9.5" fill="#94A3B8">답은 끝날 때 한 번</text>
+
+  <text x="68" y="256" font-size="11" fill="#475569">· 일이 끝나야 결과가 옵니다</text>
+  <text x="68" y="280" font-size="11" fill="#475569">· 도중에 막혀도 알 수 없습니다</text>
+  <text x="68" y="304" font-size="11" fill="#475569">· 끝나면 사라집니다</text>
+  <rect x="68" y="318" width="208" height="30" rx="7" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="172" y="331" text-anchor="middle" font-size="9" fill="#94A3B8">이렇게 시킵니다</text>
+  <text x="172" y="343" text-anchor="middle" font-size="9.5" font-weight="600" fill="#475569">"맡겨서 해 줘"</text>
+
+  <!-- CARD 2 -->
+  <rect x="324" y="92" width="252" height="268" rx="14" fill="url(#cardA)" stroke="#E2E8F0" filter="url(#soft2)"/>
+  <rect x="324" y="92" width="252" height="52" rx="14" fill="#F1F5F9"/>
+  <rect x="324" y="130" width="252" height="14" fill="#F1F5F9"/>
+  <text x="450" y="115" text-anchor="middle" font-size="12.5" font-weight="800" fill="#334155">여러 개 한꺼번에</text>
+  <text x="450" y="134" text-anchor="middle" font-size="10" fill="#64748B">병렬 실행</text>
+
+  <circle cx="384" cy="176" r="19" fill="#E2E8F0"/>
+  <text x="384" y="181" text-anchor="middle" font-size="12" font-weight="700" fill="#475569">나</text>
+  <circle cx="512" cy="156" r="15" fill="#F1F5F9" stroke="#CBD5E1"/>
+  <circle cx="512" cy="192" r="15" fill="#F1F5F9" stroke="#CBD5E1"/>
+  <path d="M405 168 L491 158" stroke="#64748B" stroke-width="2" marker-end="url(#a1)"/>
+  <path d="M405 184 L491 190" stroke="#64748B" stroke-width="2" marker-end="url(#a1)"/>
+  <path d="M512 172 L512 178" stroke="#EF4444" stroke-width="2.5"/>
+  <text x="450" y="222" text-anchor="middle" font-size="9.5" fill="#94A3B8">서로는 볼 수 없습니다</text>
+
+  <text x="346" y="256" font-size="11" fill="#475569">· 같은 시간에 여럿이 돕니다</text>
+  <text x="346" y="280" font-size="11" fill="#475569">· 서로 무엇을 하는지 모릅니다</text>
+  <text x="346" y="304" font-size="11" fill="#EF4444">· 같은 파일을 건드리면 부딪힙니다</text>
+  <rect x="346" y="318" width="208" height="30" rx="7" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="450" y="331" text-anchor="middle" font-size="9" fill="#94A3B8">이렇게 시킵니다</text>
+  <text x="450" y="343" text-anchor="middle" font-size="9.5" font-weight="600" fill="#475569">"동시에 진행해 줘"</text>
+
+  <!-- CARD 3 -->
+  <rect x="602" y="92" width="252" height="268" rx="14" fill="url(#cardA)" stroke="#A7F3D0" stroke-width="1.5" filter="url(#soft2)"/>
+  <rect x="602" y="92" width="252" height="52" rx="14" fill="#ECFDF5"/>
+  <rect x="602" y="130" width="252" height="14" fill="#ECFDF5"/>
+  <text x="728" y="115" text-anchor="middle" font-size="12.5" font-weight="800" fill="#047857">옆자리에 앉기</text>
+  <text x="728" y="134" text-anchor="middle" font-size="10" fill="#059669">별도 세션</text>
+
+  <circle cx="662" cy="176" r="19" fill="#E2E8F0"/>
+  <text x="662" y="181" text-anchor="middle" font-size="12" font-weight="700" fill="#475569">나</text>
+  <circle cx="794" cy="176" r="19" fill="#ECFDF5" stroke="#A7F3D0"/>
+  <text x="794" y="181" text-anchor="middle" font-size="11" fill="#047857">동료</text>
+  <path d="M685 168 L770 168" stroke="#64748B" stroke-width="2" marker-end="url(#a1)"/>
+  <path d="M770 190 L685 190" stroke="#10B981" stroke-width="2.5" marker-end="url(#a2)"/>
+  <text x="728" y="220" text-anchor="middle" font-size="9.5" font-weight="700" fill="#047857">양쪽 다 먼저 말할 수 있습니다</text>
+
+  <text x="624" y="256" font-size="11" fill="#475569">· 도중에도 물어볼 수 있습니다</text>
+  <text x="624" y="280" font-size="11" fill="#475569">· 끝나도 자리를 지킵니다</text>
+  <text x="624" y="304" font-size="11" fill="#475569">· 사람이 따로 열어 둔 창입니다</text>
+  <rect x="624" y="318" width="208" height="30" rx="7" fill="#ECFDF5" stroke="#A7F3D0"/>
+  <text x="728" y="331" text-anchor="middle" font-size="9" fill="#6EE7B7">터미널에서</text>
+  <text x="728" y="343" text-anchor="middle" font-size="9.5" font-weight="600" fill="#047857">창을 하나 더 엽니다</text>
+
+  <!-- footer -->
+  <rect x="46" y="386" width="808" height="62" rx="12" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#soft2)"/>
+  <rect x="46" y="386" width="6" height="62" rx="3" fill="#2563EB"/>
+  <text x="72" y="412" font-size="11.5" font-weight="700" fill="#0F172A">셋 중 무엇이 낫다는 이야기가 아닙니다.</text>
+  <text x="72" y="434" font-size="11.5" fill="#475569">맡길 일이 얼마나 오래 걸리는지, 도중에 판단이 필요한지에 따라 고르면 됩니다.</text>
+</svg>
