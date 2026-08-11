@@ -23,7 +23,7 @@ feature_image: ../images/20260804/01-ask-vs-placeholder.png
 
 ---
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 1. 다섯 번의 처방, 다섯 번의 재발
 
