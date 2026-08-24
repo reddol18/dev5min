@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="880" height="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f4f6fa"/>
+    </linearGradient>
+    <filter id="sh2" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1a2744" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="880" height="380" fill="url(#bg2)"/>
+
+  <text x="40" y="46" font-size="19" font-weight="700" fill="#1a2744">“어제까지 됐다”가 무죄 증명이 아닌 이유</text>
+  <text x="40" y="70" font-size="13.5" fill="#69748d">버그는 처음부터 있었습니다. 가려져 있었을 뿐입니다.</text>
+
+  <!-- 타임라인 축 -->
+  <line x1="70" y1="196" x2="820" y2="196" stroke="#cbd3e0" stroke-width="1.5"/>
+
+  <!-- 버그 존재 구간 (전 구간) -->
+  <rect x="70" y="150" width="750" height="14" rx="7" fill="#f7dfe4"/>
+  <text x="80" y="141" font-size="11.5" font-weight="700" fill="#c0475c">우리 요청은 줄곧 명세를 위반하고 있었습니다</text>
+
+  <!-- 관대 구간 -->
+  <rect x="70" y="204" width="430" height="14" rx="7" fill="#d6ebe0"/>
+  <text x="80" y="236" font-size="11.5" font-weight="700" fill="#12805f">상대가 여분 필드를 무시해 줌</text>
+  <text x="80" y="255" font-size="12" fill="#69748d">→ 아무 문제 없이 동작</text>
+
+  <!-- 엄격 구간 -->
+  <rect x="500" y="204" width="320" height="14" rx="7" fill="#f7dfe4"/>
+  <text x="512" y="236" font-size="11.5" font-weight="700" fill="#c0475c">검증이 엄격해짐</text>
+  <text x="512" y="255" font-size="12" fill="#69748d">→ 원래 있던 버그가 드러남</text>
+
+  <!-- 경계선 -->
+  <line x1="500" y1="128" x2="500" y2="272" stroke="#98a2b8" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <circle cx="500" cy="196" r="5" fill="#ffffff" stroke="#1a2744" stroke-width="2"/>
+
+  <!-- 시점 표시 -->
+  <text x="88" y="186" font-size="12" fill="#33405c">나흘 전 — 결제 성공</text>
+  <text x="640" y="186" font-size="12" fill="#33405c">오늘 — 조회 전부 실패</text>
+
+  <!-- 관측/해석 대비 -->
+  <rect x="70" y="292" width="360" height="62" rx="5" fill="#ffffff" stroke="#dde2ec" filter="url(#sh2)"/>
+  <text x="88" y="315" font-size="11" font-weight="700" fill="#8b95ab" letter-spacing="0.9">이때 보이는 현상</text>
+  <text x="88" y="338" font-size="12.5" fill="#33405c">“우리는 안 바꿨는데 갑자기 안 된다”</text>
+
+  <rect x="460" y="292" width="360" height="62" rx="5" fill="#ffffff" stroke="#dde2ec" filter="url(#sh2)"/>
+  <text x="478" y="315" font-size="11" font-weight="700" fill="#8b95ab" letter-spacing="0.9">구별되지 않는 두 해석</text>
+  <text x="478" y="338" font-size="12.5" fill="#33405c">저쪽이 망가졌다 <tspan fill="#98a2b8">vs</tspan> 우리가 원래 틀렸다</text>
+</svg>
