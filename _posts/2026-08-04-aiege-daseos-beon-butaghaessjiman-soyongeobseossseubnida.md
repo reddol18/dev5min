@@ -23,8 +23,6 @@ feature_image: ../images/20260804/01-ask-vs-placeholder.png
 
 ---
 
-{% include adfit2.html %}
-
 ## 1. 다섯 번의 처방, 다섯 번의 재발
 
 처음엔 간단해 보였습니다. 옛 정보가 남아 있으니 걸러내면 될 일이라고 생각했죠.
