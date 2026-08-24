@@ -20,7 +20,7 @@ feature_image: ../images/20260810/01-two-screens.svg
 
 ---
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 첫 번째 방법 — 맡기고 기다리기
 
