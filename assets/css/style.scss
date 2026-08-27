@@ -27,10 +27,12 @@ code {
   word-break: break-word;
 }
 // Font.
+// 세리프 폴백을 완전히 걷어내고 시스템 고딕 스택으로 통일.
+// Pretendard/Apple SD Gothic Neo/Malgun Gothic/Nanum Gothic — 어느 OS에서든 굵고 깨끗한 산세리프가 잡힘.
 $font: (
-  primary: ("Lato","Helvetica Neue",Helvetica,sans-serif),
-  secondary: ("Nanum Gothic","Noto Serif",Georgia,serif),
-  eng: ("Noto Serif",Georgia,serif)
+  primary:   ("Pretendard","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic","맑은 고딕","Nanum Gothic","Lato","Helvetica Neue",Helvetica,Arial,sans-serif),
+  secondary: ("Pretendard","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic","맑은 고딕","Nanum Gothic","Helvetica Neue",Helvetica,Arial,sans-serif),
+  eng:       ("Pretendard","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic","맑은 고딕","Nanum Gothic","Helvetica Neue",Helvetica,Arial,sans-serif)
 );
 
 // Palette.
