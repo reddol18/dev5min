@@ -5,7 +5,7 @@ description: "파이썬을 이용해서 네이버 블로그에 있는 내용과 
 date: 2023-12-19
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Data and Api]
+categories: [Dev, Data and Api]
 tags: [naver,naverblog,blog,backup,githubapi,githubblog]
 ---
 - 지난 시간에는 네이버 블로그에 있는 글과 이미지를 가져오는 방법에 대해서 고민해 봤다면
