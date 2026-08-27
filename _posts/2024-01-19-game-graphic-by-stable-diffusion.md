@@ -5,7 +5,7 @@ description: "그래픽 디자인 재능이 없어도 AI를 이용해서 게임 
 date: 2024-01-19
 feature_image: https://reddol18.github.io/dev5min/images/20231130/image3.png
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [stable_diffusion,sd,ai,game_graphic]
 ---
 #### 게임 그래픽 제작을 AI가 할 수 있다고?
