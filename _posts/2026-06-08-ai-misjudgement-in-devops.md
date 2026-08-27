@@ -1,11 +1,10 @@
 ---
 title: "AI가 데브옵스를 어렵게 만드는 순간 — 한 글자 차이가 사건을 13분 뒤로 미루다"
 date: 2026-06-08
+categories: [Dev, AiDev]
 tags: [AI, 데브옵스, 운영 사고, 시간대, 회고, 모니터링]
 feature_image: ../images/20260608/devops-time-misalignment.png
 ---
-
-
 ## 무슨일이 있었나
 
 운영 사고를 추적하던 중 사용자가 한 줄을 짚었습니다.
