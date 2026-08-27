@@ -5,7 +5,7 @@ description: "라즈베리파이로 만든 CCTV 웹 모니터링 화면을, 원�
 date: 2024-03-19
 feature_image: https://reddol18.github.io/dev5min/images/20240319/1.png
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [mediapipe,object detection,selenium,webdriver]
 ---
 - MediaPipe 유용하게 쓰고 있나요? 저는 이것 저것 잘 쓰고 있습니다.
