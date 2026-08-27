@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI에게 제 펀드 200만원을 맡겼더니, 이름값 못 하는 펀드가 나왔습니다 (AI펀드매니저 만들기 1편)"
+title: "AI한테 제 펀드 정체 좀 봐달라고 했더니 (AI펀드매니저 만들기 1편)"
 date: 2026-08-27
 feature_image: ../images/20260827/01-opening-fund-status.png
 categories: [AiFundManager]
