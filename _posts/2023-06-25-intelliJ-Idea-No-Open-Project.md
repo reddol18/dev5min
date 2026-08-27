@@ -5,7 +5,7 @@ description: "어떻게 하면 프로젝트가 안 열리는 문제를 해결할
 date: 2023-06-25
 feature_image: https://reddol18.github.io/dev5min/images/20230625/image.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [intellij,jetbrains,plugin,problem]
 ---
 - 새 버젼 인텔리제이를 다운로드 받고 작업 프로젝트를 열려고 하는데, 아래 화면에서 안넘어 가는거에요.
