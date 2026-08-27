@@ -5,7 +5,7 @@ description: "아두이노와 연결된 미세 먼지 센서에서 나오는 값
 date: 2025-03-15
 feature_image: ../images/20250315/1.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [arduino,raspberrypi,pico,wlan,wifi,dust]
 ---
 ### 미세먼지 측정하기
