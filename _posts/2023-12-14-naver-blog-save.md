@@ -5,7 +5,7 @@ description: "파이썬을 이용해서 네이버 블로그에 있는 내용과 
 date: 2023-12-13
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Data and Api]
+categories: [Dev, Data and Api]
 tags: [naver,naverblog,blog,backup]
 ---
 - 저는 깃헙블로그를 기술블로그로 운영하고 있지만, 일상적인 이야기는 네이버 블로그를 이용하고 있어요.
