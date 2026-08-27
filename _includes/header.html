@@ -1,3 +1,67 @@
+<style>
+  /* 상단 카테고리 드롭다운 (menu: other) — hover 시 노출 */
+  .menu .has-dropdown { position: relative; }
+  .menu .has-dropdown > .dropdown-toggle {
+    cursor: pointer;
+    background: none;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+  }
+  .menu .has-dropdown > .dropdown-toggle::after {
+    content: " ▾";
+    font-size: 0.85em;
+    opacity: 0.7;
+  }
+  .menu .dropdown-panel {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 180px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+    padding: 6px 0;
+    z-index: 100;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+  }
+  .menu .has-dropdown:hover > .dropdown-panel,
+  .menu .has-dropdown:focus-within > .dropdown-panel {
+    display: block;
+  }
+  .menu .dropdown-panel li { margin: 0; padding: 0; list-style: none; }
+  .menu .dropdown-panel a {
+    display: block;
+    padding: 8px 16px;
+    color: #334155;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  .menu .dropdown-panel a:hover,
+  .menu .dropdown-panel a:focus {
+    background: #f1f5f9;
+    color: #0f172a;
+  }
+  @media (max-width: 720px) {
+    .menu .dropdown-panel {
+      position: static;
+      box-shadow: none;
+      border: 0;
+      padding-left: 12px;
+    }
+    .menu .has-dropdown:hover > .dropdown-panel,
+    .menu .has-dropdown:focus-within > .dropdown-panel {
+      display: block;
+    }
+  }
+</style>
+
 <header class="site-header">
   {% if page.url == "/" %}
   <h1 class="site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.title}}</a></h1>
@@ -17,15 +81,28 @@
           <a class="{{ current }}" href="{{ item.url }}">{{ item.text }}</a>
         </li>
         {% endfor %}
-        {% assign pages_list = site.pages %}
-        {% for node in pages_list %}
-        {% if node.title != null %}
-        {% if node.layout == "category" and node.parent == nil %}
-        <li><a class="menu-item {% if page.url == node.url %} nav-current{% endif %}"
-               href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-        {% endif %}
-        {% endif %}
+
+        {% comment %} 1) menu: primary — 상단에 weight 순으로 노출 {% endcomment %}
+        {% assign primary_pages = site.pages | where: "layout", "category" | where: "menu", "primary" | sort: "weight" %}
+        {% for node in primary_pages %}
+        <li class="menu-item {% if page.url == node.url %} nav-current{% endif %}">
+          <a class="{% if page.url == node.url %}nav-current{% endif %}"
+             href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+        </li>
         {% endfor %}
+
+        {% comment %} 2) menu: other — "그 밖에 ▾" 드롭다운으로 묶음 {% endcomment %}
+        {% assign other_pages = site.pages | where: "layout", "category" | where: "menu", "other" | sort: "weight" %}
+        {% if other_pages.size > 0 %}
+        <li class="menu-item has-dropdown">
+          <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">그 밖에</button>
+          <ul class="dropdown-panel" role="menu">
+            {% for node in other_pages %}
+            <li role="none"><a role="menuitem" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
       </ul><!-- .menu -->
       <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
           class="icon-close" aria-hidden="true"></span></button>
