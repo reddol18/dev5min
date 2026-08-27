@@ -5,7 +5,7 @@ description: "음성을 이용해서 구글 캘린더에 스케쥴을 입력하�
 date: 2025-01-22
 feature_image: https://reddol18.github.io/dev5min/images/20250122/1.jpeg
 author: "김민석"
-categories: [Flutter and Dart]
+categories: [Dev, Flutter and Dart]
 tags: [flutter,stt,gemini,calendar]
 ---
 # HeyMySec
