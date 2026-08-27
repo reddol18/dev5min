@@ -5,7 +5,7 @@ description: "파이썬기반 사진 성별 판독 라이브러리의 정확도�
 date: 2023-11-01
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [deeplearning,ai,insightface,keras,caffe,gender_detection]
 ---
 - 사람의 얼굴이 들어간 사진을 입력하면 성별을 판독해주는 라이브러리들이 있죠.
