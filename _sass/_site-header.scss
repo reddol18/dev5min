@@ -140,20 +140,31 @@
   .menu {
     opacity: 0;
     padding: 7rem 45px 2.5rem;
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .menu-item {
     font-family: _font(secondary);
     border-bottom: 1px solid _palette(border);
-    display: flex;
+    display: block;
     margin: 0;
     &:last-child {
       border: 0;
     }
     a {
-      display: flex;
-      padding: 0.5rem 0;
+      display: block;
+      padding: 0.75rem 0;
+      justify-content: center;
     }
+  }
+
+  /* 하위 드롭다운("그 밖에")은 모바일에서 인라인 노출되고 있으므로
+     리스트 항목들도 가운데 정렬로 이어지게 한다. */
+  .menu .dropdown-panel {
+    text-align: center;
+    padding-left: 0 !important;
   }
 
   .menu--opened {
