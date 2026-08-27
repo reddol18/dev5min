@@ -1,11 +1,10 @@
 ---
 title: "코드는 한 글자도 안 바꿨는데, 왜 에러가 나지?"
 date: 2026-07-14
+categories: [Dev, AiDev]
 tags: [AI, 디버깅,  재현성, 바이브코딩, Node오류]
 feature_image: ../images/20260714/03-same-order-different-part.png
 ---
-
-
 **부제**: 잘 되던 기능이 한쪽에서만 망가졌고, 범인은 우리가 쓴 코드가 아니라 그 코드를 **실행해 주는 엔진**이었습니다
 
 ---
