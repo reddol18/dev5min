@@ -5,7 +5,7 @@ description: "여기저기서 검색해본 결과 이 방법이 가장 최신 �
 date: 2024-05-02
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Data and Api]
+categories: [Dev, Data and Api]
 tags: [nodejs,apple,인앱결제,ios]
 ---
 - 지난 시간에 구글 안드로이드 인앱결제 유효성 검증을 알아봤습니다.
