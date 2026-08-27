@@ -5,7 +5,7 @@ description: "파이썬에서 Command를 통해 Git 사용을 할 수 있는 방
 date: 2023-09-14
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [stable diffusion,webui,extension,install]
 ---
 - Stable Diffusion WebUI에서 Extension 설치가 안되는 경우가 있습니다.
