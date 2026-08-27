@@ -5,7 +5,7 @@ description: "Project 설정시에 Modules로 디렉토리 지정을 했는데, 
 date: 2023-08-11
 feature_image: https://github.com/reddol18/dev5min/assets/15623847/92db53e7-6d22-4431-8a90-2b27c0d184b9
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [intellij,jetbrains,project_structure,modules,problem]
 ---
 IntelliJ Idea Remote Development 사용하시는 분들이 있을겁니다.
