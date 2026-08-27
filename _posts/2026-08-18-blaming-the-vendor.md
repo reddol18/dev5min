@@ -25,8 +25,6 @@ feature_image: ../images/20260818/01-inference-path.svg
 
 ---
 
-{% include adfit2.html %}
-
 ## 1. 세 번의 오진
 
 에이전트는 이 사건에서 잘못된 결론을 세 번 냈습니다. 각각이 어떻게 그럴듯했는지가 이 글의 핵심이므로, 순서대로 적어 두겠습니다.
