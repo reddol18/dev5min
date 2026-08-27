@@ -5,7 +5,7 @@ description: "동영상으로 촬영한 화면이 고양이의 시각에서 어�
 date: 2025-12-30
 feature_image: ../images/20251230/thumbnail.png
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [opencv,detectron2,visionai,ai]
 ---
 ### 고양이는 과연 세상을 어떻게 바라볼까?
