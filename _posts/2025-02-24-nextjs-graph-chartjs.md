@@ -5,7 +5,7 @@ description: "1분마다 측정된 온도/습도 값을 그래프로 그리는 �
 date: 2025-02-24
 feature_image: ../images/20250224/image.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [nextjs,react,reactjs,typescript,chartjs,react-chartjs]
 ---
 ### 지난 시간에 이어서...
