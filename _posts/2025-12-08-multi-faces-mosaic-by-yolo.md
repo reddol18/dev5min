@@ -5,7 +5,7 @@ description: "얼굴인식부터 특정인만 모자이크 처리하는 방법"
 date: 2025-12-08
 feature_image: ../images/20251208/mosaic.png
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [yolo,face-detection]
 ---
 ### 나 빼고 다 모자이크 처리해야 하는데...
