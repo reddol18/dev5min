@@ -5,7 +5,7 @@ description: "proguard-rules 설정을 통해 특정 의존성의 코드/리소�
 date: 2023-03-23
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Flutter and Dart]
+categories: [Dev, Flutter and Dart]
 tags: [flutter,proguard_rule,bluetooth,flutter_blue_plus]
 ---
 ### 문제의 상황
