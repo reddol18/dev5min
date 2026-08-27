@@ -5,7 +5,7 @@ description: "파이썬을 이용해서 깃헙 파일을 업데이트 하고, �
 date: 2023-12-24
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Data and Api]
+categories: [Dev, Data and Api]
 tags: [naver,naverblog,blog,backup,githubapi,githubblog,google,searchconsole,urlindexing]
 ---
 - 오늘은 이번 네이버 블로그 백업 연재의 마지막편입니다.
