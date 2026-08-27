@@ -5,7 +5,7 @@ description: "터미널에서 간단하게 사용할 수 있습니다."
 date: 2024-09-26
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [heic,png,jpg,convert]
 ---
 - 예전에 heic 파일 변환 관련한 코드를 이 블로그에 올린적이 있는데요.
