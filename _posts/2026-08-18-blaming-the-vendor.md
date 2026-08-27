@@ -1,11 +1,10 @@
 ---
 title: "AI도 잘못된 의심을 합니다. 그리고 그럴 때 바로잡기 위해 인간이 필요합니다"
 date: 2026-08-18
+categories: [Dev, AiDev]
 tags: [AI, 디버깅, 외부API연동, 협업, 일하는법, 검증]
 feature_image: ../images/20260818/01-inference-path.svg
 ---
-
-
 **부제**: 외부 API 를 "장애"로 몰아붙인 오전, 그리고 그것을 되돌린 인간의 한마디
 
 ---
