@@ -5,7 +5,7 @@ description: "안드로이드 스마트폰 갤러리에 저장된 이미지 및 
 date: 2026-02-02
 feature_image: ../images/20260203/image3.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [flutter,vuejs,vue]
 ---
 ## 1. 기존 프로그램들의 문제점
