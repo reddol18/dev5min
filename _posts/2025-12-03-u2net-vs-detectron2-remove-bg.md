@@ -5,7 +5,7 @@ description: "실제 사용하면서 겪은 기능 비교입니다"
 date: 2025-12-03
 feature_image: ../images/20251203/image.png
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [u2net,detectron2,removebg]
 ---
 ### 배경을 제거해야 하는 이유
