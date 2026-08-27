@@ -5,10 +5,9 @@ description: "지침 문서의 빈틈 + 모델의 판단 실수 + 외부 서비�
 date: 2026-05-04
 feature_image: ../images/20260504/blog-git-incident-cover.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [ai-agent,claude-code,git,devops,incident]
 ---
-
 > 지침 문서의 빈틈 + 모델의 판단 실수 + 외부 서비스 장애가 겹쳤을 때 무슨 일이 일어나는가
 
 ## 사건의 시작
