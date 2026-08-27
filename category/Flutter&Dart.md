@@ -1,4 +1,7 @@
 ---
 layout: category
-title: Flutter and Dart
+title: Flutter
+category: Flutter and Dart
+menu: other
+weight: 40
 ---
