@@ -1,4 +1,21 @@
 <style>
+  /* primary 3축 — 크고 굵고 accent color(초록) */
+  .menu .menu-item-primary a,
+  .menu .menu-item-primary .dropdown-toggle {
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    color: #078205 !important;
+    letter-spacing: -0.02rem !important;
+    padding: 2px 4px !important;
+  }
+  .menu .menu-item-primary a:hover {
+    color: #045a03 !important;
+    text-decoration: underline !important;
+  }
+  .menu .menu-item-primary.nav-current > a {
+    text-decoration: underline !important;
+  }
+
   /* 상단 카테고리 드롭다운 (menu: other) — hover 시 노출 */
   .menu .has-dropdown { position: relative; }
   .menu .has-dropdown > .dropdown-toggle {
@@ -82,10 +99,10 @@
         </li>
         {% endfor %}
 
-        {% comment %} 1) menu: primary — 상단에 weight 순으로 노출 {% endcomment %}
+        {% comment %} 1) menu: primary — 상단에 weight 순으로 노출 (크고 초록) {% endcomment %}
         {% assign primary_pages = site.pages | where: "layout", "category" | where: "menu", "primary" | sort: "weight" %}
         {% for node in primary_pages %}
-        <li class="menu-item {% if page.url == node.url %} nav-current{% endif %}">
+        <li class="menu-item menu-item-primary{% if page.url == node.url %} nav-current{% endif %}">
           <a class="{% if page.url == node.url %}nav-current{% endif %}"
              href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
         </li>
