@@ -5,7 +5,7 @@ description: "파일이 매우 많을 경우에 화면이 멈추는 현상을 �
 date: 2024-11-22
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Flutter and Dart]
+categories: [Dev, Flutter and Dart]
 tags: [flutter,folder,folder_picker,directory,direcotry_picker,dialog,no_delay]
 ---
 - 요즘 스마트폰 용량이 TB급으로 늘어나면서, 사진을 찍어놓고 PC에 옮기지 않는 분들이 많을겁니다.
