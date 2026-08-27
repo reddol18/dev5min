@@ -5,7 +5,7 @@ description: "지라(JIRA)의 자동화 기능을 이용해서 특정 레이블�
 date: 2023-11-18
 feature_image: https://reddol18.github.io/dev5min/images/20231118/image-1.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [jira,automation,issues,label,assign]
 ---
 - 저희 팀이 사용하는 지라의 프로젝트는 조금 이상합니다.
