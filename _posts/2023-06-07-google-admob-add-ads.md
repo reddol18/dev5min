@@ -5,7 +5,7 @@ description: "github 블로그에 app-ads.txt 올리고 애드몹에서 확인�
 date: 2023-05-18
 feature_image: https://github.com/reddol18/dev5min/assets/15623847/06f1d9eb-1400-4255-8297-2b59f62348b3
 author: "김민석"
-categories: [Data and Api]
+categories: [Dev, Data and Api]
 tags: [admob,app-ads]
 ---
 - 개발한 앱에 애드몹 광고를 달았어요. 아래처럼 광고는 잘 나옵니다. 그런데 애드몹에서 메시지를 보내왔어요.
