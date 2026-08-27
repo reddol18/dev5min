@@ -5,10 +5,9 @@ description: "toast 알림 구현 이슈에서 드러난 AI 에이전트의 구�
 date: 2026-04-16
 feature_image: ../images/20260416/04-schedule-mobile-safari.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [ai-agent,playwright,testing,toast]
 ---
-
 ## 한 줄 요약
 
 버튼을 눌렀을 때 "성공했어요" / "실패했어요" 알림(toast)을 표시하는 기능을 추가했습니다. AI 에이전트 팀이 60개 테스트를 작성하고 통과시켰지만, **사람의 개입 없이는 실제 앱 버그가 그냥 납품됐을 것입니다.**
