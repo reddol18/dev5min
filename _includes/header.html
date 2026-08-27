@@ -20,7 +20,7 @@
         {% assign pages_list = site.pages %}
         {% for node in pages_list %}
         {% if node.title != null %}
-        {% if node.layout == "category" %}
+        {% if node.layout == "category" and node.parent == nil %}
         <li><a class="menu-item {% if page.url == node.url %} nav-current{% endif %}"
                href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
         {% endif %}
