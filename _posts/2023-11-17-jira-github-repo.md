@@ -5,7 +5,7 @@ description: "지라(JIRA)의 Github APP에서 내가 원하는 Repository를 �
 date: 2023-11-17
 feature_image: https://reddol18.github.io/dev5min/images/jira1.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [jira,github,commit]
 ---
 - 저희 팀은 협업툴로 지라(JIRA)를 사용하고 있습니다.
