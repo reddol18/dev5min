@@ -25,7 +25,7 @@ feature_image: ../images/20260818/01-inference-path.svg
 
 ---
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 1. 세 번의 오진
 
