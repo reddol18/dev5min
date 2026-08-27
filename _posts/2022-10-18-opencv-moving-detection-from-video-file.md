@@ -5,7 +5,7 @@ description: "Python과 OpenCV를 이용해서 특정 영역안의 움직임이 
 date: 2022-10-18
 feature_image: https://reddol18.github.io/dev5min/images/20221019/1/capture.png
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [opencv,python,cctv,moving,detection]
 ---
 최근에 출시되는 CCTV 관제 프로그램에는 움직임을 감지해서, 해당 구간만 조회할 수 있는 기능이 있습니다.
