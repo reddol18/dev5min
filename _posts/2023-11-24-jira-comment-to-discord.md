@@ -5,7 +5,7 @@ description: "지라(JIRA)의 자동화와 Smart Value를 이용해서 디스코
 date: 2023-11-24
 feature_image: https://reddol18.github.io/dev5min/images/20231124/image.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [jira,automation,smart_value,metion,discord,webhook]
 ---
 - 저희팀은 이슈트래커는 지라를, 메신저는 디스코드를 사용하고 있습니다.
