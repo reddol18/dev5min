@@ -5,7 +5,7 @@ description: "가상 내부망이 트래픽 사용량에 따라 과금되면 요
 date: 2025-09-11
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [openvpn,vpn,ip,internet]
 ---
 ### OpenVPN 서버가 클라우드 서비스에 설치되어 있다면?
