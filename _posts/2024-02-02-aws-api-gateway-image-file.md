@@ -5,7 +5,7 @@ description: "프록시 서버로부터 전달되는 이진형식의 이미지 �
 date: 2024-02-02
 feature_image: https://reddol18.github.io/dev5min/images/20240202/1.png
 author: "김민석"
-categories: [Data and Api]
+categories: [Dev, Data and Api]
 tags: [aws,apigateway,binary,png,image]
 ---
 - API-GATEWAY를 통해서 Rest API를 구현할 경우 기본적으로 텍스트 형태의 반응값을 받게 됩니다.
