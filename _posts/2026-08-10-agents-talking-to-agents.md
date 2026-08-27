@@ -19,8 +19,6 @@ feature_image: ../images/20260810/01-two-screens.svg
 
 ---
 
-{% include adfit2.html %}
-
 ## 첫 번째 방법 — 맡기고 기다리기
 
 가장 익숙한 방식입니다. 일을 설명하고, 맡기고, 결과를 받습니다.
