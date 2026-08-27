@@ -5,7 +5,7 @@ description: "Debug Mode가 왜 필요한지 더 나아가 빌더툴의 필요�
 date: 2023-04-21
 feature_image: https://reddol18.github.io/dev5min/images/20230421/1.jpg
 author: "김민석"
-categories: [Flutter and Dart]
+categories: [Dev, Flutter and Dart]
 tags: [flutter,debug_mode,release_mode]
 ---
 - 제가 개발중인 고양이 집사를 위한 만보기앱에서 발생한 이슈입니다.
