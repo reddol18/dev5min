@@ -5,7 +5,7 @@ description: "여기저기서 검색해본 결과 이 방법이 가장 최신 �
 date: 2024-04-30
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Data and Api]
+categories: [Dev, Data and Api]
 tags: [nodejs,google,googleapis,인앱결제,안드로이드]
 ---
 - 구글 안드로이드용 앱에서 인앱결제를 했을 경우에, 결제정보가 리턴되는데요.
