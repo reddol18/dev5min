@@ -5,7 +5,7 @@ description: "파이썬에서 WebP 파일을 PNG로 변환하는 방법 입니�
 date: 2023-11-15
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [python,webptopng,webp]
 ---
 - 구글에서 개발한 이미지 파일 저장방식인 .webp 파일, 지난번에 HEIC 파일처럼 사용량이 늘어나고 있는 확장자 입니다.
