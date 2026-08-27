@@ -5,7 +5,7 @@ description: "생각보다 방법이 간단합니다."
 date: 2024-06-05
 feature_image: https://reddol18.github.io/dev5min/images/20240605/image1.png
 author: "김민석"
-categories: [Data and Api]
+categories: [Dev, Data and Api]
 tags: [api-gateway,proxy,error-code]
 ---
 - API-GATEWAY를 사용하다 보면 에러 응답 코드라던가, 응답 형식 등을 JSON으로 규정할 수 있음을 알 수 있습니다.
