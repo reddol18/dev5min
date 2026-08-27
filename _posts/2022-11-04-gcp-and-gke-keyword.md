@@ -5,7 +5,7 @@ description: "실전 사용 경험을 바탕으로 주요 기능 및 서비스�
 date: 2022-11-04
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Data and Api]
+categories: [Dev, Data and Api]
 tags: [gcp,gke,kubernetes,cloud]
 ---
 ### PUB/SUB
