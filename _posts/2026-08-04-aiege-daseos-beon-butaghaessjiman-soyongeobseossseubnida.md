@@ -1,11 +1,10 @@
 ---
 title: "LLM API를 통한 정보수정, 어떤 방법이 더 효과적인가?"
 date: 2026-08-04
+categories: [Dev, AiDev]
 tags: [AI, 설계, 데이터 구조, 치환방법론, 비식별화]
 feature_image: ../images/20260804/01-ask-vs-placeholder.png
 ---
-
-
 **부제**: 프롬프트로 설득하는 대신, 애초에 틀린 값이 들어갈 자리를 없애보자
 
 ---
