@@ -5,7 +5,7 @@ description: "Kotlin Native Code와 Flutter를 연결해서 OPENCV Car Detection
 date: 2022-07-25
 feature_image: https://reddol18.github.io/dev5min/images/20220725/1/1.jpg
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [flutter,opencv,car detection,CascadeClassifier]
 ---
 Flutter에서 Dart 언어 이용해서 OPENCV를 쓸 수 있는 플러그인이 있긴 합니다.
