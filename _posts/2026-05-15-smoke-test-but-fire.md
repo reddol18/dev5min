@@ -3,10 +3,9 @@ layout: post
 title: "스모크 테스트 회고: 테스트가 통과했는데 왜 배포 후 불이 났나"
 date: 2026-05-15
 feature_image: ../images/20260515/smoke-test-scope.png
-categories: [others]
+categories: [Dev, Others]
 tags: [스모크테스트,AI테스트,테스트자동화]
 ---
-
 ---
 
 ## 무슨 일이 있었나
