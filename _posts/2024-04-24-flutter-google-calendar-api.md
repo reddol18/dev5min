@@ -5,7 +5,7 @@ description: "나의 캘린더 리스트를 가져오도록 하겠습니다."
 date: 2024-04-24
 feature_image: https://reddol18.github.io/dev5min/images/20240424/1.png
 author: "김민석"
-categories: [Flutter and Dart]
+categories: [Dev, Flutter and Dart]
 tags: [flutter,google_sign_in,google_calendar_api]
 ---
 - 구글 캘린더 많이 사용하시나요? 저는 그것 만큼 직관적인 UI를 가진 스케쥴 앱을 못 찾겠더군요.
