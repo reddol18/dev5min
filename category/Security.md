@@ -1,4 +1,7 @@
 ---
 layout: category
-title: Security
+title: 보안
+category: Security
+menu: other
+weight: 60
 ---
