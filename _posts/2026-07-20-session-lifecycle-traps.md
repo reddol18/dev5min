@@ -1,11 +1,10 @@
 ---
 title: "세션을 계속 켜두고 일하는 게 위험한 이유"
 date: 2026-07-20
+categories: [Dev, AiDev]
 tags: [AI, 코딩 에이전트, lifecycle, 세션, MCP]
 feature_image: ../images/20260720/restart-session-not-laptop.png
 ---
-
-
 **부제**: AI 코딩 에이전트의 lifecycle 을 모르고 운영했을 때 마주친 두 사건
 **대상 독자**: AI 코딩 에이전트로 장시간 작업하는 개발자, 백그라운드 에이전트로 파이프라인을 굴려본 적이 있는 개발자
 
