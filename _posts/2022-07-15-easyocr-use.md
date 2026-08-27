@@ -5,7 +5,7 @@ description: "EASYOCR 처음 사용해보기"
 date: 2022-07-15
 feature_image: https://reddol18.github.io/dev5min/images/20220715/1/1.jpg
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [easyocr,ocr,text,detection]
 ---
 ### 이미지에서 글자를 자동으로 인식하려면
