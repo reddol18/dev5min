@@ -5,7 +5,7 @@ description: "마이크로파이선으로 작성된 IOT코드와 MQTT 통신을 
 date: 2025-02-17
 feature_image: https://reddol18.github.io/dev5min/images/20250217/1.jpeg
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [mqtt,am2320,mosquitto,micropython,rasberrypi,pico,typescript,dth22]
 ---
 ### 라즈베리파이 피코 + DHT22(AM2320) 온습도 센서모듈
