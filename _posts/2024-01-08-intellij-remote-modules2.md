@@ -5,7 +5,7 @@ description: "Project 설정시에 여러개의 Modules을 지정하는 방법�
 date: 2024-01-08
 feature_image: https://reddol18.github.io/dev5min/images/20240108/image.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [intellij,jetbrains,project_structure,modules,problem,multi_module,multi_project]
 ---
 예전에 인텔리제이 원격개발 환경에서 프로젝트에 모듈을 지정하는 방법에 대해서 소개한 바가 있습니다.
