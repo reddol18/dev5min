@@ -1,6 +1,8 @@
 ---
 layout: category
-title: AI Game Dev
+title: AI 게임개발
 category: AiGameDev
 parent: Dev
+menu: primary
+weight: 20
 ---
