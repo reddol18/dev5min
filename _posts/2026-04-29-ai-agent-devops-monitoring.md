@@ -5,10 +5,9 @@ description: "GA, Cloud Run 로그, DB를 넘나드는 질문 하나로 서비�
 date: 2026-04-29
 feature_image: ../images/20260429/blog-scenario1.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [ai-agent,claude-code,devops,monitoring,gcp]
 ---
-
 > "지금 서비스 잘 돌아가고 있나요?"라는 질문에 답하는 데 걸리는 시간을 줄이는 방법
 
 ## 들어가며
