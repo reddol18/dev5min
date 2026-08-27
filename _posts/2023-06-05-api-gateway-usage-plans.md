@@ -5,7 +5,7 @@ description: "AWS API GATEWAY 사용량 계획의 요율/버스트/할당량에 
 date: 2023-05-18
 feature_image: https://github.com/reddol18/dev5min/assets/15623847/b12574bf-187b-4eb9-a0a4-7990b37086f9
 author: "김민석"
-categories: [Data and Api]
+categories: [Dev, Data and Api]
 tags: [aws,api,api gateway,aws api gateway,요율,버스트,할당량]
 ---
 - 자체 개발한 Rest API의 앞단에 AWS API Gateway를 붙여서 사용하려고 합니다.
