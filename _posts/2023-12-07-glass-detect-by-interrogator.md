@@ -5,7 +5,7 @@ description: "clip-interrogator를 이용해서 glasses detection을 해보겠�
 date: 2023-12-07
 feature_image: https://reddol18.github.io/dev5min/images/20231207/image.png
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [clip-interrogator,glasses-detection]
 ---
 - 지난번에 clip-interrogator와 stable diffusion을 이용해서 재미난 실험을 해봤는데요.
