@@ -1,11 +1,10 @@
 ---
 title: "AI끼리 대화해서 일하게 할 때 주의할 점"
 date: 2026-08-10
+categories: [Dev, AiDev]
 tags: [AI, 협업, 자동화, 개발도구, 에이전트간 협업, 협업하는 AI]
 feature_image: ../images/20260810/01-two-screens.svg
 ---
-
-
 ## 들어가며
 
 분량이 제법 되는 문서 번역을 AI 에이전트에 맡겨 두고 다른 작업을 하고 있었습니다.
