@@ -5,7 +5,7 @@ description: "clip-interrogator와 stable diffusion을 이용해서 간단한 �
 date: 2023-11-24
 feature_image: https://reddol18.github.io/dev5min/images/20231130/image.png
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [clip-interrogator,stable-diffusion,game-graphic-generation]
 ---
 - 이미지를 지정하면, 그것을 텍스트로 설명해주는 생성형 AI 기술인 clip-interrogator
