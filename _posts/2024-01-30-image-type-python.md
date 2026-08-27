@@ -5,7 +5,7 @@ description: "확장자에 속지 마세요, 이미지의 진짜 속성은 파�
 date: 2024-01-30
 feature_image: https://reddol18.github.io/dev5min/images/20240130/5.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [python,mimetypes,imghdr,python-magic]
 ---
 - 이미지를 이용하는 서비스를 운영하는 경우 정말 다양한 확장자의 이미지 파일들을 다루게 되는데요.
