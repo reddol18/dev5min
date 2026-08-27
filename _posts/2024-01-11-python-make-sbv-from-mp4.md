@@ -5,7 +5,7 @@ description: "파이썬을 이용해서 mp4 파일의 영상에서 타임라인�
 date: 2024-01-11
 feature_image: https://reddol18.github.io/dev5min/images/20240111/image.png
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [python,sbv,youtube,mp4,subtitle,자막,자막추출기,easyocr,ocr]
 ---
 - 저는 블로그 뿐만 아니라 유튜브 채널도 운영하고 있는데요.
