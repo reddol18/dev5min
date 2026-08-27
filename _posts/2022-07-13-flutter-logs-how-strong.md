@@ -5,7 +5,7 @@ description: "Flutter Logs가 끊김없이 계속 실행되는지 실험해봤�
 date: 2022-07-13
 feature_image: https://reddol18.github.io/dev5min/images/20220713/2/1.png
 author: "김민석"
-categories: [Flutter and Dart]
+categories: [Dev, Flutter and Dart]
 tags: [flutter,logs]
 ---
 CLI로 ``flutter logs``를 실행하면 flutter에서 print 명령으로 전달된 로그를 확인할 수 있습니다.
