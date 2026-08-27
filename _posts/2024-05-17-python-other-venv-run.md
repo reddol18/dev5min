@@ -5,7 +5,7 @@ description: "os.system으로는 안되지만 이걸로는 됩니다!"
 date: 2024-05-17
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [others]
+categories: [Dev, Others]
 tags: [python,anaconda,conda,conda_in_python]
 ---
 - 종종 다른 의존성 라이브러리를 사용하는 파이선 코드를 또 다른 파이선 코드 내부에서 실행해야 하는 경우가 있습니다.
