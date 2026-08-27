@@ -1,4 +1,7 @@
 ---
 layout: category
-title: Lifes
+title: 일상
+category: Lifes
+menu: other
+weight: 50
 ---
