@@ -5,7 +5,7 @@ description: "한번에 대량의 이미지를 표시해야 할 때 발생하는
 date: 2023-04-29
 feature_image: https://reddol18.github.io/dev5min/images/20230429/1.jpg
 author: "김민석"
-categories: [Flutter and Dart]
+categories: [Dev, Flutter and Dart]
 tags: [flutter,image,memory,leak,overflow,cachewidth,cacheheight]
 ---
 - GroupGridView 를 이용해서 한 번에 여러개의 사진을 보여주고자 했습니다.
