@@ -1,11 +1,10 @@
 ---
 title: "화면이 멈췄는데, 범인은 화면이 아니었습니다"
 date: 2026-07-06
+categories: [Dev, AiDev]
 tags: [AI, 디버깅, 문제 해결, 일하는 법, 검증, 커버리지 맵]
 feature_image: ../images/20260706/03-coverage-map_2.png
 ---
-
-
 **부제**: 하루를 날린 버그와, AI 와 함께 다시는 헤매지 않기 위한 방법
 
 ## 들어가며
