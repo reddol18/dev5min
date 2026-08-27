@@ -1,4 +1,7 @@
 ---
 layout: category
-title: Data and Api
+title: 데이터/API
+category: Data and Api
+menu: other
+weight: 30
 ---
