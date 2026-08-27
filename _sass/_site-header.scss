@@ -217,8 +217,11 @@
   }
 
   .menu {
-    padding: 6.375rem 35px 2.5rem;
-    display: inline;
+    padding: 6.375rem 20px 2.5rem;
+    display: block;
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
