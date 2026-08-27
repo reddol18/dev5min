@@ -5,7 +5,7 @@ description: "라즈베리파이 피코를 BLE(저전력 블루투스·Bluetooth
 date: 2025-04-08
 feature_image: ../images/20250408/1.png
 author: "김민석"
-categories: [Others]
+categories: [Dev, Others]
 tags: [arduino,raspberrypi,pico,ble,bluetooth,dust]
 ---
 ### Why Not WIFI
