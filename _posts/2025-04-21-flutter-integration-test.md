@@ -5,7 +5,7 @@ description: "기초적인 Flutter 통합테스트 예제 입니다"
 date: 2025-04-21
 feature_image: ../images/20250421/1.png
 author: "김민석"
-categories: [Flutter and Dart]
+categories: [Dev, Flutter and Dart]
 tags: [flutter,test,integration_test]
 ---
 ### 플러터 통합 테스트
