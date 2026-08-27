@@ -5,7 +5,7 @@ description: "Google ML Kit을 이용해서 아기사진만 골라내는 간단�
 date: 2023-04-05
 feature_image: https://reddol18.github.io/dev5min/images/20230406/1.jpg
 author: "김민석"
-categories: [Computer Vision]
+categories: [Dev, Computer Vision]
 tags: [flutter,google ml kit,image labeling]
 ---
 지난번에 Google ML Kit for Flutter의 Face Detection을 이용하는
