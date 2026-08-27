@@ -5,7 +5,7 @@ description: "블루투스 통신을 이용해서 MiBand4의 현재걸음수 정
 date: 2022-10-04
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
-categories: [Flutter and Dart]
+categories: [Dev, Flutter and Dart]
 tags: [flutter,miband,miband4,stepcount,bluetooth]
 ---
 써드파티 앱에서 샤오미 미밴드(MiBand4)에 집계된 현재걸음수를 알아내려면 어떻게 해야 할까요?
