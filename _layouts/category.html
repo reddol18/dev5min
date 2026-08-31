@@ -2,21 +2,62 @@
 layout: default
 ---
 <main class="main-content fadeInDown delay_075s">
-    <article class="post">
-        <ul class="posts-list">
 
-            {% assign category = page.category | default: page.title %}
-            {% for post in site.categories[category] %}
-            <li>
-                <h5>
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                        {{ post.title }}
-                    </a>
-                    <small>{{ post.date | date_to_string }}</small>
-                </h5>
-            </li>
-            {% endfor %}
+  {% assign category = page.category | default: page.title %}
+  {% assign category_posts = site.categories[category] %}
 
-        </ul>
-    </article>
+  <h1 class="category-page-title" style="font-size:1.4rem; margin: 0 4px 20px; font-weight:700;">{{ page.title }}</h1>
+
+  {% if category_posts and category_posts.size > 0 %}
+  <div class="post-grid">
+    {% for post in category_posts %}
+    <div class="post-card">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="post-card-link">
+        {% if post.feature_image and post.feature_image != "" %}
+        <div class="post-card-thumbnail">
+          <img src="{{ post.feature_image | relative_url }}" alt="{{ post.title }}">
+        </div>
+        {% endif %}
+        <div class="post-card-body">
+          {% assign axis_class = nil %}
+          {% assign axis_label = nil %}
+          {% if post.categories contains "AiFundManager" %}
+            {% assign axis_class = "axis-fund" %}
+            {% assign axis_label = "AI펀드매니저" %}
+          {% elsif post.categories contains "AiGameDev" %}
+            {% assign axis_class = "axis-game" %}
+            {% assign axis_label = "AI 게임개발" %}
+          {% elsif post.categories contains "AiDev" %}
+            {% assign axis_class = "axis-dev" %}
+            {% assign axis_label = "AI 개발" %}
+          {% elsif post.categories contains "Dev" %}
+            {% assign axis_class = "axis-dev" %}
+            {% assign axis_label = "Dev" %}
+          {% endif %}
+          {% if axis_label %}
+          <span class="post-card-axis-tag {{ axis_class }}" style="display:inline-block; font-size:11px; padding:2px 8px; border-radius:999px; margin-bottom:6px; background:#f1f5f9; color:#475569;">{{ axis_label }}</span>
+          {% endif %}
+          <h3 class="post-card-title">{{ post.title }}</h3>
+          <div class="post-card-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+          <div class="post-card-excerpt">
+            {% if post.excerpt %}
+              {{ post.excerpt | strip_html | truncate: 80 }}
+            {% elsif post.content contains '<!--more-->' %}
+              {{ post.content | split:'<!--more-->' | first | strip_html | truncate: 80 }}
+            {% else %}
+              {{ post.content | strip_html | truncate: 80 }}
+            {% endif %}
+          </div>
+          <div class="post-card-readmore">
+            <span class="read-more-link">더보기 &rarr;</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p style="color:#94a3b8; padding: 40px 0; text-align:center;">아직 이 카테고리에 글이 없어요.</p>
+  {% endif %}
+
 </main>
