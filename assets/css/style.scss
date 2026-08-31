@@ -122,3 +122,14 @@ $palette: (
 .read-more-link:hover {
   color: darken(map-get($palette, accent), 10%);
 }
+
+
+/* Ad-to-content breathing room */
+.main-content {
+  margin-top: 2.5rem;
+}
+@media only screen and (max-width: 600px) {
+  .main-content {
+    margin-top: 1.8rem;
+  }
+}
