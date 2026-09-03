@@ -23,7 +23,7 @@ AI는 매일 성실하게 일했습니다. 그리고 매일 성실하게 "사지
 
 ![매수 후보 3인방 스크리닝 — 하나가치성장30·우리중소형고배당30·미래에셋AI모멘텀](/assets/images/2026/08/31/fund2/02-screening-candidates.png)
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## BYD 매수 비추천 이유 — AI가 중국 전기차를 거른 근거
 
