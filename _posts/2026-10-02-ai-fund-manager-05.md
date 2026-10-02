@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "히트펌프 ETF 분석 — 테마는 뜨는데 정작 살 게 없었던 이야기 (AI 펀드매니저 5편)"
+title: "히트펌프 테마 투자 — 살만한 종목·ETF가 있을까 (AI 펀드매니저 5편)"
 date: 2026-10-02
 description: "정부가 2035년까지 350만 대 보급을 약속한 히트펌프 테마. 수요는 실존하지만 상장 수혜주는 얇고, 이름에 속으면 전기차·LNG선·반도체 소재주를 사게 됩니다. R32 냉매 자기반성과 경동나비엔 밸류 통과까지."
 feature_image: https://img.youtube.com/vi/DoaDrljxrp8/maxresdefault.jpg
