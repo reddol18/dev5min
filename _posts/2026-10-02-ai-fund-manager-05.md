@@ -40,7 +40,7 @@ tags: [AI펀드매니저,히트펌프ETF,히트펌프테마,히트펌프수혜�
 
 ![냉매 GWP 비교(R410A 2,088 / R32 675 / R290 약 3), R32 옆에 "경동나비엔 PEM550 = 여기"](/assets/images/2026/10/02/fund5/02-gwp-chart.png)
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ## 그린워싱 의심: 전기를 먹는데 정말 덜 배출하나
 
