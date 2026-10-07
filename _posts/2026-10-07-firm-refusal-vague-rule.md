@@ -34,7 +34,7 @@ tags: [AI저작권,AI거절,이미지URL,robots.txt,AI크롤러차단,LLM거절�
 
 ![같은 사진을 이미지 URL로 건넸을 때와 파일로 건넸을 때, AI의 저작권 판단이 갈립니다](/assets/images/2026/10/07/01-same-image-two-paths.png)
 
-{% include adfit.html %}
+{% include adfit2.html %}
 
 ---
 
