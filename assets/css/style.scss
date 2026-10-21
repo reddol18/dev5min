@@ -70,8 +70,10 @@ $palette: (
 }
 .post-card-thumbnail img {
   width: 100%;
-  height: 220px;
-  object-fit: cover;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   margin-bottom: 16px;
@@ -95,6 +97,10 @@ $palette: (
   margin-bottom: 12px;
   line-height: 1.5;
   font-weight: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .post-card-readmore {
   font-size: 0.85rem;
@@ -110,7 +116,7 @@ $palette: (
     padding: 12px 0;
   }
   .post-card-thumbnail img {
-    height: 180px;
+    height: auto;
   }
 }
 .read-more-link {

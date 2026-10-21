@@ -40,12 +40,13 @@ layout: default
           <h3 class="post-card-title">{{ post.title }}</h3>
           <div class="post-card-date">{{ post.date | date: "%B %-d, %Y" }}</div>
           <div class="post-card-excerpt">
-            {% if post.excerpt %}
-              {{ post.excerpt | strip_html | truncate: 80 }}
+            {% comment %} 첫 문단이 유튜브 iframe·H1이면 요약이 비거나 제목만 반복되므로 description을 우선 쓴다 {% endcomment %}
+            {% if post.description and post.description != "" %}
+              {{ post.description | strip_html | truncate: 160 }}
             {% elsif post.content contains '<!--more-->' %}
-              {{ post.content | split:'<!--more-->' | first | strip_html | truncate: 80 }}
+              {{ post.content | split:'<!--more-->' | first | strip_html | strip_newlines | truncate: 160 }}
             {% else %}
-              {{ post.content | strip_html | truncate: 80 }}
+              {{ post.content | strip_html | strip_newlines | truncate: 160 }}
             {% endif %}
           </div>
           <div class="post-card-readmore">
