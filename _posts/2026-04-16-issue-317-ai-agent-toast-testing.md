@@ -5,7 +5,7 @@ description: "toast 알림 구현 이슈에서 드러난 AI 에이전트의 구�
 date: 2026-04-16
 feature_image: ../images/20260416/04-schedule-mobile-safari.png
 author: "김민석"
-categories: [Dev, Others]
+categories: [Dev, AiDev]
 tags: [ai-agent,playwright,testing,toast]
 ---
 ## 한 줄 요약
