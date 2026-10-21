@@ -30,9 +30,24 @@ layout: default
           {% elsif post.categories contains "AiDev" %}
             {% assign axis_class = "axis-dev" %}
             {% assign axis_label = "AI 개발" %}
-          {% elsif post.categories contains "Dev" %}
-            {% assign axis_class = "axis-dev" %}
-            {% assign axis_label = "Dev" %}
+          {% elsif post.categories contains "Computer Vision" %}
+            {% assign axis_class = "axis-other" %}
+            {% assign axis_label = "컴퓨터비전" %}
+          {% elsif post.categories contains "Data and Api" %}
+            {% assign axis_class = "axis-other" %}
+            {% assign axis_label = "데이터/API" %}
+          {% elsif post.categories contains "Flutter and Dart" %}
+            {% assign axis_class = "axis-other" %}
+            {% assign axis_label = "Flutter" %}
+          {% elsif post.categories contains "Security" %}
+            {% assign axis_class = "axis-other" %}
+            {% assign axis_label = "보안" %}
+          {% elsif post.categories contains "Lifes" %}
+            {% assign axis_class = "axis-other" %}
+            {% assign axis_label = "일상" %}
+          {% elsif post.categories contains "Others" %}
+            {% assign axis_class = "axis-other" %}
+            {% assign axis_label = "기타" %}
           {% endif %}
           {% if axis_label %}
           <span class="post-card-axis-tag {{ axis_class }}" style="display:inline-block; font-size:11px; padding:2px 8px; border-radius:999px; margin-bottom:6px; background:#f1f5f9; color:#475569;">{{ axis_label }}</span>
