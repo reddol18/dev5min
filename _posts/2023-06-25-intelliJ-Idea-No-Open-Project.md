@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "갑자기 IntelliJ IDEA에서 프로젝트가 안 열릴 때"
+title: "IntelliJ IDEA 프로젝트가 안 열릴 때 해결법 — 플러그인 충돌 확인하고 삭제하기"
 description: "어떻게 하면 프로젝트가 안 열리는 문제를 해결할 수 있는지 알아봅시다"
 date: 2023-06-25
 feature_image: https://reddol18.github.io/dev5min/images/20230625/image.png

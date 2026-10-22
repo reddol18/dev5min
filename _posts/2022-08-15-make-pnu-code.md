@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "주소를 PNU 코드로 변환해봅시다"
-description: "지번 주소를 PNU 코드로 변환해 보겠습니다"
+title: "PNU 코드(필지고유번호) 만드는 법 — 지번 주소를 19자리 PNU로 변환하기 (법정동코드 파일 포함)"
+description: "PNU 코드는 법정동코드 10자리, 토지/임야 1자리, 본번 4자리, 부번 4자리를 합친 19자리입니다. 서울 중랑구 상봉동 예시로 변환 규칙을 설명하고 법정동코드 파일을 공유합니다."
 date: 2022-08-15
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"

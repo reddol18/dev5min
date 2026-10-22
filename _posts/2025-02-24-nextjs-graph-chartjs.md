@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Next.js에서 chart.js를 이용해서 그래프 그리기"
-description: "1분마다 측정된 온도/습도 값을 그래프로 그리는 페이지 만들기"
+title: "Next.js 차트 그리기 — react-chartjs-2(Chart.js)로 시계열 그래프 만들기 (TypeScript 예제)"
+description: "Next.js와 react-chartjs-2로 1분 간격 온도·습도 데이터를 시계열 라인 차트로 그리는 방법입니다. JSON 로딩부터 Chart.js 설정까지 TypeScript 예제 코드로 정리했습니다."
 date: 2025-02-24
 feature_image: ../images/20250224/image.png
 author: "김민석"

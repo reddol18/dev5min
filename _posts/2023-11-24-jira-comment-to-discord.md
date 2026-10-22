@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "지라(JIRA)의 자동화 기능을 이용해서 새로 달린 댓글의 멘션을 디스코드로 보내기"
-description: "지라(JIRA)의 자동화와 Smart Value를 이용해서 디스코드 웹훅과 연동하는 방법입니다"
+title: "지라(Jira) 디스코드 웹훅 연동 — 자동화로 댓글 멘션을 디스코드 채널에 알림 보내기"
+description: "Jira 자동화(Automation)와 Smart Value로 새 댓글의 @멘션을 디스코드 웹훅으로 보내는 방법입니다. accountId를 이름으로 바꾸는 요령과 웹훅 URL 만드는 법까지 다룹니다."
 date: 2023-11-24
 feature_image: https://reddol18.github.io/dev5min/images/20231124/image.png
 author: "김민석"

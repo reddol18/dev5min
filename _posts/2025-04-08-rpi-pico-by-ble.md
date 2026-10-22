@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "라즈베리파이 피코에서 BLE로 스마트폰과 통신하기기"
-description: "라즈베리파이 피코를 BLE(저전력 블루투스·Bluetooth Low Energy) 동글 처럼 사용해 보겠습니다"
+title: "라즈베리파이 피코 W BLE 통신 — 마이크로파이썬으로 스마트폰과 블루투스 연결하기"
+description: "라즈베리파이 피코 W의 BLE(저전력 블루투스)를 마이크로파이썬으로 설정해 스마트폰과 데이터를 주고받는 방법입니다. central·peripheral·advertising 개념과 예제 코드를 정리했습니다."
 date: 2025-04-08
 feature_image: ../images/20250408/1.png
 author: "김민석"
