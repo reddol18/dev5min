@@ -3,6 +3,7 @@ layout: post
 title: "토지이용계획 조회 API 사용법 — PNU 코드로 용도지역(주거·상업지역) 확인하기 (국토교통부 공공데이터)"
 description: "공공데이터포털 국토교통부 토지이용계획정보서비스 API에 PNU 코드를 넣어 필지의 용도지역·지구를 조회하는 방법입니다. 결과가 여러 개의 배열로 오는 이유와 실제 JSON 응답 예시를 함께 봅니다."
 date: 2022-08-15
+lastmod: 2026-10-22
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Dev, Data and Api]

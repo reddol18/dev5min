@@ -3,6 +3,7 @@ layout: post
 title: "Stable Diffusion WebUI 확장(Extension) 설치 오류 해결 — GitCommandNotFound, --enable-insecure-extension-access"
 description: "Stable Diffusion WebUI에서 Extension 설치가 안 될 때의 해결법입니다. GitCommandNotFound 오류의 원인(GIT_PYTHON_GIT_EXECUTABLE 설정)과 비공인 확장 설치 시 필요한 실행 옵션을 정리했습니다."
 date: 2023-09-14
+lastmod: 2026-10-22
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Dev, Others]
