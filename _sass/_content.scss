@@ -35,10 +35,7 @@
 .post {
   border-bottom: 1px solid _palette(border);
   padding: 3.33333em 0 1.66667em;
-  /* 개별 글의 본문 컨테이너 폭 제한 — 한글 가독성 최적 구간 */
-  max-width: 760px;
-  margin-left: auto;
-  margin-right: auto;
+  /* 개별 글도 메인 화면과 같은 .inner 폭(1200px)을 그대로 사용 */
 }
 
 .post-header {
