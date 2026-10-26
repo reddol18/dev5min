@@ -130,8 +130,7 @@ $palette: (
 }
 
 
-/* Ad-to-content breathing room (only while the header ad units render) */
-{% if site.adfit_enabled %}
+/* Ad-to-content breathing room */
 .main-content {
   margin-top: 2.5rem;
 }
@@ -140,4 +139,9 @@ $palette: (
     margin-top: 1.8rem;
   }
 }
-{% endif %}
+{% unless site.adfit_enabled %}
+/* No header ad on posts: the post's own top padding is enough (home keeps the margin so cards clear the header line) */
+.main-content:has(article.post) {
+  margin-top: 0;
+}
+{% endunless %}
