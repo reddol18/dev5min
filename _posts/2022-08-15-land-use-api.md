@@ -3,7 +3,7 @@ layout: post
 title: "토지이용계획 조회 API 사용법 — PNU 코드로 용도지역(주거·상업지역) 확인하기 (국토교통부 공공데이터)"
 description: "공공데이터포털 국토교통부 토지이용계획정보서비스 API에 PNU 코드를 넣어 필지의 용도지역·지구를 조회하는 방법입니다. 결과가 여러 개의 배열로 오는 이유와 실제 JSON 응답 예시를 함께 봅니다."
 date: 2022-08-15
-lastmod: 2026-10-22
+lastmod: 2026-10-26
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Dev, Data and Api]
@@ -26,10 +26,6 @@ tags: [address,api,pnu,data.go.kr,landuse]
 JSON 내용을 봐보면 배열에 담겨 있는 것을 확인할 수 있죠? 
 이점 참고해서 데이터를 가공하거나 사용하시면 되겠습니다.
 
-<div class="kakao-adfit-content">
-    <a href="https://link.coupang.com/a/bmKWqB" onclick="showCode()" target="_blank" referrerpolicy="unsafe-url"><img src="https://image13.coupangcdn.com/image/affiliate/event/promotion/2024/01/02/d5891507add7003701108894118c8393.png" alt=""></a>
-    <div style="font-size: 9pt; color: #838383">"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."</div>
-</div>
 
 ```JSON
 {

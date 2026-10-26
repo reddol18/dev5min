@@ -3,7 +3,7 @@ layout: post
 title: "PNU 코드(필지고유번호) 만드는 법 — 지번 주소를 19자리 PNU로 변환하기 (법정동코드 파일 포함)"
 description: "PNU 코드는 법정동코드 10자리, 토지/임야 1자리, 본번 4자리, 부번 4자리를 합친 19자리입니다. 서울 중랑구 상봉동 예시로 변환 규칙을 설명하고 법정동코드 파일을 공유합니다."
 date: 2022-08-15
-lastmod: 2026-10-22
+lastmod: 2026-10-26
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Dev, Data and Api]
@@ -43,10 +43,6 @@ PNU(필지고유번호)라는 것이 있습니다.
 그때 쓰면 좋을 시료 파일을 공유해봅니다. 2022년 4월 버젼이에요. 4만줄이 넘는 파일인데 중간에 "폐지"라고 
 쓰여져 있는 부분은 사용안하는 부분 입니다.
 
-<div class="kakao-adfit-content">
-    <a href="https://link.coupang.com/a/bmKWqB" onclick="showCode()" target="_blank" referrerpolicy="unsafe-url"><img src="https://image13.coupangcdn.com/image/affiliate/event/promotion/2024/01/02/d5891507add7003701108894118c8393.png" alt=""></a>
-    <div style="font-size: 9pt; color: #838383">"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."</div>
-</div>
 
 - [PNU 코드 리스트 파일](https://reddol18.github.io/dev5min/images/20220815/1/pnus.txt)
 
