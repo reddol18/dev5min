@@ -139,3 +139,12 @@ $palette: (
     margin-top: 1.8rem;
   }
 }
+
+/* Single post/page: align the header with the 760px article column (home and category keep the 1200px grid width) */
+@media only screen and (min-width: 729px) {
+  .inner:has(article.post) .site-header {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
