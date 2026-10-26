@@ -3,7 +3,7 @@ layout: post
 title: "클로드 코드 토큰 사용량 급증 원인 찾기 — Claude Code 한도 분석 도구 모니토큰(moni_token)"
 date: 2026-10-26
 description: "별로 한 것도 없는데 Claude Code 한도가 50분 만에 5% 빠졌다면? 모니토큰(moni_token)은 로컬 로그만 읽어 어느 세션·어떤 패턴(긴 대화×잦은 호출, 캐시 만료 후 재개, 병렬 세션, 큰 입력) 때문인지와 아낄 수 있었던 양을 알려 줍니다. LLM 호출 0회, 네트워크 0회."
-feature_image: /assets/images/2026/10/26/moni-token/01-dashboard.png
+feature_image: /assets/images/2026/10/26/moni-token/00-thumbnail.png
 categories: [AiDev]
 tags: [ClaudeCode,클로드코드,클로드코드토큰,클로드코드사용량,토큰사용량,사용한도,moni_token,모니토큰,compact,프롬프트캐시,캐시만료,서브에이전트,ccusage,statusLine,Python,uv,오픈소스]
 ---
