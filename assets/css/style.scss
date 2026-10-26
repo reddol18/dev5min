@@ -130,7 +130,8 @@ $palette: (
 }
 
 
-/* Ad-to-content breathing room */
+/* Ad-to-content breathing room (only while the header ad units render) */
+{% if site.adfit_enabled %}
 .main-content {
   margin-top: 2.5rem;
 }
@@ -139,3 +140,4 @@ $palette: (
     margin-top: 1.8rem;
   }
 }
+{% endif %}
