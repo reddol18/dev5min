@@ -23,6 +23,9 @@ url: "https://reddol18.pe.kr"
 # Favicon
 favicon: images/favicon.png
 
+# Kakao AdFit units (header, footer loader, adfit/adfit2 includes). false hides them all.
+adfit_enabled: false
+
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 google_analytics: "G-4YGBJY6T0F"
 
