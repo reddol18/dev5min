@@ -2,10 +2,11 @@
 layout: post
 title: "분할매수 지정가 바로 위에서 튕기는 이유 3가지와 대응법 — 존 매수(스케일-인), 시간 분할, 추격매수 금지 (AI 펀드매니저 8편)"
 date: 2026-10-21
+lastmod: 2026-10-27
 description: "주식·펀드 분할매수를 하면 꼭 내가 정한 매수 가격 바로 위에서 반등하는 이유는 운이 아니라 지지선 앞 프론트러닝, V자 반등, 관찰자 편향 때문입니다. 점이 아니라 존으로 걸기, 시간 백스톱, 추격매수 금지 세 가지 대응법과 한화채권 적립식 사례."
 feature_image: https://img.youtube.com/vi/ySdouac33lk/maxresdefault.jpg
 categories: [AiFundManager]
-tags: [AI펀드매니저,분할매수,분할매수방법,매수타이밍,지정가매수,스케일인,존매수,시간분할매수,적립식,추격매수,FOMO,지지선,52주선,V자반등,관찰자편향,한화채권,짧은지식]
+tags: [AI펀드매니저,분할매수,지정가매수,추격매수,매수타이밍]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ySdouac33lk" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
