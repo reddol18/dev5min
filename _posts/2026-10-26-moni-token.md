@@ -60,8 +60,6 @@ tags: [ClaudeCode,클로드코드,클로드코드토큰,클로드코드사용량
 
 ![급상승 사건 상세 — 프로젝트별 점유율, 근거 수치, 호출 타임라인](/assets/images/2026/10/26/moni-token/02-event-detail.png)
 
-{% include adfit2.html %}
-
 ## Claude Code 토큰 사용량이 튀는 7가지 원인
 
 모니토큰이 알아내는 원인은 이렇습니다. 사실상 **"클로드 코드 토큰 아끼는 법"** 목록이기도 해요.
