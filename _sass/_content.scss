@@ -43,6 +43,57 @@
   }
 }
 
+/* 문의·유튜브 배너 — 좁은 화면은 글 아래에 나란히, 넓은 화면은 글 오른쪽에 따라 내려옴 */
+.side-banners {
+  display: flex;
+  gap: 16px;
+  max-width: 520px;
+  margin: 2em auto 0;
+}
+
+.side-banner {
+  flex: 1 1 0;
+  border-bottom: 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  &:hover img {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .post-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .post-layout .post {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .side-banners {
+    flex: 0 0 240px;
+    flex-direction: column;
+    position: sticky;
+    top: 1.5rem;
+    margin: 2.22222em 0 0;
+  }
+}
+
 .post-header {
   margin-bottom: 1.66667em;
 }

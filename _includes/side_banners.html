@@ -1,0 +1,10 @@
+{% if site.side_banners.size > 0 %}
+<aside class="side-banners" aria-label="문의와 유튜브 채널">
+  {% for b in site.side_banners %}
+  <a class="side-banner" href="{{ b.url }}" target="_blank" rel="noopener"
+     onclick="if (typeof gtag === 'function') gtag('event', 'banner_click', {banner: '{{ b.id }}'});">
+    <img src="{{ b.image | relative_url }}" alt="{{ b.alt }}" width="480" height="600" loading="lazy">
+  </a>
+  {% endfor %}
+</aside>
+{% endif %}

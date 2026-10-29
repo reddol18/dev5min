@@ -26,6 +26,17 @@ favicon: images/favicon.png
 # Kakao AdFit units (header, footer loader, adfit/adfit2 includes). false hides them all.
 adfit_enabled: false
 
+# Banners beside each post (below the post on narrow screens). Clicks are sent to GA as "banner_click".
+side_banners:
+  - id: contact_form
+    image: /assets/images/banners/contact.jpg
+    url: https://docs.google.com/forms/d/e/1FAIpQLSepG3NEXsjGKJx7XJ3b6AAkW0vJr0OrAW-o_x4rEDUckg7XBA/viewform
+    alt: "프로젝트·협업 문의 — 구글폼 바로가기"
+  - id: youtube
+    image: /assets/images/banners/youtube.jpg
+    url: https://www.youtube.com/@aidothat
+    alt: "유튜브 채널 @aidothat 구독하기"
+
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 google_analytics: "G-4YGBJY6T0F"
 
