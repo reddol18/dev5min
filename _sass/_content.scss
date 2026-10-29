@@ -71,14 +71,16 @@
 }
 
 @media only screen and (min-width: 1080px) {
+  /* 글은 배너 쪽으로 붙이고 남는 폭은 왼쪽에 둬서, 원래 가운데 자리에서 크게 벗어나지 않게 한다 */
   .post-layout {
     display: flex;
     align-items: flex-start;
-    gap: 40px;
+    justify-content: flex-end;
+    gap: 32px;
   }
 
   .post-layout .post {
-    flex: 1 1 auto;
+    flex: 0 1 920px;
     min-width: 0;
     max-width: none;
     margin-left: 0;
@@ -86,7 +88,8 @@
   }
 
   .side-banners {
-    flex: 0 0 240px;
+    flex: 0 0 180px;
+    gap: 12px;
     flex-direction: column;
     position: sticky;
     top: 1.5rem;
