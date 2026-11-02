@@ -24,13 +24,13 @@
     margin-bottom: 15px;
     border: 1px solid #dddddd;
   }
-  /* 본문 제목은 글 제목(.post-title, 2rem)보다 항상 작게 — 본문에 # 제목을 쓴 옛 글도 위계가 뒤집히지 않게 */
-  h1 { font-size: 1.55rem; letter-spacing: -0.5px; line-height: 1.3; }
+  /* 본문 제목은 글 제목(.post-title, 1.8rem)보다 항상 작게 — 본문에 # 제목을 쓴 옛 글도 위계가 뒤집히지 않게 */
+  h1 { font-size: 1.45rem; letter-spacing: -0.5px; line-height: 1.3; }
   h2 { font-size: 1.4rem; letter-spacing: -0.5px; line-height: 1.3; }
   h3 { font-size: 1.2rem; }
   h4 { font-size: 1.05rem; }
   @media only screen and (max-width: 600px) {
-    h1 { font-size: 1.35rem; letter-spacing: normal; }
+    h1 { font-size: 1.3rem; letter-spacing: normal; }
     h2 { font-size: 1.25rem; letter-spacing: normal; }
     h3 { font-size: 1.1rem; }
   }
@@ -127,6 +127,7 @@
 }
 
 .post-tags {
+  font-size: 0.8rem;
   a {
     &:before {
       content: "\0023";
@@ -135,12 +136,12 @@
 }
 
 .post-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.3;
   margin: 0 0 1rem;
 
   @media only screen and (max-width: 600px) {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     letter-spacing: normal;
     line-height: 1.3;
   }
