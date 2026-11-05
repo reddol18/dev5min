@@ -36,6 +36,7 @@
   }
   /* 열이 많은 표는 좁은 화면에서 페이지를 밀지 않고 표만 가로로 스크롤 */
   table { font-size: 0.85em; }
+  th, td { word-break: keep-all; }   /* 본문의 break-all 이 셀 안 단어를 쪼개지 않게 */
   @media only screen and (max-width: 728px) {
     table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
     th, td { white-space: nowrap; }
