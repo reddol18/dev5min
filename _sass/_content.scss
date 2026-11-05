@@ -34,6 +34,12 @@
     h2 { font-size: 1.25rem; letter-spacing: normal; }
     h3 { font-size: 1.1rem; }
   }
+  /* 열이 많은 표는 좁은 화면에서 페이지를 밀지 않고 표만 가로로 스크롤 */
+  table { font-size: 0.85em; }
+  @media only screen and (max-width: 728px) {
+    table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    th, td { white-space: nowrap; }
+  }
   /* 유튜브 등 임베드 iframe 가운데 정렬 + 반응형 폭 */
   iframe {
     display: block;
