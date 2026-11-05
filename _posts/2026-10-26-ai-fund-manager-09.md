@@ -2,10 +2,11 @@
 layout: post
 title: "저평가 주식 찾는 법 — 코스피·코스닥 3,900종목 AI 스크리닝, 저PER 함정 3가지와 모의투자 (AI 펀드매니저 9편)"
 date: 2026-10-26
+lastmod: 2026-11-05
 description: "코스피·코스닥 3,900종목을 저PER·PBR·ROE 정량, 바닥 횡보 차트, 선행 PER 컨센, 정밀검토 4단계 게이트로 걸렀더니 2종목이 남았습니다. 이익의 질·지배구조·촉매 부재라는 저PER 밸류트랩 3가지와 메타바이오메드·경동나비엔·동국제약 모의투자 결과."
 feature_image: https://img.youtube.com/vi/3vFfw-lop6o/maxresdefault.jpg
 categories: [AiFundManager]
-tags: [AI펀드매니저,저평가주식,저평가주식찾는법,주식스크리닝,종목발굴,저PER,PBR,ROE,PEG,선행PER,밸류트랩,가치투자,변동계수,컨센서스,목표주가,모의투자,페이퍼트레이딩,메타바이오메드,경동나비엔,동국제약]
+tags: [AI펀드매니저,주식스크리닝,저PER,밸류트랩,선행PER,모의투자]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3vFfw-lop6o" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -2,10 +2,11 @@
 layout: post
 title: "삼성SDI 전망, 흑자전환했는데 CATL이 더 싸다? — AI 데이터센터 3대 병목(물·전력·ESS)과 리튬 수요 (AI 펀드매니저 7편)"
 date: 2026-10-19
+lastmod: 2026-11-05
 description: "AI는 경제의 2%짜리 거품일까? 데이터센터 증설을 막는 물·전력·전기저장 세 병목을 따라가 보니 ESS가 리튬 수요를 되살리고 있었습니다. 냉각·전력·배터리 수혜주는 대부분 이미 급등, 삼성SDI 흑자의 절반은 보조금, 그리고 가장 싼 건 CATL이었습니다."
 feature_image: https://img.youtube.com/vi/xPUyrmdavM8/maxresdefault.jpg
 categories: [AiFundManager]
-tags: [AI펀드매니저,삼성SDI전망,삼성SDI흑자전환,CATL,LG에너지솔루션,ESS,ESS관련주,AI데이터센터,데이터센터수혜주,데이터센터냉각,버티브,액침냉각,전력병목,가스터빈,GE버노바,리튬수요,탄산리튬가격,LFP배터리,밸류투자]
+tags: [AI펀드매니저,AI데이터센터,ESS,삼성SDI,CATL,리튬수요,밸류투자]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xPUyrmdavM8" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
