@@ -2,9 +2,10 @@
 layout: post
 title: "펀드도 PEG로 값을 매길 수 있습니다 — 나스닥100 vs S&P500 동일가중, 그리고 리튬 자기반성 (AI 펀드매니저 3편)"
 date: 2026-09-08
+lastmod: 2026-11-10
 feature_image: /assets/images/2026/09/08/fund3/01-thumbnail.png
 categories: [AiFundManager]
-tags: [AI펀드매니저,PEG,선행PER,후행PER,가치함정,동일가중ETF,S&P500동일가중,나스닥100,PER분할매수,헤지펀드청산,금실질수익률,리튬ETF,펀드밸류에이션,중국AI저가공포]
+tags: [AI펀드매니저,PEG,선행PER,가치함정,동일가중ETF,나스닥100,리튬ETF]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SqF8POzPNmw" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

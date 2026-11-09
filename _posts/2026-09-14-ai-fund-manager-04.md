@@ -2,10 +2,11 @@
 layout: post
 title: "펀드도 배당 받는데 내 통장엔 왜 안 들어올까? 펀드 사기 전에 알아두면 좋은 4가지 사실 (AI 펀드매니저 4편)"
 date: 2026-09-14
+lastmod: 2026-11-10
 description: "펀드 배당은 어디로 가는지, 채권펀드가 금리에 어떻게 반응하는지(듀레이션), 환헤지 두 종류의 차이, 판매중인데 못 사는 펀드까지 — 펀드 사기 전에 알아야 할 4가지 상식."
 feature_image: /assets/images/2026/09/14/fund4/01-thumbnail.png
 categories: [AiFundManager]
-tags: [AI펀드매니저,펀드배당,재투자,기준가,듀레이션,채권펀드,금리민감도,환헤지,환노출,환헤지형,무헤지형,판매중지펀드,고난도상품,ARK재간접,펀드매수가능여부,초단기크레딧,장기국채,신흥국통화,펀드기초]
+tags: [AI펀드매니저,펀드배당,기준가,채권펀드,환헤지,펀드기초]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gS1stmsp228" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
