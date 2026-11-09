@@ -5,6 +5,7 @@ date: 2026-11-05 10:00:00 +0900
 description: "국내 상장 ETF 중 이름에 AI가 붙은 84개의 실제 보유 종목과 비중을 확인하고, 선행 PER·PEG·자기 과거 밴드로 다섯 가지로 분류했습니다. 영상에서 약속한 84개 전체 판정표를 글 아래에 붙였습니다."
 feature_image: https://img.youtube.com/vi/Wx06el-GQTQ/maxresdefault.jpg
 categories: [AiFundManager]
+exclusive: true
 tags: [AI펀드매니저,AI ETF,ETF분석,선행PER,PBR,모의투자]
 ---
 

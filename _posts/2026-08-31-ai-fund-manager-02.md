@@ -4,6 +4,7 @@ title: "AI 펀드매니저 믿고 ETF 불타기 했다가 물려버린 사연 �
 date: 2026-08-31
 feature_image: /assets/images/2026/08/31/fund2/01-thumbnail.png
 categories: [AiFundManager]
+exclusive: true
 tags: [AI펀드매니저,ETF,BYD,차이나전기차ETF,삼성전자,리튬ETF,불타기,포트폴리오리밸런싱,유럽ETF,채권펀드배당락,투자실전기]
 ---
 

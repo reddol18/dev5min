@@ -6,6 +6,7 @@ lastmod: 2026-11-10
 description: "펀드 배당은 어디로 가는지, 채권펀드가 금리에 어떻게 반응하는지(듀레이션), 환헤지 두 종류의 차이, 판매중인데 못 사는 펀드까지 — 펀드 사기 전에 알아야 할 4가지 상식."
 feature_image: /assets/images/2026/09/14/fund4/01-thumbnail.png
 categories: [AiFundManager]
+exclusive: true
 tags: [AI펀드매니저,펀드배당,기준가,채권펀드,환헤지,펀드기초]
 ---
 

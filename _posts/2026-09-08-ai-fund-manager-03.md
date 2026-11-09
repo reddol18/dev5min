@@ -5,6 +5,7 @@ date: 2026-09-08
 lastmod: 2026-11-10
 feature_image: /assets/images/2026/09/08/fund3/01-thumbnail.png
 categories: [AiFundManager]
+exclusive: true
 tags: [AI펀드매니저,PEG,선행PER,가치함정,동일가중ETF,나스닥100,리튬ETF]
 ---
 

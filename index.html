@@ -123,7 +123,7 @@ layout: default
       {% if aidev_latest %}
       <a class="hero-card-link" href="{{ site.baseurl }}{{ aidev_latest.url }}">
         {% if aidev_latest.feature_image and aidev_latest.feature_image != "" %}
-        <div class="hero-card-thumb" style="background-image: url('{{ aidev_latest.feature_image | relative_url }}');"></div>
+        <div class="hero-card-thumb" style="background-image: url('{{ aidev_latest.feature_image | relative_url }}');">{% include thumb_badge.html post=aidev_latest %}</div>
         {% else %}
         <div class="hero-card-thumb"></div>
         {% endif %}
@@ -153,7 +153,7 @@ layout: default
       {% if fund_latest %}
       <a class="hero-card-link" href="{{ site.baseurl }}{{ fund_latest.url }}">
         {% if fund_latest.feature_image and fund_latest.feature_image != "" %}
-        <div class="hero-card-thumb" style="background-image: url('{{ fund_latest.feature_image | relative_url }}');"></div>
+        <div class="hero-card-thumb" style="background-image: url('{{ fund_latest.feature_image | relative_url }}');">{% include thumb_badge.html post=fund_latest %}</div>
         {% else %}
         <div class="hero-card-thumb"></div>
         {% endif %}
@@ -183,7 +183,7 @@ layout: default
       {% if game_latest %}
       <a class="hero-card-link" href="{{ site.baseurl }}{{ game_latest.url }}">
         {% if game_latest.feature_image and game_latest.feature_image != "" %}
-        <div class="hero-card-thumb" style="background-image: url('{{ game_latest.feature_image | relative_url }}');"></div>
+        <div class="hero-card-thumb" style="background-image: url('{{ game_latest.feature_image | relative_url }}');">{% include thumb_badge.html post=game_latest %}</div>
         {% else %}
         <div class="hero-card-thumb"></div>
         {% endif %}
@@ -218,7 +218,7 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="post-card-link">
         {% if post.feature_image and post.feature_image != "" %}
         <div class="post-card-thumbnail">
-          <img src="{{ post.feature_image | relative_url }}" alt="{{ post.title }}">
+          <img src="{{ post.feature_image | relative_url }}" alt="{{ post.title }}">{% include thumb_badge.html post=post %}
         </div>
         {% endif %}
         <div class="post-card-body">

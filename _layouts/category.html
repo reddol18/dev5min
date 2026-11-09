@@ -15,7 +15,7 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="post-card-link">
         {% if post.feature_image and post.feature_image != "" %}
         <div class="post-card-thumbnail">
-          <img src="{{ post.feature_image | relative_url }}" alt="{{ post.title }}">
+          <img src="{{ post.feature_image | relative_url }}" alt="{{ post.title }}">{% include thumb_badge.html post=post %}
         </div>
         {% endif %}
         <div class="post-card-body">

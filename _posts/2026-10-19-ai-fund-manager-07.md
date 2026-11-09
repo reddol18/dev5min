@@ -6,6 +6,7 @@ lastmod: 2026-11-05
 description: "AI는 경제의 2%짜리 거품일까? 데이터센터 증설을 막는 물·전력·전기저장 세 병목을 따라가 보니 ESS가 리튬 수요를 되살리고 있었습니다. 냉각·전력·배터리 수혜주는 대부분 이미 급등, 삼성SDI 흑자의 절반은 보조금, 그리고 가장 싼 건 CATL이었습니다."
 feature_image: https://img.youtube.com/vi/xPUyrmdavM8/maxresdefault.jpg
 categories: [AiFundManager]
+exclusive: true
 tags: [AI펀드매니저,AI데이터센터,ESS,삼성SDI,CATL,리튬수요,밸류투자]
 ---
 

@@ -5,6 +5,7 @@ date: 2026-10-29
 description: "관심이 식는 여름 끝에 폭염 관련주를 다시 훑었습니다. 손풍기 같은 완제품과 냉감 소재는 함정이거나 살 수 없었고, 2차 파급에서 찾은 1위 기업 셋 중 실적까지 갖춘 농우바이오만 남아 모의투자에 넣었습니다."
 feature_image: https://img.youtube.com/vi/unwVXY1ok2w/maxresdefault.jpg
 categories: [AiFundManager]
+exclusive: true
 tags: [AI펀드매니저,폭염관련주,테마투자,농우바이오,종자주,모의투자]
 ---
 

@@ -79,6 +79,16 @@ $palette: (
   margin-bottom: 16px;
 }
 
+/* "단독" 배지 — 유튜브 일부 공개 영상 글 (front matter exclusive: true) */
+.post-card-thumbnail, .hero-card-thumb { position: relative; }
+.thumb-badge {
+  position: absolute; top: 8px; left: 8px; z-index: 1;
+  padding: 3px 9px; border-radius: 6px;
+  background: #dc2626; color: #fff;
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; line-height: 1.4;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+}
+
 .post-card-title {
   font-size: 0.95rem;
   color: map-get($palette, accent);
