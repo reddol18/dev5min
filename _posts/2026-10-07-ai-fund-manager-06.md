@@ -2,10 +2,11 @@
 layout: post
 title: "코스피 폭락 후 V자 반등일까 L자 장기침체일까 — 100년 15개 폭락 사례로 본 회복 패턴 (AI 펀드매니저 6편)"
 date: 2026-10-07
+lastmod: 2026-11-17
 description: "코스피가 사상 최고 9,115에서 한 달 만에 31% 폭락했습니다. 미국·일본·대만·중국 100년 15개 폭락 사례를 모아 보니 V자 반등과 L자 장기침체를 가른 건 낙폭이 아니라 원인이었습니다. 버블이냐 외부 충격이냐, 그리고 지금 코스피는 어느 쪽인지."
 feature_image: https://img.youtube.com/vi/P7gg2cTV1Xo/maxresdefault.jpg
 categories: [AiFundManager]
-tags: [AI펀드매니저,코스피폭락,V자반등,L자침체,잃어버린10년,주식폭락사례,버블붕괴,신용융자,반대매매,빚투,버핏지수,반도체실적,삼성전자,SK하이닉스,쏠림,대공황,일본버블,닷컴버블,짧은지식]
+tags: [AI펀드매니저,코스피폭락,V자반등,L자침체,버블붕괴,신용융자,버핏지수]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P7gg2cTV1Xo" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

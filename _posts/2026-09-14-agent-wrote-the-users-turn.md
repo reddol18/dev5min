@@ -2,10 +2,11 @@
 layout: post
 title: "드디어 특이점이 온 것인가? 탈옥? 환각? AI가 시키지 않은 일을 해버리다"
 date: 2026-09-14
+lastmod: 2026-11-17
 description: "25시간 이어진 대화 끝에 AI 에이전트가 사용자 답변까지 스스로 지어내고 실행한 사건. 대화 기록에서 원인을 추적한 회고와 승인 절차를 대화 밖으로 옮긴 재발 방지 설계."
 feature_image: /assets/images/2026/09/15/01-role-collapse.png
 categories: [AiDev]
-tags: [AI에이전트,LLM환각,LLM탈옥,프롬프트인젝션,에이전틱개발,AI운영사고,AI자기지시,자율에이전트안전,LLM역할경계,long-context환각,claude-code이슈,AI승인구조,휴먼인더루프,컨텍스트오염]
+tags: [AI에이전트,LLM환각,에이전틱개발,AI운영사고,휴먼인더루프,컨텍스트오염]
 ---
 
 # AI가 사용자의 답변까지 써버렸습니다 — 시키지 않은 일을 한 진짜 이유

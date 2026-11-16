@@ -2,10 +2,11 @@
 layout: post
 title: "히트펌프 테마 투자 — 살만한 종목·ETF가 있을까 (AI 펀드매니저 5편)"
 date: 2026-10-02
+lastmod: 2026-11-17
 description: "정부가 2035년까지 350만 대 보급을 약속한 히트펌프 테마. 수요는 실존하지만 상장 수혜주는 얇고, 이름에 속으면 전기차·LNG선·반도체 소재주를 사게 됩니다. R32 냉매 자기반성과 경동나비엔 밸류 통과까지."
 feature_image: https://img.youtube.com/vi/DoaDrljxrp8/maxresdefault.jpg
 categories: [AiFundManager]
-tags: [AI펀드매니저,히트펌프ETF,히트펌프테마,히트펌프수혜주,경동나비엔,PEM550,R32냉매,GWP,그린워싱,ASPN,동성화인텍,다이킨,칼라일,LNG선보냉재,패브릭퍼스트,COP,단열주,테마투자,밸류투자]
+tags: [AI펀드매니저,히트펌프테마,히트펌프ETF,경동나비엔,R32냉매,그린워싱,테마투자]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DoaDrljxrp8" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
