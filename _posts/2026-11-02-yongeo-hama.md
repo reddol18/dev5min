@@ -2,6 +2,7 @@
 layout: post
 title: "인터넷 없이 폰 안에서 AI가 채점하는 IT 용어 암기 앱 (용어먹는하마)"
 date: 2026-11-02
+lastmod: 2026-11-19
 description: "한국어 임베딩 모델을 폰에 넣어 서버 없이 뜻을 채점하는 암기 앱을 만들었습니다. 모델만으로는 반의어와 활용형을 못 가려서 규칙과 섞었고, IT 용어 덱으로 넓히면서 주관식을 빼고 간격 반복을 넣은 과정, 빌드에서 막힌 문제까지 정리했습니다."
 feature_image: /assets/images/2026/11/02/yongeo-hama/00-thumbnail.png
 categories: [AiDev]
@@ -12,6 +13,7 @@ tags: [용어먹는하마,온디바이스AI,한국어임베딩,ReactNative,ONNX,
 
 이걸 서버 없이, 인터넷 연결 없이 폰 안에서 판단하는 암기 앱을 만들었습니다. 한국어 임베딩 모델을 앱에 넣어서 기기에서 바로 채점합니다. 처음에는 영단어 앱으로 시작했고, 지금은 IT 개발 용어 391개가 기본 단어장인 **용어먹는하마**가 됐습니다.
 
+- 구글 플레이: [용어먹는하마 설치하기](https://play.google.com/store/apps/details?id=io.github.reddol18.wordbook&referrer=utm_source%3Dtechblog%26utm_medium%3Dpost%26utm_campaign%3Dyongeo-hama-01)
 - 깃헙: [https://github.com/reddol18/dev_keyword_test](https://github.com/reddol18/dev_keyword_test)
 
 ![런칭 화면, 범위를 고르는 시작 화면, 분야별 용어 목록](/assets/images/2026/11/02/yongeo-hama/01-screens.png)
@@ -165,3 +167,6 @@ grep -c "새로 넣은 용어" assets/index.android.bundle
 - 모델을 바꾸고 싶을 때 쓸 판단 기준(분리 폭)을 먼저 만들어 두니, 용량을 줄이는 대신 지금 모델을 유지하는 결정을 수치로 내릴 수 있었습니다.
 
 - 깃헙: [https://github.com/reddol18/dev_keyword_test](https://github.com/reddol18/dev_keyword_test) (MIT, 모델은 별도 라이선스)
+- 구글 플레이: [용어먹는하마 설치하기](https://play.google.com/store/apps/details?id=io.github.reddol18.wordbook&referrer=utm_source%3Dtechblog%26utm_medium%3Dpost%26utm_campaign%3Dyongeo-hama-01)
+
+> 이 앱은 2026년 11월 17일 플레이스토어에 출시했습니다. 출시 과정은 [2편](/yongeo-hama-02)에 정리했습니다.
