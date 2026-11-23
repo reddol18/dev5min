@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "AI 펀드매니저 믿고 ETF 불타기 했다가 물려버린 사연 — BYD·삼성전자·리튬 ETF 2주 실전기 (AI펀드매니저 2편)"
+title: "AI가 사도 된다고 해서 리튬 ETF를 더 샀다가 물린 2주 (AI 펀드매니저 2편)"
 date: 2026-08-31
+lastmod: 2026-11-24
 feature_image: /assets/images/2026/08/31/fund2/01-thumbnail.png
 categories: [AiFundManager]
 exclusive: true
