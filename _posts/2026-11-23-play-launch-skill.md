@@ -8,7 +8,7 @@ categories: [AiDev]
 tags: [클로드코드,ClaudeSkill,플레이스토어출시,구글플레이콘솔,AdMob,오픈소스]
 ---
 
-이번 달에 앱 두 개를 구글 플레이에 올렸습니다. IT 용어 암기 앱 [용어먹는하마](/yongeo-hama)와 가로 화면 턴제 전략 게임 **후삼국 궁예전**입니다. 두 번 다 Claude Code와 함께 진행했고, 그 과정에서 배운 것을 **play-launch**라는 Claude Code 스킬로 묶어 GitHub에 공개했습니다.
+이번 달에 앱 두 개를 구글 플레이에 올렸습니다. IT 용어 암기 앱 [용어먹는하마](/yongeo-hama)와 가로 화면 시뮬레이션 롤플레잉 게임 **후삼국 궁예전**입니다. 두 번 다 Claude Code와 함께 진행했고, 그 과정에서 배운 것을 **play-launch**라는 Claude Code 스킬로 묶어 GitHub에 공개했습니다.
 
 - 저장소: [github.com/reddol18/play-launch-skill](https://github.com/reddol18/play-launch-skill) (MIT)
 
@@ -151,4 +151,4 @@ AdMob에 스토어 연결하는 중인데 막혔어 (캡처 첨부)
 이 스킬로 출시한 앱:
 
 - [용어먹는하마](https://play.google.com/store/apps/details?id=io.github.reddol18.wordbook&referrer=utm_source%3Dtechblog%26utm_medium%3Dpost%26utm_campaign%3Dplay-launch-skill) — 면접에 나오는 IT 용어 424개
-- [후삼국 궁예전](https://play.google.com/store/apps/details?id=com.aidothat.gungyejeon&referrer=utm_source%3Dtechblog%26utm_medium%3Dpost%26utm_campaign%3Dplay-launch-skill) — 가로 화면 턴제 전략 시뮬레이션
+- [후삼국 궁예전](https://play.google.com/store/apps/details?id=com.aidothat.gungyejeon&referrer=utm_source%3Dtechblog%26utm_medium%3Dpost%26utm_campaign%3Dplay-launch-skill) — 가로 화면 시뮬레이션 롤플레잉(SRPG)
