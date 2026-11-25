@@ -3,7 +3,7 @@ layout: post
 title: "토지이용계획 조회 API 사용법 — PNU 코드로 용도지역(주거·상업지역) 확인하기 (국토교통부 공공데이터)"
 description: "공공데이터포털 국토교통부 토지이용계획정보서비스 API에 PNU 코드를 넣어 필지의 용도지역·지구를 조회하는 방법입니다. 결과가 여러 개의 배열로 오는 이유와 실제 JSON 응답 예시를 함께 봅니다."
 date: 2022-08-15
-lastmod: 2026-10-26
+lastmod: 2026-11-25
 feature_image: /images/default-thumbnail.jpg
 author: "김민석"
 categories: [Dev, Data and Api]
@@ -12,6 +12,8 @@ tags: [address,api,pnu,data.go.kr,landuse]
 지번주소를 PNU 코드로 바꾸는 것에 관한 내용은 아래 링크 참고해주세요.
 
 [주소를 PNU 코드로 변환해봅시다](make-pnu-code)
+
+> 2026년 11월 25일 추가: 필지가 아니라 건물 기준으로 보고 싶다면, 건물과 필지의 관계(건물 하나가 여러 필지에 걸쳤는지 등)를 판정하는 도구를 정리한 [이 글](/pnu-api-mcp)도 참고해 주세요.
 
 오늘은 PNU 코드를 이용해서 국토교통부 토지이용계획정보서비스 API에 요청을 보내고
 해당 필지의 토지이용계획정보를 얻어와 보겠습니다.
