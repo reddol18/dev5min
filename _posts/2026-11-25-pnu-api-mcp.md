@@ -3,7 +3,8 @@ layout: post
 title: "건물 하나가 필지 몇 개에 걸쳤는지 알려 주는 MCP 서버를 만들었습니다"
 date: 2026-11-25 16:00:00 +0900
 description: "주소나 PNU를 넣으면 건축물대장과 건물 외곽선 두 근거로 건물과 필지의 관계(1:1, 1:N, N:1, N:M)를 판정하는 도구 pnu_api_mcp를 공개했습니다. 공공 API 세 곳을 실제 응답으로 확인하며 바로잡은 것들, Claude Code에서 쓰는 법, 웹 조회 화면까지 정리했습니다."
-feature_image: /assets/images/2026/11/25/pnu-api-mcp/01-namsan.jpg
+lastmod: 2026-11-27
+feature_image: /assets/images/2026/11/25/pnu-api-mcp/00-thumbnail.png
 categories: [Dev, Data and Api]
 tags: [PNU,건축물대장,브이월드,MCP,클로드코드,오픈소스]
 ---
