@@ -6,6 +6,22 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
+  {% comment %} 링크 공유 미리보기(카카오톡·슬랙·X·페이스북 등). 대표 이미지가 외부 URL(유튜브 썸네일)이면 그대로 쓴다 {% endcomment %}
+  {% assign og_title = page.title | default: site.title %}
+  {% assign og_desc = page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 %}
+  {% assign og_img = page.feature_image | default: '/images/default-thumbnail.jpg' %}
+  {% unless og_img contains '://' %}{% assign og_img = og_img | absolute_url %}{% endunless %}
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ og_title | escape }}">
+  <meta property="og:description" content="{{ og_desc | escape }}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html', '' | absolute_url }}">
+  <meta property="og:image" content="{{ og_img }}">
+  <meta property="og:locale" content="ko_KR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title | escape }}">
+  <meta name="twitter:description" content="{{ og_desc | escape }}">
+  <meta name="twitter:image" content="{{ og_img }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }} Feed"
     href="{{ '/feed.xml' | absolute_url }}">
   {% if site.favicon and site.favicon != "" %}
